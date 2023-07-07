@@ -1,10 +1,58 @@
-.container {
+
+.footerContainer {
+  background-color: rgb(239, 98, 98);
+  color: white;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2rem;
+  height: auto;
   display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
   align-content: center;
-  justify-content: space-around;
 }
 
-.frame {
-  width: 100vw;
-  height: 100vh;
+.container {
+  background-color:  rgb(239, 98, 98);
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2rem;
+  height: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.image {
+  /* margin: 1rem 5rem; */
+  margin: 1rem 5%;
+  /* width: 50vw; */
+  /* border: white solid 5px; */
+  justify-content: center;
+  /* float: left; */
+}
+
+
+.title {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.text {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.book {
+  font-style: italic;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
 }
