@@ -1,6 +1,19 @@
+.headerContainer {
+    background-color: rgb(153, 229, 132);
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2rem;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
 .container {
     background-color: rgb(153, 229, 132);
-    margin: 5%;
+    margin: 0;
     padding: 0;
     padding-bottom: 2rem;
     height: auto;
@@ -10,7 +23,6 @@
     align-items: center;
     align-content: center;
 }
-
 .image {
     margin: 1rem 1rem;
     /* width: 50vw; */
@@ -18,3 +30,26 @@
     justify-content: center;
     /* float: left; */
 }
+
+
+.title {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  
+  .text {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .book {
+    font-style: italic;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+  }
