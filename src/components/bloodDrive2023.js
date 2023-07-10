@@ -15,7 +15,7 @@ const BloodDrive2023 = () => {
         />
       </div>
       <div className={styles.footerContainer}>
-        <p className={styles.text}>Be sure to register ahead of time</p>
+        <p className={styles.text}>Be sure to register early</p>
         <p className={styles.text}>
           <a href="https://www.redcrossblood.org/give.html/drive-results?zipSponsor=EpiphanyEden">
             Register
