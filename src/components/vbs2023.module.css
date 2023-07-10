@@ -1,7 +1,7 @@
 
 .footerContainer {
-  background-color: rgb(239, 98, 98);
-  color: white;
+  background-color: rgb(8, 226, 241);
+  color: rgb(2, 6, 248);
   margin: 0;
   padding: 0;
   padding-bottom: 2rem;
@@ -14,7 +14,7 @@
 }
 
 .container {
-  background-color:  rgb(239, 98, 98);
+  background-color:  rgb(8, 226, 241);
   margin: 0;
   padding: 0;
   padding-bottom: 2rem;
@@ -26,9 +26,7 @@
   align-content: center;
 }
 .image {
-
-  margin: 2rem 0;
-  width: 75vw;
+  margin: 1rem 5%;
   justify-content: center;
 }
 
@@ -41,7 +39,7 @@
 .text {
   margin-left: 10vw;
   margin-right: 10vw;
-  font-size: 1.0rem;
+  font-size: 1.5rem;
   display: flex;
   justify-content: center;
 }

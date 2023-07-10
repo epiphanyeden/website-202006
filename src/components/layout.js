@@ -11,14 +11,17 @@ import LaundryLove from "./laundryLove"
 import TextSignUp from "./textSignUp"
 import BellTowerTreasures from "./bellTowerTreasures"
 import BloodDrive2023 from "./bloodDrive2023"
+import VBS2023 from "./vbs2023"
+
 
 const Layout = ({ location, title, children }) => {
   return (
     <div>
       <Header />
       <LandingPage />
-      <BellTowerTreasures />
       <BloodDrive2023 />
+      <VBS2023 />
+      <BellTowerTreasures />
       <LaundryLove />
       <ChurchLinks />
       <Announcements />
