@@ -5,7 +5,8 @@ import { StaticImage } from "gatsby-plugin-image"
 const VBS2023 = () => {
   return (
     <div>
-      <div className={styles.container} id="bellTower">
+
+      <div className={styles.imageContainer} id="vbs">
         <StaticImage
           src="../../content/assets/vbs2023.jpg"
           alt="Vaction Bible School"
@@ -14,7 +15,22 @@ const VBS2023 = () => {
           className={styles.image}
         />
       </div>
-      <div className={styles.footerContainer}>
+      <div className={styles.container}>
+      <h1 className={styles.title}>
+        Vacation Bible School 2023
+      </h1>
+      <h1 className={styles.title}>
+          Live and In-Person
+        </h1>
+        <h1 className={styles.title}>
+          Hosted by Epiphany and Leaksville United Methodist
+        </h1>
+        <h1 className={styles.title}>
+         Sunday July 30 4 pm -  Splash Pad at Freedom Park
+        </h1>
+        <h1 className={styles.title}>
+         Mon July 31 - Wed August 2 from 4:45 pm to 7:30 pm
+        </h1>
         <figure className={styles.quote}>
           <blockquote>
             "So let’s strive together for the things that bring peace and the
@@ -22,15 +38,13 @@ const VBS2023 = () => {
           </blockquote>
           <figcaption>Romans 14:19</figcaption>
         </figure>
-
-        <p className={styles.title}>
-          Epiphany and Leaksville United Methodist are bringing VBS live and
-          in-person again !
-        </p>
-        <p className={styles.text}>
+     
+      
+        <h2 className={styles.text}>
           All children age 3 through rising 6th Grade are invited to attend!
-        </p>
+        </h2>
         <p className={styles.smallText}>(age 3 by July 1 and potty-trained)</p>
+
         <p className={styles.text}>
           While here at Hero Hotline - Children will become Heroes and discover
           how :
