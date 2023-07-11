@@ -1,3 +1,7 @@
+body {
+  padding:0;
+  margin: 0;
+}
 
 .footerContainer {
   background-color: rgb(8, 226, 241);
@@ -32,7 +36,7 @@
 
 
 .title {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 400;
 }
 
@@ -42,13 +46,33 @@
   font-size: 1.5rem;
   display: flex;
   justify-content: center;
+  line-height: 1.0;
 }
 
-.book {
-  font-style: italic;
+.smallText {
   margin-left: 10vw;
   margin-right: 10vw;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   display: flex;
   justify-content: center;
+  line-height: 0.2;
 }
+
+
+.quote {
+  margin: 2rem 0;
+  background: #eee;
+  padding: 1em;
+  border-radius: 1em;
+}
+.quote figcaption,
+.quote blockquote {
+  margin: 1em;
+  color: rgb(95, 92, 92);
+}
+
+.quote figcaption {
+  font-weight: 700;
+}
+
+
