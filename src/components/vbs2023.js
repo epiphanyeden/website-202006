@@ -26,6 +26,10 @@ const VBS2023 = () => {
           Hosted by Epiphany and Leaksville United Methodist
         </h1>
         <hr />
+        <a href="https://forms.gle/Brf2Hy9N4HcCdqVp7">
+          <button className={styles.button} >Register Here</button>
+        </a>
+        <hr />
         <h1 className={styles.title}>
           Kickoff
         </h1>
