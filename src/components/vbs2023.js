@@ -16,20 +16,78 @@ const VBS2023 = () => {
         />
       </div>
       <div className={styles.container}>
-      <h1 className={styles.title}>
-        Vacation Bible School 2023
-      </h1>
-      <h1 className={styles.title}>
+        <h1 className={styles.title}>
+          Vacation Bible School 2023
+        </h1>
+        <h1 className={styles.title}>
           Live and In-Person
         </h1>
         <h1 className={styles.title}>
           Hosted by Epiphany and Leaksville United Methodist
         </h1>
+        <hr />
         <h1 className={styles.title}>
-         Sunday July 30 4 pm -  Splash Pad at Freedom Park
+          Kickoff
         </h1>
         <h1 className={styles.title}>
-         Mon July 31 - Wed August 2 from 4:45 pm to 7:30 pm
+          Sunday, July 30 @ 4 pm
+        </h1>
+        <h1 className={styles.title}>
+          Splash Pad at Freedom Park
+        </h1>
+        <hr />
+        <h1 className={styles.title}>
+          Sessions
+        </h1>
+        <h1 className={styles.title}>
+          Mon July 31 - Wed August 2
+        </h1>
+        <h1 className={styles.title}>
+          Check-in: 4:45 pm
+        </h1>
+        <h1 className={styles.title}>
+          Program: 5:15 - 7:30 pm
+        </h1>
+        <h1 className={styles.title}>
+          <a href=" https://goo.gl/maps/FbBcMDhgzSXU8hfH9">Leaksville UMC</a>
+        </h1>
+
+        <hr />
+        <h1 className={styles.title}>
+          All children age 3 through rising 6th Grade are invited to attend!
+        </h1>
+        <h1 className={styles.title}>(age 3 by July 1 and potty-trained)</h1>
+        <hr />
+        <h1 className={styles.title}>A light dinner will be served each night.</h1>
+        <hr />
+        <p className={styles.text}>
+          Hero Hotline
+        </p>
+        <p className={styles.text}>
+          Children will become Heroes!
+        </p>
+        <p className={styles.text}>
+          And discover:
+        </p>
+        <p className={styles.text}>
+          Everyone's gifts are valued!
+        </p>
+        <p className={styles.text}>
+          Every Hero has a role to play !
+        </p>
+        <hr />
+        <h1 className={styles.title}>
+          If you have any questions or can help with meals
+        </h1>
+        <h1 className={styles.title}>
+          Please email or call Deb Norton
+
+        </h1>
+        <h1 className={styles.title}>
+          epiphanyleaksvillevbs@gmail.com
+        </h1>
+        <h1 className={styles.title}>
+          276-779-4006
         </h1>
         <figure className={styles.quote}>
           <blockquote>
@@ -38,39 +96,6 @@ const VBS2023 = () => {
           </blockquote>
           <figcaption>Romans 14:19</figcaption>
         </figure>
-     
-      
-        <h2 className={styles.text}>
-          All children age 3 through rising 6th Grade are invited to attend!
-        </h2>
-        <p className={styles.smallText}>(age 3 by July 1 and potty-trained)</p>
-
-        <p className={styles.text}>
-          While here at Hero Hotline - Children will become Heroes and discover
-          how :
-        </p>
-        <p className={styles.text}>
-          Everyone's gifts are valued, and every Hero has a role to play !
-        </p>
-        <p className={styles.text}>
-          VBS will be held at LUMC - 603 Henry St. Eden
-        </p>
-        <p className={styles.text}>
-          VBS Kickoff and Pre-Registration is Sunday July 30 at 4:00 pm at
-          Splash Pad - Freedom Park - Eden.
-        </p>
-        <p className={styles.text}>
-          Registration each VBS night begins at 4:45 pm.
-        </p>
-        <p className={styles.text}>Light dinner will be served each night.</p>
-        <p className={styles.text}>
-          VBS programming is from 5:15 pm - 7:30 pm on Monday 07/31 - Wednesday
-          08/02 !{" "}
-        </p>
-        <p className={styles.text}>
-          If you have any questions - please email or call Deb Norton
-          epiphanyleaksvillevbs@gmail.com 276-779-4006
-        </p>
       </div>
     </div>
   )

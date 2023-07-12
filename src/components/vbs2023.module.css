@@ -30,26 +30,25 @@
   align-content: center;
 }
 .image {
-  margin: 1rem 5%;
+  margin: 1rem 15%;
   justify-content: center;
 }
 
 
 .title {
-  font-size: 2rem;
-  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 500;
   font-family: 'Montserrat', sans-serif;
-  ;
 }
 
 .text {
   margin-left: 10vw;
   margin-right: 10vw;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   display: flex;
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-weight: 900;
 }
 
 .text h2 {
@@ -90,4 +89,12 @@
   font-weight: 700;
 }
 
-
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #f00c0c;
+  margin: 1em 0;
+  padding: 0;
+  width: 40vw;
+}
