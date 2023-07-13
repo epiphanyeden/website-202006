@@ -88,10 +88,11 @@ const VBS2023 = () => {
 
         </h1>
         <h1 className={styles.title}>
-          epiphanyleaksvillevbs@gmail.com
+          <a href="mailto: epiphanyleaksvillevbs@gmail.com">epiphanyleaksvillevbs@gmail.com</a>
+         
         </h1>
         <h1 className={styles.title}>
-          276-779-4006
+          <a href="tel:1-276-779-4006">276-779-4006</a>
         </h1>
         <figure className={styles.quote}>
           <blockquote>
