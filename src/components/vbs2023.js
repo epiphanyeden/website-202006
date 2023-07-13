@@ -26,6 +26,10 @@ const VBS2023 = () => {
           Hosted by Epiphany and Leaksville United Methodist
         </h1>
         <hr />
+        <a href="https://forms.gle/Brf2Hy9N4HcCdqVp7">
+          <button className={styles.button} >Register Here</button>
+        </a>
+        <hr />
         <h1 className={styles.title}>
           Kickoff
         </h1>
@@ -84,10 +88,11 @@ const VBS2023 = () => {
 
         </h1>
         <h1 className={styles.title}>
-          epiphanyleaksvillevbs@gmail.com
+          <a href="mailto: epiphanyleaksvillevbs@gmail.com">epiphanyleaksvillevbs@gmail.com</a>
+         
         </h1>
         <h1 className={styles.title}>
-          276-779-4006
+          <a href="tel:1-276-779-4006">276-779-4006</a>
         </h1>
         <figure className={styles.quote}>
           <blockquote>
