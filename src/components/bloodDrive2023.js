@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const BloodDrive2023 = () => {
   return (
     <div>
-      <div className={styles.container} id="bellTower">
+      <div className={styles.container} id="blooddrive">
         <StaticImage
           src="../../content/assets/bloodDrive2023.jpg"
           alt="Blood Drive"
