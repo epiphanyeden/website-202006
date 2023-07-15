@@ -55,24 +55,24 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1jSnmoiCTDZ9bWktnzy4RYagStZmYjrTF/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1cpCKkfjTeyQQ8dvLfFIOGrdZYex-R1Mg/view?usp=sharing"
             >
-              Order of Service for July 9, 2023
+              Order of Service for July 16, 2023
             </button>
           </form>
 
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1a6DtvHXdiwazut_aWYB7D9zo7XHsVz82/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1dW1WV37CuQos4Ncm3NCbNrWaOaSNpUfd/view?usp=sharing"
             >
-              Music for July 9, 2023
+              Music for July 16, 2023
             </button>
           </form>
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/17ufkKiXqM9Q9ikm1nW6jc33pHicX2SmN/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1gyyY5h45_optlTrnrZ5FFWnOyNly9yzQ/view?usp=sharing"
             >
               Prayer List
             </button>
