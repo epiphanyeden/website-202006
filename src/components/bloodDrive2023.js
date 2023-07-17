@@ -4,8 +4,20 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const BloodDrive2023 = () => {
   return (
-    <div>
-      <div className={styles.container} id="blooddrive">
+    <div id="blooddrive">
+      <div className={styles.footerContainer}>
+        <p className={styles.text}>Be sure to register early</p>
+        <p className={styles.text}>
+          <a href="https://www.redcrossblood.org/give.html/drive-results?zipSponsor=EpiphanyEden">
+            Register
+          </a>
+        </p>
+        <p className={styles.text}>
+          After you give blood, there will be a chance to win one of 4 $25 gas
+          cards
+        </p>
+      </div>
+      <div className={styles.container}>
         <StaticImage
           src="../../content/assets/bloodDrive2023.jpg"
           alt="Blood Drive"
