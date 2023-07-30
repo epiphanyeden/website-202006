@@ -16,6 +16,12 @@ const VBS2023 = () => {
         />
       </div>
       <div className={styles.container}>
+      <h1 className={styles.title}>
+          THE KICKOFF AT THE SPLASHPAD HAS BEED CANCELLED
+        </h1>
+        <h1 className={styles.title}>
+          due to an event at the Park. Sorry for any inconvenience.
+        </h1>
         <h1 className={styles.title}>
           Vacation Bible School 2023
         </h1>
