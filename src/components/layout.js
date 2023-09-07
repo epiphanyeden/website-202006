@@ -16,8 +16,8 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       <LandingPage />
-      <LaundryLove />
       <BellTowerTreasures />
+      <LaundryLove />
       <ChurchLinks />
       <Announcements />
       <IndoorService />
