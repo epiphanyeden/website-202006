@@ -69,18 +69,16 @@
   }
 
   .heading1, .heading2 {
-    /* font-size: 2vmin; */
     margin-left: 10vw;
     margin-right: 10vw;
-    font-size: 4vmin;
+    font-size: 4.3vmin;
   }
 
   .text {
-    /* font-size: 2vmin; */
     margin-left: 15vw;
     margin-right: 15vw;
     font-weight: 500;
-    font-size: 3vmin;
+    font-size: 3.3vmin;
   }
 }
 

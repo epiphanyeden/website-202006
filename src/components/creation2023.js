@@ -22,8 +22,9 @@ const Creation2023 = () => {
           Join us as we celebrate with many churches around the world.
         </h2>
         <h2 className={styles.heading2}>
-          Visit the <a href="https://seasonofchange.org">Season of Change</a>{" "}
-          website for more information.
+          Visit the{" "}
+          <a href="https://seasonofcreation.org">Season of Creation</a> website
+          for more information.
         </h2>
         <p className={styles.text}>
           Prophet Amos cries out: “But let justice roll on like a river,
