@@ -1,6 +1,6 @@
 .imageContainer {
   margin: 0;
-  /* padding: 1vw; */
+  padding: 1%;
   background-color: rgb(101, 73, 73);
   color: white;
   display: flex;

@@ -1,5 +1,6 @@
 .imageContainer {
   margin: 0;
+  padding: 1%;
   background-color: rgb(241, 213, 186);
   display: flex;
   justify-content: center;

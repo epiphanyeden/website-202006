@@ -9,7 +9,12 @@ const LaundryLove = () => {
       <p className={styles.book}>Coming Up:</p>
       <p className={styles.book}>Saturday July 1</p>
       <p className={styles.book}>9 to 11 am</p> */}
-
+      <div className={styles.headerContainer}>
+        <h1 className={styles.title}>Laundry Love</h1>
+        <h1 className={styles.title}>Coming Up:</h1>
+        <h1 className={styles.title}>Saturday October 7</h1>
+        <h1 className={styles.title}>9 am to 11 am</h1>
+      </div>
       <section className={styles.imageContainer}>
         <StaticImage
           src="../..//content/assets/LaundryLove1.jpg"
