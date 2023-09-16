@@ -1,13 +1,13 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import * as styles from "./bota.module.css"
+import * as styles from "./JesusRevolution.module.css"
 
-const Bota = () => {
+const JesusRevolution = () => {
   return (
     <main>
       <section className={styles.imageContainer} id="bota">
         <StaticImage
-          src="../..//content/assets/bota2023.jpg"
+          src="../..//content/assets/JesusRevolution.jpg"
           alt="Blessing of the Animals"
           loading="eager"
         />
@@ -18,4 +18,4 @@ const Bota = () => {
     </main>
   )
 }
-export default Bota
+export default JesusRevolution

@@ -11,12 +11,16 @@ import LaundryLove from "./laundryLove"
 import TextSignUp from "./textSignUp"
 import BellTowerTreasures from "./bellTowerTreasures"
 import Creation2023 from "./creation2023"
+import Bota from "./bota"
+import JesusRevolution from "./JesusRevolution"
 
 const Layout = ({ location, title, children }) => {
   return (
     <div>
       <Header />
       <LandingPage />
+      <JesusRevolution />
+      <Bota />
       <Creation2023 />
       <BellTowerTreasures />
       <LaundryLove />
