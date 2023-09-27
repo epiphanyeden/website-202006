@@ -1,0 +1,85 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+
+.outerContainer {
+  background-color: rgb(170, 174, 236);
+  color: rgb(2, 6, 248);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.imageContainer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  flex: 1;
+}
+.image {
+  margin: 1rem 1rem;
+  justify-content: center;
+}
+
+.textContainer {
+  color: rgb(12, 11, 11);
+  margin: 0;
+  padding: 1rem;
+  width: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  flex: 1;
+}
+
+.heading1 {
+  font-size: 3vmin;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 1.5rem;
+  padding: 0;
+}
+
+.heading2 {
+  font-size: 2.5vmin;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 1.5rem;
+  padding: 0;
+}
+
+.text {
+  font-size: 1.75vmin;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 1425px) {
+  .outerContainer {
+    flex-flow: column nowrap;
+  }
+
+  .heading1, .heading2 {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 4.3vmin;
+  }
+
+  .text {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-weight: 500;
+    font-size: 3.3vmin;
+  }
+}
+
