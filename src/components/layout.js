@@ -23,7 +23,7 @@ const Layout = ({ location, title, children }) => {
       <Creation2023 />
       <BellTowerTreasures />
       <LaundryLove />
-      <Gift2023 />
+      {/* <Gift2023 /> */}
       <ChurchLinks />
       <Announcements />
       <IndoorService />
