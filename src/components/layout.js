@@ -19,8 +19,8 @@ const Layout = ({ location, title, children }) => {
       <Header />
       <LandingPage />
       <Bota2023 />
-      <BellTowerTreasures />
       <LaundryLove />
+      <BellTowerTreasures />
       {/* <Gift2023 /> */}
       <ChurchLinks />
       <Announcements />
