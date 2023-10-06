@@ -10,9 +10,8 @@ import IndoorService from "./indoorService"
 import LaundryLove from "./laundryLove"
 import TextSignUp from "./textSignUp"
 import BellTowerTreasures from "./bellTowerTreasures"
-import Creation2023 from "./creation2023"
 import Bota2023 from "./bota2023"
-import Gift2023 from "./gift2023"
+// import Gift2023 from "./gift2023"
 
 const Layout = ({ location, title, children }) => {
   return (
@@ -20,7 +19,6 @@ const Layout = ({ location, title, children }) => {
       <Header />
       <LandingPage />
       <Bota2023 />
-      <Creation2023 />
       <BellTowerTreasures />
       <LaundryLove />
       {/* <Gift2023 /> */}
