@@ -11,7 +11,7 @@ import LaundryLove from "./laundryLove"
 import TextSignUp from "./textSignUp"
 import BellTowerTreasures from "./bellTowerTreasures"
 import Bota2023 from "./bota2023"
-// import Gift2023 from "./gift2023"
+import Gift2023 from "./gift2023"
 
 const Layout = ({ location, title, children }) => {
   return (
@@ -21,7 +21,7 @@ const Layout = ({ location, title, children }) => {
       <Bota2023 />
       <LaundryLove />
       <BellTowerTreasures />
-      {/* <Gift2023 /> */}
+      <Gift2023 />
       <ChurchLinks />
       <Announcements />
       <IndoorService />
