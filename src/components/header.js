@@ -61,7 +61,7 @@ const Header = () => {
               Make an Offering
             </Link>
             <Link className={styles.button} to="#pledge">
-              Pledge for 2023
+              Pledge
             </Link>
             <Link className={styles.button} to="#services">
               Sunday Services
@@ -78,7 +78,6 @@ const Header = () => {
             >
               Email SignUp
             </a>
-
           </div>
           <p className={styles.sundayService}>
             The Sunday Service is at 10 am with masks optional.
