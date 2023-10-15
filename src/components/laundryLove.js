@@ -12,7 +12,7 @@ const LaundryLove = () => {
       <div className={styles.headerContainer}>
         <h1 className={styles.title}>Laundry Love</h1>
         <h1 className={styles.title}>Coming Up:</h1>
-        <h1 className={styles.title}>Saturday October 7</h1>
+        <h1 className={styles.title}>Saturday November 4</h1>
         <h1 className={styles.title}>9 am to 11 am</h1>
       </div>
       <section className={styles.imageContainer}>
