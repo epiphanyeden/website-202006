@@ -12,6 +12,7 @@ import TextSignUp from "./textSignUp"
 import BellTowerTreasures from "./bellTowerTreasures"
 import Bota2023 from "./bota2023"
 import Gift2023 from "./gift2023"
+import LitanyHolyLand from "./litanyHolyLand"
 
 const Layout = ({ location, title, children }) => {
   return (
@@ -19,6 +20,7 @@ const Layout = ({ location, title, children }) => {
       <Header />
       <LandingPage />
       <Bota2023 />
+      <LitanyHolyLand />
       <LaundryLove />
       <BellTowerTreasures />
       <Gift2023 />
