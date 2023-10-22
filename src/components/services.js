@@ -55,7 +55,7 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1XaLehNiWe5DMiu12DGMnWYGjZ1_gXAjw/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1zrPZuxakwGlS-Hm5BHLo99vGsy1eL3JW/view?usp=sharing"
             >
               Order of Service for October 22, 2023
             </button>
@@ -64,7 +64,7 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1EKvhidbDnEQuDwXCv26s8f94tZcQwRSG/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1Xj5LJ-q4eGFMvPkt4shn1iqjFX4dYpyL/view?usp=sharing"
             >
               Music for October 22, 2023
             </button>
@@ -72,7 +72,7 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1OuqfB04I8bvpJXeb4bOMJ5c2KkKyG-sQ/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1cgHu5kAFkFCHcJgb8jvp4Xos_fFS1fsy/view?usp=sharing"
             >
               Prayer List
             </button>
