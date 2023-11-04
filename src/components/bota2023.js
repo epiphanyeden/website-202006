@@ -6,7 +6,7 @@ const Bota2023 = () => {
   return (
     <div className={styles.outerContainer}>
       <div className={styles.textContainer}>
-        <h1 className={styles.heading}>Blessing of the Animals</h1>
+        <h1 className={styles.heading1}>Blessing of the Animals</h1>
         <p className={styles.text}>
           The Blessing of the Animals was a great success.
         </p>
