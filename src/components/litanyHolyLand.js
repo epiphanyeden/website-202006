@@ -10,8 +10,9 @@ const litanyHolyLand = () => {
           src="../../content/assets/HolyLand.png"
           alt="Palestine and Israel flags"
           loading="eager"
-          object-fit="cover"
+          // object-fit="cover"
           className={styles.image}
+          width={450}
         />
       </div>
       <div className={styles.textContainer}>

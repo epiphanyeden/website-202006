@@ -3,14 +3,14 @@ import * as styles from "./bellTowerTreasures.module.css"
 import { StaticImage } from "gatsby-plugin-image"
 const BellTowerTreasures = () => {
   return (
-    <div>
+    <div id="bellTower">
       <div className={styles.headerContainer}>
         <h1 className={styles.title}>Bell Tower Treasures</h1>
         <h1 className={styles.title}>Coming Up:</h1>
         <h1 className={styles.title}>Saturday November 11</h1>
         <h1 className={styles.title}>9 am to 1 pm</h1>
       </div>
-      <div className={styles.container} id="bellTower">
+      <div className={styles.container}>
         <StaticImage
           src="../../content/assets/bellTowerTreasures.jpg"
           alt="Bell Tower Treasures"
