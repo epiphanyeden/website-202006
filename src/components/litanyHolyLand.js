@@ -10,28 +10,28 @@ const litanyHolyLand = () => {
           src="../../content/assets/HolyLand.png"
           alt="Palestine and Israel flags"
           loading="eager"
-          // object-fit="cover"
+          object-fit="cover"
           className={styles.image}
           width={450}
         />
-      </div>
-      <div className={styles.textContainer}>
-        <form>
-          <button
-            className={styles.button}
-            formAction="https://www.episcopalchurch.org/ministries/office-government-relations/resources-for-the-conflict-in-the-holy-land/"
-          >
-            Episcopal resources related to the conflict in Gaza
-          </button>
-        </form>
-        <form>
-          <button
-            className={styles.button}
-            formAction="https://thankfulpriest.com/2023/10/14/a-litany-for-the-holy-land/"
-          >
-            Litany for the Holy Land
-          </button>
-        </form>
+        <div className={styles.textContainer}>
+          <form>
+            <button
+              className={styles.button}
+              formAction="https://www.episcopalchurch.org/ministries/office-government-relations/resources-for-the-conflict-in-the-holy-land/"
+            >
+              Episcopal resources related to the conflict in Gaza
+            </button>
+          </form>
+          <form>
+            <button
+              className={styles.button}
+              formAction="https://thankfulpriest.com/2023/10/14/a-litany-for-the-holy-land/"
+            >
+              Litany for the Holy Land
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   )
