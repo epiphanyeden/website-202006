@@ -2,40 +2,38 @@
     background-color: rgb(153, 229, 132);
     margin: 0;
     padding: 0;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
     height: auto;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row;
     justify-content: center;
     align-items: center;
-    align-content: center;
+    /* align-content: center;  */
 }
-.leftContainer {
-    background-color: rgb(153, 229, 132);
+.textContainer {
+    /* background-color: rgb(153, 229, 132); */
     margin: 0;
     padding: 0;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
     height: auto;
-    display: flex;
-    flex-flow: column ;
-    /* justify-content: left;
-    align-items: left;
-    align-content: left; */
+    /* display: flex;
+    flex-flow: column ; */
+  
 }
-.rightContainer {
-    background-color: rgb(153, 229, 132);
+.imageContainer {
+    /* background-color: rgb(153, 229, 132); */
     margin: 0;
     padding: 0;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
     height: auto;
-    display: flex;
-    flex-flow: column nowrap;
-    /* justify-content: right;
-    align-items: right;
-    align-content: right; */
+    /* display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center; */
+    /* align-content: right; */
 }
 
-.headerContainer {
+/* .headerContainer {
     background-color: rgb(153, 229, 132);
     margin: 0;
     padding: 0;
@@ -46,8 +44,8 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-}
-
+} */
+/* 
 .container {
     background-color: rgb(153, 229, 132);
     margin: 0;
@@ -58,7 +56,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-}
+} */
 .image {
     margin: 1rem 1rem;
     justify-content: center;
@@ -66,7 +64,7 @@
 
 
 .title {
-    font-size: 2rem;
+    font-size: 1.25rem;
     font-weight: 400;
   }
   
@@ -74,6 +72,20 @@
     margin-left: 10vw;
     margin-right: 10vw;
     font-size: 1.0rem;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
   }
+
+  @media only screen and (max-width: 768px) {
+   .outerContainer {
+        /* background-color: red;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 2rem;
+        height: auto;
+        display: flex; */
+        flex-flow: column;
+        /* justify-content: center;
+        align-items: center; */
+   }
+}

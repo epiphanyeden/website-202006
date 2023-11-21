@@ -4,23 +4,25 @@ import { StaticImage } from "gatsby-plugin-image"
 const BellTowerTreasures = () => {
   return (
     <div id="bellTower">
-      <div className={styles.headerContainer}>
-        <h1 className={styles.title}>Bell Tower Treasures</h1>
-        <h1 className={styles.title}>Coming Up:</h1>
-        <h1 className={styles.title}>Saturday December 9</h1>
-        <h1 className={styles.title}>9 am to 1 pm</h1>
-        <h1 className={styles.text}>
-          Drop off items on Tuesdays, 9:30 am until noon
-        </h1>
-      </div>
-      <div className={styles.container}>
-        <StaticImage
-          src="../../content/assets/bellTowerTreasures.jpg"
-          alt="Bell Tower Treasures"
-          loading="eager"
-          object-fit="cover"
-          className={styles.image}
-        />
+      <div className={styles.outerContainer}>
+        <div className={styles.textContainer}>
+          <h1 className={styles.title}>Bell Tower Treasures</h1>
+          <h1 className={styles.title}>Coming Up:</h1>
+          <h1 className={styles.title}>Saturday December 9</h1>
+          <h1 className={styles.title}>9 am to 1 pm</h1>
+          <h1 className={styles.text}>
+            Drop off items on Tuesdays, 9:30 am until noon
+          </h1>
+        </div>
+        <div className={styles.imageContainer}>
+          <StaticImage
+            src="../../content/assets/bellTowerTreasures.jpg"
+            alt="Bell Tower Treasures"
+            loading="eager"
+            object-fit="cover"
+            className={styles.image}
+          />
+        </div>
       </div>
     </div>
   )
