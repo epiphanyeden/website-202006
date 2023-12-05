@@ -28,7 +28,7 @@ const Donations = () => {
         offering directly to Epiphany.
       </p>
 
-      <a href="https://tithe.ly/give?c=3897734">
+      <a href="https://give.tithe.ly/?formId=3f5210a6-6865-11ee-90fc-1260ab546d11">
         <button className={styles.button}>Make an Offering</button>
       </a>
     </div>
