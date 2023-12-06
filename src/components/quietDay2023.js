@@ -31,7 +31,7 @@ const VBS2023 = () => {
           <p className={styles.smallText}>Drinks Provided</p>
           <p className={styles.smallText}>---------------------------</p>
 
-          <p className={styles.smallText}>9:00 - 9:30 Gather</p>
+          <p className={styles.smallText}>9:00 - 9:30 Gather/Coffee/Meet</p>
           <p className={styles.smallText}>9:30 - 10:00 Morning Prayer</p>
           <p className={styles.smallText}>
             10:00 - 3:00 Quiet Reflection and Prayer

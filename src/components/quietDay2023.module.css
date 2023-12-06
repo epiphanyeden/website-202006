@@ -15,12 +15,12 @@
   }
 
   .backgroundColor {
-    background-color: #00a0dd;
+    background-color:rgba(0,160,221,0.8);
     grid-area: 1 / 1;
     position: relative;
     place-items: center;
     display: grid;
-    opacity: 80%;
+    /* opacity: 80%; */
   }
 
 .backgroundImageText {
