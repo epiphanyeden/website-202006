@@ -1,0 +1,67 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&display=swap');
+
+
+ .imageGrid {
+    display: grid;
+    margin: 0;
+    padding: 0;    
+  }
+
+.backgroundImage {
+    grid-area: 1 / 1;
+    height: 10;
+    grid-gap: 5px;
+  }
+
+  .backgroundColor {
+    background-color: #00a0dd;
+    grid-area: 1 / 1;
+    position: relative;
+    place-items: center;
+    display: grid;
+    opacity: 80%;
+  }
+
+.backgroundImageText {
+    grid-area: 1 / 1;
+    position: relative;
+    place-items: center;
+    display: grid;
+    color: white;
+    margin: 0;
+    padding: 0; 
+  }
+
+  .title {
+    font-size: 3.5rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0; 
+    padding-bottom: 2rem; 
+  }
+
+  .text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 5px;
+    padding: 0; 
+  }
+
+  .mediumText {
+    font-size: 1.00rem;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 ;
+    padding: 0; 
+  }
+
+  .smallText {
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 ;
+    padding: 0; 
+  }

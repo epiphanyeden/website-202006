@@ -13,16 +13,18 @@ import BellTowerTreasures from "./bellTowerTreasures"
 import Bota2023 from "./bota2023"
 import Gift2023 from "./gift2023"
 import LitanyHolyLand from "./litanyHolyLand"
+import QuietDay2023 from "./quietDay2023"
 
 const Layout = ({ location, title, children }) => {
   return (
     <div>
       <Header />
       <LandingPage />
+      <BellTowerTreasures />
+      <QuietDay2023 />
       <LaundryLove />
       <Bota2023 />
       <LitanyHolyLand />
-      <BellTowerTreasures />
       <Gift2023 />
       <ChurchLinks />
       <Announcements />
