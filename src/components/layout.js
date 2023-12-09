@@ -20,9 +20,9 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       <LandingPage />
-      <BellTowerTreasures />
       <QuietDay2023 />
       <LaundryLove />
+      <BellTowerTreasures />
       <Bota2023 />
       <LitanyHolyLand />
       <Gift2023 />
