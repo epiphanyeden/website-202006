@@ -36,22 +36,17 @@
   padding: 5px;
 }
 
-.eventBreak {
-  margin: 1px;
-  padding: 0px;
-  width: 1vw;
-}
-
 .eventDate {
   margin: 5px 0;
   padding: 0px;
-  width: 7vw;
+  width: 8vw;
+  font-size: 1.5rem;
 }
 
 .eventDay {
   margin: 0;
   padding: 5px;
-  width: 5vw;
+  width: 35vw;
 }
 
 .eventTime {
@@ -92,31 +87,35 @@
        font-size: 1.0rem;
   font-weight: 500;
   font-family: 'Raleway', sans-serif;
+  color: white;
   }
 
   .eventDate {
     margin: 0;
     padding: 0;
     width: 60vw;
+    font-size: 1.75rem;
   }
 
   .eventDay {
     margin: 0;
     padding: 0px;
     width: 60vw;
+    font-size: 1.25rem;
   }
   
   .eventTime {
     margin: 0;
     padding: 0px;
     width: 60vw;
+    font-size: 1.25rem;
   }
   
   .eventDesc {
     margin: 0;
     padding: 0px;
-
     width: 60vw;
+    font-size: 1.25rem;    
   }
 }
 
