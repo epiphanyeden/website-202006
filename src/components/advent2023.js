@@ -3,7 +3,7 @@ import * as styles from "./advent2023.module.css"
 
 const Advent2023 = () => {
   return (
-    <div className={styles.component}>
+    <div className={styles.component} id="advent">
       <section>
         <h1 className={styles.title}>Upcoming Events</h1>
       </section>
