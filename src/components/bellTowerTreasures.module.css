@@ -2,66 +2,29 @@
     background-color: rgb(153, 229, 132);
     margin: 0;
     padding: 0;
-    /* padding-bottom: 2rem; */
     height: auto;
     display: flex;
     flex-flow: row;
     justify-content: center;
     align-items: center;
-    /* align-content: center;  */
-}
-.textContainer {
-    /* background-color: rgb(153, 229, 132); */
-    margin: 0;
-    padding: 0;
-    /* padding-bottom: 2rem; */
-    height: auto;
-    /* display: flex;
-    flex-flow: column ; */
-  
-}
-.imageContainer {
-    /* background-color: rgb(153, 229, 132); */
-    margin: 0;
-    padding: 0;
-    /* padding-bottom: 2rem; */
-    height: auto;
-    /* display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center; */
-    /* align-content: right; */
 }
 
-/* .headerContainer {
-    background-color: rgb(153, 229, 132);
+.textContainer {
     margin: 0;
     padding: 0;
-    padding-bottom: 2rem;
+    height: auto;  
+}
+
+.imageContainer {
+    margin: 0;
+    padding: 0;
     height: auto;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-} */
-/* 
-.container {
-    background-color: rgb(153, 229, 132);
-    margin: 0;
-    padding: 0;
-    padding-bottom: 2rem;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-} */
+}
+
 .image {
     margin: 1rem 1rem;
     justify-content: center;
 }
-
 
 .title {
     font-size: 1.25rem;
@@ -72,20 +35,10 @@
     margin-left: 10vw;
     margin-right: 10vw;
     font-size: 1.0rem;
-    /* display: flex;
-    justify-content: center; */
   }
 
   @media only screen and (max-width: 768px) {
    .outerContainer {
-        /* background-color: red;
-        margin: 0;
-        padding: 0;
-        padding-bottom: 2rem;
-        height: auto;
-        display: flex; */
         flex-flow: column;
-        /* justify-content: center;
-        align-items: center; */
    }
 }

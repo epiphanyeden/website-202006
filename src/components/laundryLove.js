@@ -4,7 +4,7 @@ import * as styles from "./laundryLove.module.css"
 
 const LaundryLove = () => {
   return (
-    <main id="laundrylove">
+    <div id="laundrylove" className={styles.main}>
       <div className={styles.headerContainer}>
         <h1 className={styles.title}>Laundry Love</h1>
         <h1 className={styles.title}>Coming Up:</h1>
@@ -42,7 +42,7 @@ const LaundryLove = () => {
           contact the church.
         </p>
       </section>
-    </main>
+    </div>
   )
 }
 export default LaundryLove
