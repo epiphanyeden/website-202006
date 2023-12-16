@@ -19,7 +19,7 @@
 .event {
   margin: 8px;
   /* margin-left: 10vw; */
-  width: 50vw;
+  width: 80vw;
   /* width: 70vw; */
   display:flex;
   flex-direction: row;
@@ -39,7 +39,7 @@
 .eventDate {
   margin: 5px 0;
   padding: 0px;
-  width: 8vw;
+  width: 10vw;
   font-size: 1.5rem;
 }
 
@@ -58,7 +58,7 @@
 .eventDesc {
   margin: 0;
   padding: 5px;
-  width: 28vw;
+  width: 30vw;
 }
 
 .title {
