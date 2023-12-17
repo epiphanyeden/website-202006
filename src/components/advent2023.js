@@ -28,6 +28,13 @@ const Advent2023 = () => {
           <p className={styles.eventDesc}>Christmas Eve Service</p>
         </div>
         <div className={styles.event}>
+          <p className={styles.eventDate}>Dec 25</p>
+          <p className={styles.eventDay}>
+            Mon&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;10:00 am
+          </p>
+          <p className={styles.eventDesc}>Christmas Day Service</p>
+        </div>
+        <div className={styles.event}>
           <p className={styles.eventDate}>Dec 31</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;10:00 am
