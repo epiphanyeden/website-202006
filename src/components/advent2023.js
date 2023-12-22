@@ -3,16 +3,11 @@ import * as styles from "./advent2023.module.css"
 
 const Advent2023 = () => {
   return (
-    <div className={styles.component} id="advent">
+    <div className={styles.component} id="upcoming">
       <section>
         <h1 className={styles.title}>Upcoming Events</h1>
       </section>
       <section className={styles.container}>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Dec 21</p>
-          <p className={styles.eventDay}>Thur &nbsp;|&nbsp;&nbsp;5:30 pm</p>
-          <p className={styles.eventDesc}>Longest Night Service</p>
-        </div>
         <div className={styles.event}>
           <p className={styles.eventDate}>Dec 24</p>
           <p className={styles.eventDay}>
