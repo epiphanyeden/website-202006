@@ -14,8 +14,6 @@ import Bota2023 from "./bota2023"
 import Gift2023 from "./gift2023"
 import LitanyHolyLand from "./litanyHolyLand"
 import Advent2023 from "./advent2023"
-import Greenery2023 from "./greenery2023"
-import LongestNight2023 from "./longestNight2023"
 
 const Layout = ({ location, title, children }) => {
   return (
@@ -23,8 +21,6 @@ const Layout = ({ location, title, children }) => {
       <Header />
       <LandingPage />
       <Advent2023 />
-      <Greenery2023 />
-      <LongestNight2023 />
       <LaundryLove />
       <BellTowerTreasures />
       <Bota2023 />
