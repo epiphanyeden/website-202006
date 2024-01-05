@@ -55,24 +55,24 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1Ht9F-mt1Yq3i_vFjHCw2klZAG8E69Tle/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1t4iRUsujgWYZsmYrlXhFtAjhN3helffo/view?usp=sharing"
             >
-              Order of Service for Dec 31, 2023
+              Order of Service for Jan 7, 2024
             </button>
           </form>
 
-          {/* <form className={styles.form}>
-            <button
-              className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1voeh68lf73pGX9nLNv0yb1_oKCcMjext/view?usp=sharing"
-            >
-              Music for Dec 24, 2023
-            </button>
-          </form> */}
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1cIkF5EDYt0PinQZLcQ1eQFhx_GjXvCuI/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1l-nre4TuwdCxDdfqZqIw8PWifH1ueRN2/view?usp=sharing"
+            >
+              Music for Jan 7, 2024
+            </button>
+          </form>
+          <form className={styles.form}>
+            <button
+              className={`${styles.button} ${styles.button_wide}`}
+              formAction="https://drive.google.com/file/d/1_sLtaEh2vmAU2kqlCoRaP5ReoGm6OP1u/view?usp=sharing"
             >
               Prayer List
             </button>
