@@ -10,7 +10,7 @@ const BellTowerTreasures = () => {
         <h1 className={styles.title}>Saturday January 13</h1>
         <h1 className={styles.title}>9 am to 1 pm</h1>
         <h1 className={styles.text}>
-          Drop off items on Tuesdays, 9:30 am until noon
+          Drop off donations on Tuesdays, 9:30 am until noon
         </h1>
       </div>
       <div className={styles.imageContainer}>
