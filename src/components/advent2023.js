@@ -9,18 +9,11 @@ const Advent2023 = () => {
       </section>
       <section className={styles.container}>
         <div className={styles.event}>
-          <p className={styles.eventDate}>Jan 6</p>
+          <p className={styles.eventDate}>Jan 13</p>
           <p className={styles.eventDay}>
-            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 - 11 am
+            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 - 1 pm
           </p>
-          <p className={styles.eventDesc}>Laundry Love</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Jan 6</p>
-          <p className={styles.eventDay}>
-            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;5:30 pm
-          </p>
-          <p className={styles.eventDesc}>Annual Chili Cookoff</p>
+          <p className={styles.eventDesc}>Bell Tower Treasures</p>
         </div>
       </section>
     </div>
