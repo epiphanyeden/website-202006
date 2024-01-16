@@ -8,7 +8,7 @@ const AnnualMeeting2024 = () => {
       <section className={styles.imageContainer}>
         <StaticImage
           src="../../content/assets/Annualmeeting2024.jpg"
-          alt="Laundry Love Poster"
+          alt="Annual Meeting Jan 28 9 am"
           loading="eager"
           className={styles.image}
           width={900}
