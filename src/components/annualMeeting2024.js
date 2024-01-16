@@ -7,7 +7,7 @@ const AnnualMeeting2024 = () => {
     <div id="annualmeeting" className={styles.main}>
       <section className={styles.imageContainer}>
         <StaticImage
-          src="../../content/assets/AnnualMeeting2024.jpg"
+          src="../../content/assets/Annualmeeting2024.jpg"
           alt="Laundry Love Poster"
           loading="eager"
           className={styles.image}
