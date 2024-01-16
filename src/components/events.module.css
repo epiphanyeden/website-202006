@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+.component {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(132, 178, 238);
+}
+
+.container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(132, 178, 238);
+}
+
+.event {
+  margin: 8px;
+  /* margin-left: 10vw; */
+  width: 80vw;
+  /* width: 70vw; */
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  background-image: linear-gradient(to right,  rgb(132, 178, 238), rgb(133, 75, 241),  rgb(132, 178, 238));
+  font-size: 1.0rem;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+}
+
+.eventDetail {
+  margin: 0;
+  padding: 5px;
+}
+
+.eventDate {
+  margin: 5px 0;
+  padding: 0px;
+  width: 10vw;
+  /* font-size: 1.5rem; */
+}
+
+.eventDay {
+  margin: 0;
+  padding: 5px;
+  width: 18vw;
+}
+
+.eventDesc {
+  margin: 0;
+  padding: 5px;
+  width: 30vw;
+}
+
+.title {
+  font-size: 2.5rem;
+  /* font-size: 3.5rem; */
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0; 
+  padding-bottom: 2rem; 
+}
+
+@media only screen and (max-width: 768px) {
+  .event {
+       /* background-color: red;
+       margin: 0;
+       padding: 0;
+       padding-bottom: 2rem;
+       height: auto;
+       display: flex; */
+       width: 95vw;
+       flex-direction: column;
+       justify-content: center;
+       /* justify-content: center;
+       align-items: center; */
+       font-size: 1.0rem;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  }
+
+  .eventDate {
+    margin: 0;
+    padding: 0;
+    width: 60vw;
+    font-size: 1.75rem;
+  }
+
+  .eventDay {
+    margin: 0;
+    padding: 0px;
+    width: 60vw;
+    font-size: 1.25rem;
+  }
+  
+  .eventTime {
+    margin: 0;
+    padding: 0px;
+    width: 60vw;
+    font-size: 1.25rem;
+  }
+  
+  .eventDesc {
+    margin: 0;
+    padding: 0px;
+    width: 60vw;
+    font-size: 1.25rem;    
+  }
+}
+
+
+
+
+/* .container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  height: 40vh;
+  background-image: linear-gradient(to right, rgb(0,160,221), rgb(243, 67, 3), green);
+}
+
+h1 {
+  margin: 0;
+}
+
+.messageTop {
+  align-items: center;
+  margin: 0;
+  min-width: 0;
+  min-height: 0;
+}
+.message {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+} */
