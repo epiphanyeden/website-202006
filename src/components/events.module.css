@@ -26,8 +26,8 @@
   align-items: center;
   justify-content: left;
   background-image: linear-gradient(to right,  rgb(132, 178, 238), rgb(133, 75, 241),  rgb(132, 178, 238));
-  font-size: 1.0rem;
-  font-weight: 300;
+  font-size: 1.2rem;
+  font-weight: 600;
   font-family: 'Raleway', sans-serif;
 }
 

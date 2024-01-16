@@ -132,8 +132,9 @@ const Announcements = () => {
         <div className={styles.text}>
           <p>Sunday School is on Tuesdays at 7 pm. We meet for about 1 hour.</p>
           <p>
-            We watch and discuss the sermon delivered at the National Cathedral
-            the previous Sunday.
+            We watch and discuss one episode of The Chosen. If you are not
+            familiar with The Chosen, check it out{" "}
+            <a href="https://www.angel.com/watch/the-chosen"> here.</a>
           </p>
           <p>
             It is very informal. It is not uncommon for the discussions to
