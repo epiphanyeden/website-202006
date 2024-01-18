@@ -134,7 +134,7 @@ const Announcements = () => {
           <p>
             We watch and discuss one episode of The Chosen. If you are not
             familiar with The Chosen, check it out{" "}
-            <a href="https://www.angel.com/watch/the-chosen"> here.</a>
+            <a href="https://www.angel.com/watch/the-chosen">here.</a>
           </p>
           <p>
             It is very informal. It is not uncommon for the discussions to

@@ -46,14 +46,14 @@ const Events = () => {
         <div className={styles.event}>
           <p className={styles.eventDate}>Feb 21</p>
           <p className={styles.eventDay}>
-            Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; TBD
+            Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 6 pm
           </p>
           <p className={styles.eventDesc}>Taize Service</p>
         </div>
         <div className={styles.event}>
           <p className={styles.eventDate}>Feb 28</p>
           <p className={styles.eventDay}>
-            Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; TBD
+            Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 6 pm
           </p>
           <p className={styles.eventDesc}>Taize Service</p>
         </div>
