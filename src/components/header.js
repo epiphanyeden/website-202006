@@ -63,7 +63,7 @@ const Header = () => {
             <Link className={styles.button} to="#pledge">
               Pledge
             </Link>
-            <Link className={styles.button} to="#services">
+            <Link className={styles.button} to="#indoor">
               Sunday Services
             </Link>
             <Link className={styles.button} to="#announcements">
