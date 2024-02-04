@@ -9,20 +9,6 @@ const Events = () => {
       </section>
       <section className={styles.container}>
         <div className={styles.event}>
-          <p className={styles.eventDate}>Jan 28</p>
-          <p className={styles.eventDay}>
-            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 10 am
-          </p>
-          <p className={styles.eventDesc}>Annual Meeting/Covered Dish</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Feb 3</p>
-          <p className={styles.eventDay}>
-            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
-          </p>
-          <p className={styles.eventDesc}>Laundry Love</p>
-        </div>
-        <div className={styles.event}>
           <p className={styles.eventDate}>Feb 10</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
@@ -32,16 +18,30 @@ const Events = () => {
         <div className={styles.event}>
           <p className={styles.eventDate}>Feb 13</p>
           <p className={styles.eventDay}>
-            Tues&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; TBD
+            Tues&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;5 pm - 7 pm
           </p>
           <p className={styles.eventDesc}>Shrove Tuesday Pancake Supper</p>
         </div>
         <div className={styles.event}>
           <p className={styles.eventDate}>Feb 14</p>
           <p className={styles.eventDay}>
-            Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; TBD
+            Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;Noon
           </p>
-          <p className={styles.eventDesc}>Ash Wednesday Service</p>
+          <p className={styles.eventDesc}>Ash Wednesday Service @ LUMC</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Feb 14</p>
+          <p className={styles.eventDay}>
+            Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;7 pm
+          </p>
+          <p className={styles.eventDesc}>Ash Wednesday Service @ Epiphany</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Feb 21</p>
+          <p className={styles.eventDay}>
+            Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;11 am - Noon
+          </p>
+          <p className={styles.eventDesc}>Lenten Study @ Messiah</p>
         </div>
         <div className={styles.event}>
           <p className={styles.eventDate}>Feb 21</p>
@@ -49,6 +49,13 @@ const Events = () => {
             Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 6 pm
           </p>
           <p className={styles.eventDesc}>Taize Service</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Feb 28</p>
+          <p className={styles.eventDay}>
+            Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;11 am - Noon
+          </p>
+          <p className={styles.eventDesc}>Lenten Study @ TBD</p>
         </div>
         <div className={styles.event}>
           <p className={styles.eventDate}>Feb 28</p>
