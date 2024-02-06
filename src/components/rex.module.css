@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@300&display=swap');
+
+.outerContainer {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 30px 30px;
+  padding-bottom: 2rem;
+}
+
+  .container {
+    background-color: #7BAFD4;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+.item {
+  font-family: 'Montserrat', sans-serif;
+    width: 80vw;
+    font-size: 1.25rem;
+}
+
+.header {
+  font-family: 'Montserrat', sans-serif;
+    width: 80vw;
+    font-size: 2rem;
+    font-weight: 300;
+}
