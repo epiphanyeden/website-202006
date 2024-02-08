@@ -16,6 +16,7 @@ import LitanyHolyLand from "./litanyHolyLand"
 import Events from "./events"
 import PancakeSupper2024 from "./pancakeSupper2024"
 import Rex from "./rex"
+import AshWednesday2024 from "./ashWednesday2024"
 
 const Layout = ({ location, title, children }) => {
   return (
@@ -26,6 +27,7 @@ const Layout = ({ location, title, children }) => {
       <Rex />
       <BellTowerTreasures />
       <PancakeSupper2024 />
+      <AshWednesday2024 />
       <LaundryLove />
       <Bota2023 />
       <LitanyHolyLand />
