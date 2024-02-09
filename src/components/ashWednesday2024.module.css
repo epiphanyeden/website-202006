@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     padding-bottom: 2rem;
-    height: 50vh;
+    height: auto;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -11,10 +11,3 @@
     align-content: center;
 }
 
-.image {
-    /* margin: 1 1rem; */
-    /* width: 80vw; */
-    /* border: white solid 5px; */
-    /* justify-content: center; */
-    /* float: left; */
-}

@@ -15,7 +15,6 @@ import Gift2023 from "./gift2023"
 import LitanyHolyLand from "./litanyHolyLand"
 import Events from "./events"
 import PancakeSupper2024 from "./pancakeSupper2024"
-import Rex from "./rex"
 import AshWednesday2024 from "./ashWednesday2024"
 
 const Layout = ({ location, title, children }) => {
@@ -24,7 +23,6 @@ const Layout = ({ location, title, children }) => {
       <Header />
       <LandingPage />
       <Events />
-      <Rex />
       <BellTowerTreasures />
       <PancakeSupper2024 />
       <AshWednesday2024 />
