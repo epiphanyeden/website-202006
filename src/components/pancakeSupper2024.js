@@ -15,6 +15,7 @@ const PancakeSupper2023 = () => {
 
       <h1 className={styles.text}>Tuesday Feb 13</h1>
       <h1 className={styles.text}>5 pm to 7 pm</h1>
+      <h1 className={styles.text}>Children under 3 are free</h1>
     </div>
   )
 }
