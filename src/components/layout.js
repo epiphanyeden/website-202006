@@ -13,8 +13,6 @@ import BellTowerTreasures from "./bellTowerTreasures"
 import Gift2023 from "./gift2023"
 import LitanyHolyLand from "./litanyHolyLand"
 import Events from "./events"
-import PancakeSupper2024 from "./pancakeSupper2024"
-import AshWednesday2024 from "./ashWednesday2024"
 import LentSunday2024 from "./lentStudy2024"
 
 const Layout = ({ location, title, children }) => {
@@ -23,8 +21,6 @@ const Layout = ({ location, title, children }) => {
       <Header />
       <LandingPage />
       <Events />
-      <PancakeSupper2024 />
-      <AshWednesday2024 />
       <LentSunday2024 />
       <LaundryLove />
       <BellTowerTreasures />
