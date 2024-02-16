@@ -1,5 +1,6 @@
 import React from "react"
 import * as styles from "./events.module.css"
+import { Link } from "gatsby"
 
 const Events = () => {
   return (
@@ -8,27 +9,11 @@ const Events = () => {
         <h1 className={styles.title}>Upcoming Events</h1>
       </section>
       <section className={styles.container}>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Feb 13</p>
-          <p className={styles.eventDay}>
-            Tues&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;5 pm - 7 pm
-          </p>
-          <p className={styles.eventDesc}>Shrove Tuesday Pancake Supper</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Feb 14</p>
-          <p className={styles.eventDay}>
-            Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;Noon
-          </p>
-          <p className={styles.eventDesc}>Ash Wednesday Service @ LUMC</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Feb 14</p>
-          <p className={styles.eventDay}>
-            Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;7 pm
-          </p>
-          <p className={styles.eventDesc}>Ash Wednesday Service @ Epiphany</p>
-        </div>
+        <p>
+          <Link to={`/calendar/`}>View on Calendar</Link>
+        </p>
+      </section>
+      <section className={styles.container}>
         <div className={styles.event}>
           <p className={styles.eventDate}>Feb 21</p>
           <p className={styles.eventDay}>
