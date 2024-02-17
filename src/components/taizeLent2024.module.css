@@ -22,6 +22,8 @@
     color: black;
     padding: 0.5em;
     margin: 1rem;
+    width: 90vw;
+    height: auto;
 }
 .smallText {
     font-family: "Aboreto", cursive;
