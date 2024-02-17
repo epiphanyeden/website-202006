@@ -14,6 +14,7 @@ import Gift2023 from "./gift2023"
 import LitanyHolyLand from "./litanyHolyLand"
 import Events from "./events"
 import LentSunday2024 from "./lentStudy2024"
+import TaizeLent2024 from "./taizeLent2024"
 
 const Layout = ({ location, title, children }) => {
   return (
@@ -21,6 +22,7 @@ const Layout = ({ location, title, children }) => {
       <Header />
       <LandingPage />
       <Events />
+      <TaizeLent2024 />
       <LentSunday2024 />
       <LaundryLove />
       <BellTowerTreasures />
