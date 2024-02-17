@@ -4,13 +4,15 @@ import { Link } from "gatsby"
 
 const Events = () => {
   return (
-    <div className={styles.component} id="upcoming">
+    <div className={styles.component} id="events">
       <section>
         <h1 className={styles.title}>Upcoming Events</h1>
       </section>
       <section className={styles.container}>
         <p>
-          <Link to={`/calendar/`}>View on Calendar</Link>
+          <Link to={`/calendar/`}>
+            <button className={styles.button}>Calendar View</button>
+          </Link>
         </p>
       </section>
       <section className={styles.container}>
@@ -70,13 +72,13 @@ const Events = () => {
           </p>
           <p className={styles.eventDesc}>Bell Tower Treasures</p>
         </div>
-        {/* <div className={styles.event}>
+        <div className={styles.event}>
           <p className={styles.eventDate}>Mar 6</p>
           <p className={styles.eventDay}>
             Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; TBD
           </p>
           <p className={styles.eventDesc}>Taize Service</p>
-        </div> */}
+        </div>
         {/* <div className={styles.event}>
           <p className={styles.eventDate}>Mar 13</p>
           <p className={styles.eventDay}>

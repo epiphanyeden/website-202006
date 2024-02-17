@@ -57,12 +57,10 @@
 
 .title {
   font-size: 2.5rem;
-  /* font-size: 3.5rem; */
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0; 
-  padding-bottom: 2rem; 
 }
 
 @media only screen and (max-width: 768px) {
@@ -114,30 +112,24 @@
 }
 
 
-
-
-/* .container {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
-  height: 40vh;
-  background-image: linear-gradient(to right, rgb(0,160,221), rgb(243, 67, 3), green);
-}
-
-h1 {
-  margin: 0;
-}
-
-.messageTop {
-  align-items: center;
-  margin: 0;
-  min-width: 0;
-  min-height: 0;
-}
-.message {
+.button {
+  background: rgb(133, 75, 241);
+  border-radius: 12px;
+  /* border: 1px solid white; */
+  cursor: pointer;
   color: white;
-  font-size: 1.5rem;
-  font-weight: 500;
-} */
+  font-family: Arial;
+  font-size: 2.5vh;
+  /* text-decoration: none; */
+  margin-top: 1rem;
+  /* margin-bottom: 3rem; */
+  border: none;
+  width: auto;
+  height: 5vh;
+  box-shadow: 3px 3px purple;
+}
+
+.button:hover {
+  background-color: purple;
+  font-weight: bolder;
+}
