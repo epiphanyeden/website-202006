@@ -21,7 +21,7 @@ const Events = () => {
           <p className={styles.eventDay}>
             Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;11 am - Noon
           </p>
-          <p className={styles.eventDesc}>Lenten Study @ Messiah</p>
+          <p className={styles.eventDesc}>Lenten Study @ St. Thomas</p>
         </div>
         <div className={styles.event}>
           <p className={styles.eventDate}>Feb 21</p>
