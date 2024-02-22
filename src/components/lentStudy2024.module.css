@@ -1,8 +1,7 @@
 .container {
-    background-color: white;
+    background-color: rgb(86, 22, 62);
     margin: 0;
-    padding: 0;
-    padding-bottom: 2rem;
+    padding: 2rem;
     height: auto;
     display: flex;
     flex-flow: column nowrap;
