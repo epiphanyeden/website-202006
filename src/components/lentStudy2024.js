@@ -7,7 +7,6 @@ const LentStudy2024 = () => {
       <StaticImage
         src="../../content/assets/coffeeConversation.jpg"
         alt="Lenten Program"
-        // className={styles.image}
       />
     </div>
   )

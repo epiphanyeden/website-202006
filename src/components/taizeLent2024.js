@@ -13,12 +13,16 @@ const TaizeLent2024 = () => {
         className={styles.image}
       />
       <h1 className={styles.text}>
-        A simple, meditative form of worship, calling us to dwell deeply on
-        Christ's presence around and within us.
+        The Taize service is a candlelit, quiet and reflective Eucharist
+        service.
       </h1>
       <h1 className={styles.text}>
-        Mantra songs, prayerful silence, and short readings guide the focus of
-        the prayer in a candle-lit environment.
+        It includes bible readings, prayers, and times of silence as well as
+        music.
+      </h1>
+      <h1 className={styles.text}>
+        The music consists of meditative chants that are simple and easy to
+        sing.
       </h1>
       <h2 className={styles.smallText}>Wednesdays at 6 pm</h2>
     </div>
