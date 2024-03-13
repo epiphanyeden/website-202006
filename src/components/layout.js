@@ -15,7 +15,7 @@ import LitanyHolyLand from "./litanyHolyLand"
 import Events from "./events"
 import LentSunday2024 from "./lentStudy2024"
 import TaizeLent2024 from "./taizeLent2024"
-import Shelter202403 from "./shelter202403"
+import SolaceSeekers from "./solaceSeekers"
 
 const Layout = ({ location, title, children }) => {
   return (
@@ -23,11 +23,11 @@ const Layout = ({ location, title, children }) => {
       <Header />
       <LandingPage />
       <Events />
-      <BellTowerTreasures />
-      <Shelter202403 />
       <TaizeLent2024 />
       <LentSunday2024 />
       <LaundryLove />
+      <BellTowerTreasures />
+      <SolaceSeekers />
       <LitanyHolyLand />
       <Gift2023 />
       <ChurchLinks />
