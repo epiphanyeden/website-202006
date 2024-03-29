@@ -65,7 +65,7 @@ const Events = () => {
           </p>
           <p className={styles.eventDesc}>Taize Service</p>
         </div> */}
-        <div className={styles.event}>
+        {/* <div className={styles.event}>
           <p className={styles.eventDate}>March 9</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
@@ -133,7 +133,7 @@ const Events = () => {
           <p className={styles.eventDesc}>
             Maundy Thursday Communion and Foot Washing
           </p>
-        </div>
+        </div> */}
         <div className={styles.event}>
           <p className={styles.eventDate}>Mar 29</p>
           <p className={styles.eventDay}>
@@ -158,9 +158,25 @@ const Events = () => {
         <div className={styles.event}>
           <p className={styles.eventDate}>Mar 30</p>
           <p className={styles.eventDay}>
+            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
+          </p>
+          <p className={styles.eventDesc}>
+            Holy Saturday Liturgy in Memorial Garden
+          </p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Mar 30</p>
+          <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 8 pm
           </p>
           <p className={styles.eventDesc}>Easter Vigil Service</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Mar 31</p>
+          <p className={styles.eventDay}>
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9:30 am
+          </p>
+          <p className={styles.eventDesc}>Flowering the Cross</p>
         </div>
         <div className={styles.event}>
           <p className={styles.eventDate}>Mar 31</p>
