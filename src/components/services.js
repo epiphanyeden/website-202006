@@ -55,27 +55,18 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/18ilquNDufJQjFxG52Vnai2N42z1AUsr3/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/17YWGuq4lKDX2P2QvZsPDYFhKw9IShkxF/view?usp=sharing"
             >
-              Order of Service for Maundy Thursday
+              Order of Service for Easter Sunday
             </button>
           </form>
 
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1OiFP7o_7Lk8hOGQdWitFZ00Pr356udIC/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1ykDY3rCpQt2kCuA1Mle1uSfGuA8r8b9Z/view?usp=sharing"
             >
-              Order of Service for Good Friday
-            </button>
-          </form>
-
-          <form className={styles.form}>
-            <button
-              className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/19nLGgLhFZAsnh1RTN17n51op7Zcd5-7W/view?usp=sharing"
-            >
-              Music for Maundy Thursday
+              Music for Easter Sunday
             </button>
           </form>
           <form className={styles.form}>
