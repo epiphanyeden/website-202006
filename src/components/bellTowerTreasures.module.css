@@ -1,18 +1,30 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap') */
+
 .outerContainer {
     background-color: rgb(153, 229, 132);
     margin: 0;
     padding: 0;
     height: auto;
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 
 .textContainer {
     margin: 0;
+    margin-bottom: 1rem;
     padding: 0;
     height: auto;  
+    display: flex ;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .imageContainer {
@@ -27,14 +39,28 @@
 }
 
 .title {
-    font-size: 1.25rem;
-    font-weight: 400;
+    font-size: 2.25rem;
+    font-weight: 300;
+    line-height: 2rem;
   }
   
   .text {
-    margin-left: 10vw;
-    margin-right: 10vw;
-    font-size: 1.0rem;
+    margin: 0;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .smallText {
+    margin: 0;
+    margin-bottom: 1rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-weight: 400;
+    font-size: 1.2rem;
+    /* line-height: 2rem; */
   }
 
   @media only screen and (max-width: 768px) {
