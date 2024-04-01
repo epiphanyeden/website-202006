@@ -6,8 +6,9 @@ const BellTowerTreasures = () => {
     <div className={styles.outerContainer} id="btt">
       <div className={styles.textContainer}>
         <h1 className={styles.title}>Bell Tower Treasures</h1>
+        <h1 className={styles.title}>No Sale In April</h1>
         <h1 className={styles.title}>Coming Up:</h1>
-        <h1 className={styles.title}>Saturday April 13</h1>
+        <h1 className={styles.title}>Saturday May 11</h1>
         <h1 className={styles.title}>9 am to 1 pm</h1>
         <h1 className={styles.text}>
           Drop off donations on Tuesdays, 9:30 am until noon
