@@ -26,7 +26,7 @@ const BellTowerTreasures = () => {
         </p>
         <p className={styles.smallText}>
           However, please join us to shop our newly updated merchandise, on
-          Saturday, May 11, from 9am to 1pm.
+          Saturday, May 11, from 9 am to 1 pm.
         </p>
         <p className={styles.smallText}>
           Donations will continue to be accepted on Tuesdays from 9 am to 2:30
