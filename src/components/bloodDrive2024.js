@@ -16,7 +16,7 @@ const BloodDrive2024 = () => {
       </div>
       <div className={styles.buttonContainer}>
         <a href="https://www.redcrossblood.org/give.html/drive-results?zipSponsor=EpiphanyEden">
-          <button className={styles.button}>Register</button>
+          <button className={styles.button}>Reserve Your Spot</button>
         </a>
       </div>
     </div>
