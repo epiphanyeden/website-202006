@@ -1,6 +1,6 @@
 import React from "react"
 import * as styles from "./bellTowerTreasures.module.css"
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
 const BellTowerTreasures = () => {
   return (
     <div className={styles.outerContainer} id="btt">
