@@ -28,7 +28,7 @@
 }
 
 .button {
-  background-color: #224e91;
+  background-color: #18407c;
   color: white;
   border-radius: 8px;
   cursor: pointer;
@@ -68,16 +68,22 @@
   .image {
     width: 80vw;
   }
+  .button {
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .image {
     width: 80vw;
+    /* padding: 1rem 1rem; */
   }
 }
 
 @media only screen and (max-width: 600px) {
   .image {
     width: 80vw;
+    /* padding: 1rem 1rem; */
   }
 } 
