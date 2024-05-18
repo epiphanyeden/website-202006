@@ -19,6 +19,9 @@ const BloodDrive2024 = () => {
           <button className={styles.button}>Reserve Your Spot</button>
         </a>
       </div>
+      <p className={styles.text}>
+        There will be a drawing for free gas cards for all who come to donate!
+      </p>
     </div>
   )
 }

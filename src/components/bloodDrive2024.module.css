@@ -58,6 +58,15 @@
   color: white;
 }
 
+.text {
+  margin: 2rem;
+  color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  /* align-items: center; */
+  /* align-content: center; */
+}
 @media only screen and (max-width: 9999px) {
   .image {
     width: 50vw;

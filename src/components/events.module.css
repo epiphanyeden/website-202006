@@ -18,9 +18,7 @@
 
 .event {
   margin: 8px;
-  /* margin-left: 10vw; */
-  width: 80vw;
-  /* width: 70vw; */
+  width: 90vw;
   display:flex;
   flex-direction: row;
   align-items: center;
@@ -29,6 +27,16 @@
   font-size: 1.2rem;
   font-weight: 600;
   font-family: 'Raleway', sans-serif;
+}
+
+.mental_health {
+  background-image: 
+  linear-gradient(to top,  rgb(132, 178, 238), rgb(46, 160, 40),  rgb(132, 178, 238) );
+}
+
+.gun_awareness {
+  background-image: 
+  linear-gradient(to top,  rgb(132, 178, 238), #fc5000,  rgb(132, 178, 238) );
 }
 
 .eventDetail {
@@ -46,13 +54,13 @@
 .eventDay {
   margin: 0;
   padding: 5px;
-  width: 24vw;
+  width: 30vw;
 }
 
 .eventDesc {
   margin: 0;
   padding: 5px;
-  width: 35vw;
+  /* width: 35vw; */
 }
 
 .title {
