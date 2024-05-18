@@ -1,6 +1,5 @@
 import React from "react"
 import * as styles from "./mentalHealth2024.module.css"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 const MentalHealth2024 = () => {
