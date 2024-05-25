@@ -16,6 +16,7 @@ import Events from "./events"
 import SolaceSeekers from "./solaceSeekers"
 import BloodDrive2024 from "./bloodDrive2024"
 import MentalHealth2024 from "./mentalHealth2024"
+import FreedomPark2024 from "./freedomPark2024"
 
 const Layout = ({ location, title, children }) => {
   return (
@@ -25,6 +26,7 @@ const Layout = ({ location, title, children }) => {
       <Events />
       <BloodDrive2024 />
       <MentalHealth2024 />
+      <FreedomPark2024 />
       <LaundryLove />
       <BellTowerTreasures />
       <SolaceSeekers />
