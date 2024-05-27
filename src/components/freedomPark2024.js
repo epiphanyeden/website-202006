@@ -4,7 +4,7 @@ import * as styles from "./freedomPark2024.module.css"
 
 const ScoopForSchool = () => {
   return (
-    <main className={styles.main}>
+    <main className={styles.main} id="freedompark">
       <section className={styles.imageContainer}>
         <StaticImage
           src="../..//content/assets/FreedomPark2023.jpg"
