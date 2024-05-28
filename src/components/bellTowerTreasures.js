@@ -21,13 +21,28 @@ const BellTowerTreasures = () => {
       </div>
       <div className={styles.textContainer}>
         <p className={styles.smallText}>
-          Donations will continue to be accepted on Tuesdays from 9 am to 2:30
-          pm or by calling 336-623-9410 for an appointment.
+          Be sure to come by and see what we have.
         </p>
         <p className={styles.smallText}>
+          You will find a range of items available, from basic household items
+          to household decor, furniture, jewelry and seasonal items.
+        </p>
+        <p className={styles.smallText}>
+          Most items are gently used with exceptional prices.
+        </p>
+        <p className={styles.smallText}>Don't Miss out!</p>
+
+        <p className={styles.smallText}>
           We wish to thank all our customers for their continued support of Bell
-          Tower Treasures. Remember proceeds go to support Outreach Programs at
-          Church of the Epiphany!
+          Tower Treasures.
+        </p>
+        <p className={styles.smallText}>
+          Remember proceeds go to support Outreach Programs at Church of the
+          Epiphany!
+        </p>
+        <p className={styles.smallText}>
+          Donations are accepted on Tuesdays from 9 am to 2:30 pm or by calling
+          336-623-9410 for an appointment.
         </p>
       </div>
     </div>
