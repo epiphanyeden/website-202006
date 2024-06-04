@@ -16,25 +16,6 @@ const Events = () => {
         </p>
       </section>
       <section className={styles.container}>
-        <div className={`${styles.event} ${styles.mental_health}`}>
-          <p className={styles.eventDate}>May</p>
-          {/* <p className={styles.eventDay}>All Month</p> */}
-          <p className={styles.eventDesc}>Mental Health Awareness Month</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>May 19</p>
-          <p className={styles.eventDay}>
-            Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
-          </p>
-          <p className={styles.eventDesc}>Pentecost Sunday: Wear Red</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>May 29</p>
-          <p className={styles.eventDay}>
-            Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 1 pm - 5:30 pm
-          </p>
-          <p className={styles.eventDesc}>Blood Drive</p>
-        </div>
         <div className={`${styles.event} ${styles.gun_awareness}`}>
           <p className={styles.eventDate}>June</p>
           {/* <p className={styles.eventDay}>All Month</p> */}

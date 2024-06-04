@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.main {
+  background-color: blueviolet;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-color: #fc5000;
+  color: white;
+  padding: 0;
+  padding-bottom: 2rem;
+  margin: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+
+.msgContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-color:white;
+  color: #fc5000;
+  padding: 0;
+  margin: 2rem 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1rem;
+  max-width: 75%;
+}
+
+.heading1 {
+  font-weight: 100;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.heading2 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  padding: 2rem;
+  margin: 0;
+}
+
+.text {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 1rem;
+}
+
+h1.text {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h2.text {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.msgText {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0 1rem;
+  margin: 0;
+  
+}
+
+.citation {
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid white;
+  margin: 0em 0;
+  padding: 0;
+  width: 30%;
+}
+
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  background: blue;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-family: Arial;
+  font-size: 1.25rem;
+  padding: 0.5rem 0.5rem;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #4002ac;
+  font-weight: bolder;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
