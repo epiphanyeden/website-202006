@@ -4,7 +4,7 @@ import * as styles from "./gunAwareness2024.module.css"
 
 const GunAwareness2024 = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="gunawareness">
       <h1 className={styles.text}>Gun Violence Awareness Month</h1>
       <hr />
       <h2 className={styles.text}>June</h2>
