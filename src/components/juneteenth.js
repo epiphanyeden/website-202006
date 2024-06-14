@@ -29,6 +29,16 @@ const Juneteenth = () => {
           </button>
         </form>
       </section>
+      <section className={styles.buttonContainer}>
+        <form>
+          <button
+            className={styles.button}
+            formAction="https://nmaahc.si.edu/juneteenth"
+          >
+            The History
+          </button>
+        </form>
+      </section>
     </div>
   )
 }
