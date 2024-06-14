@@ -80,8 +80,7 @@ const Header = () => {
             </a>
           </div>
           <p className={styles.sundayService}>
-            {/* The Sunday Service is at 10 am. */}
-            The June 9 Sunday Service is at 10 am at Freedom Park
+            The Sunday Service is at 10 am.
           </p>
         </div>
       </div>
