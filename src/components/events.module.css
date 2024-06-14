@@ -39,6 +39,17 @@
   linear-gradient(to top,  rgb(132, 178, 238), #fc5000,  rgb(132, 178, 238) );
 }
 
+.juneteenth {
+  background-image: 
+  linear-gradient(to top,  red, black, green );
+  color: white;
+}
+
+.july4 {
+  background-image: 
+  linear-gradient(to top,  red, white, blue );
+}
+
 .eventDetail {
   margin: 0;
   padding: 5px;
@@ -73,17 +84,9 @@
 
 @media only screen and (max-width: 768px) {
   .event {
-       /* background-color: red;
-       margin: 0;
-       padding: 0;
-       padding-bottom: 2rem;
-       height: auto;
-       display: flex; */
        width: 95vw;
        flex-direction: column;
        justify-content: center;
-       /* justify-content: center;
-       align-items: center; */
        font-size: 1.0rem;
   font-weight: 500;
   font-family: 'Raleway', sans-serif;

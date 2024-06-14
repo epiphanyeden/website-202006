@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap') */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .outerContainer {
     background-color: rgb(153, 229, 132);
@@ -19,6 +19,7 @@
     margin: 0;
     margin-bottom: 1rem;
     padding: 0;
+    width: 70%;
     height: auto;  
     display: flex ;
     flex-flow: column;
@@ -30,6 +31,7 @@
 .imageContainer {
     margin: 0;
     padding: 0;
+    width: 80%;
     height: auto;
 }
 
@@ -56,15 +58,33 @@
   .smallText {
     margin: 0;
     margin-bottom: 1rem;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    /* margin-left: 5vw;
+    margin-right: 5vw; */
     font-weight: 400;
     font-size: 1.2rem;
     /* line-height: 2rem; */
   }
 
+  .portraitImage {
+    display: none;
+   }
+
+   .landscapeImage {
+    display: flex;
+   }
+
+
   @media only screen and (max-width: 768px) {
-   .outerContainer {
-        flex-flow: column;
+
+   .imageContainer {
+    width: 95%;
+  }
+
+   .portraitImage {
+    display: flex;
+   }
+
+   .landscapeImage {
+    display: none;
    }
 }
