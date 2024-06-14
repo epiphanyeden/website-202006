@@ -16,6 +16,7 @@ import Events from "./events"
 import BloodDrive2024 from "./bloodDrive2024"
 import FreedomPark2024 from "./freedomPark2024"
 import GunAwareness2024 from "./gunAwareness2024"
+import Juneteenth from "./juneteenth"
 
 const Layout = ({ location, title, children }) => {
   return (
@@ -25,6 +26,7 @@ const Layout = ({ location, title, children }) => {
       <Events />
       <GunAwareness2024 />
       <BellTowerTreasures />
+      <Juneteenth />
       <FreedomPark2024 />
       <BloodDrive2024 />
       <LaundryLove />

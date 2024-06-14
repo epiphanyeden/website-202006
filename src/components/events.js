@@ -44,6 +44,14 @@ const Events = () => {
           </p>
           <p className={styles.eventDesc}>Sunday Service @ Freedom Park</p>
         </div>
+        <div className={`${styles.event} ${styles.juneteenth}`}>
+          <p className={styles.eventDate}>June 19</p>
+          <p className={styles.eventDesc}>Juneteenth</p>
+        </div>
+        <div className={`${styles.event} ${styles.july4}`}>
+          <p className={styles.eventDate}>July 4</p>
+          <p className={styles.eventDesc}>Independence Day</p>
+        </div>
         {/* <div className={styles.event}>
           <p className={styles.eventDate}>Mar 13</p>
           <p className={styles.eventDay}>
