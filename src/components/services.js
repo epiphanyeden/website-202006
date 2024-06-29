@@ -55,32 +55,23 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1h9lKC0wj_Sp3Sn2nIVtzWVhpo8IrfGdf/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1U5rRxiEhMMpzrecz0Jx2dBWQK7cbfKGH/view?usp=sharing"
             >
-              Order of Service for June 23
+              Order of Service for June 30
             </button>
           </form>
 
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1bGqYOuE7VFiDtSLJHrdbee4DikLsOfck/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1PirVRZR2_U_67XN6GK8xrOpItT_k4djv/view?usp=sharing"
             >
-              Music for June 23
+              Music for June 30
             </button>
-          </form>
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1gF9nRy9WCblffBN9Zjyzag8BSbToYKax/view?usp=sharing"
-            >
-              Lift Every Voice and Sing
-            </button>
-          </form>
-          <form className={styles.form}>
-            <button
-              className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1YF79bZynqOlaenYds1QKdPW5AEH6ifAW/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/10X-6jac7d4aSiANHd7RF86fDVdyJf5y7/view?usp=sharing"
             >
               Prayer List
             </button>
