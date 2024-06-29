@@ -60,7 +60,6 @@ const Services = () => {
               Order of Service for June 30
             </button>
           </form>
-
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
@@ -68,6 +67,7 @@ const Services = () => {
             >
               Music for June 30
             </button>
+          </form>
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
