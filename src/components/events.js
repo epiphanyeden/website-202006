@@ -16,41 +16,27 @@ const Events = () => {
         </p>
       </section>
       <section className={styles.container}>
-        <div className={`${styles.event} ${styles.gun_awareness}`}>
-          <p className={styles.eventDate}>June</p>
-          {/* <p className={styles.eventDay}>All Month</p> */}
-          <p className={styles.eventDesc}>
-            National Gun Violence Awareness Month
-          </p>
+        {/* <div className={`${styles.event} ${styles.juneteenth}`}>
+          <p className={styles.eventDate}>June 19</p>
+          <p className={styles.eventDesc}>Juneteenth</p>
+        </div> */}
+        <div className={`${styles.event} ${styles.july4}`}>
+          <p className={styles.eventDate}>July 4</p>
+          <p className={styles.eventDesc}>Independence Day</p>
         </div>
         <div className={styles.event}>
-          <p className={styles.eventDate}>June 1</p>
+          <p className={styles.eventDate}>July 6</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
           </p>
           <p className={styles.eventDesc}>Laundry Love</p>
         </div>
         <div className={styles.event}>
-          <p className={styles.eventDate}>June 8</p>
+          <p className={styles.eventDate}>July 13</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
           </p>
           <p className={styles.eventDesc}>Bell Tower Treasures</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>June 9</p>
-          <p className={styles.eventDay}>
-            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
-          </p>
-          <p className={styles.eventDesc}>Sunday Service @ Freedom Park</p>
-        </div>
-        <div className={`${styles.event} ${styles.juneteenth}`}>
-          <p className={styles.eventDate}>June 19</p>
-          <p className={styles.eventDesc}>Juneteenth</p>
-        </div>
-        <div className={`${styles.event} ${styles.july4}`}>
-          <p className={styles.eventDate}>July 4</p>
-          <p className={styles.eventDesc}>Independence Day</p>
         </div>
         {/* <div className={styles.event}>
           <p className={styles.eventDate}>Mar 13</p>
