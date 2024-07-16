@@ -20,23 +20,32 @@ const Events = () => {
           <p className={styles.eventDate}>June 19</p>
           <p className={styles.eventDesc}>Juneteenth</p>
         </div> */}
-        <div className={`${styles.event} ${styles.july4}`}>
+        {/* <div className={`${styles.event} ${styles.july4}`}>
           <p className={styles.eventDate}>July 4</p>
           <p className={styles.eventDesc}>Independence Day</p>
-        </div>
+        </div> */}
         <div className={styles.event}>
-          <p className={styles.eventDate}>July 6</p>
+          <p className={styles.eventDate}>August 3</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
           </p>
           <p className={styles.eventDesc}>Laundry Love</p>
         </div>
         <div className={styles.event}>
-          <p className={styles.eventDate}>July 13</p>
+          <p className={styles.eventDate}>August 10</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
           </p>
           <p className={styles.eventDesc}>Bell Tower Treasures</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>August 18</p>
+          <p className={styles.eventDay}>
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 2 pm - 4 pm
+          </p>
+          <p className={styles.eventDesc}>
+            Ice Cream Social & School Supply Drive
+          </p>
         </div>
         {/* <div className={styles.event}>
           <p className={styles.eventDate}>Mar 13</p>
