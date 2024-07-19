@@ -24,6 +24,28 @@ const Events = () => {
           <p className={styles.eventDate}>July 4</p>
           <p className={styles.eventDesc}>Independence Day</p>
         </div> */}
+
+        <div className={styles.event}>
+          <p className={styles.eventDate}>July 19</p>
+          <p className={styles.eventDay}>
+            Fri&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 5:30 pm - 8 pm
+          </p>
+          <p className={styles.eventDesc}>VBS at LUMC</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>July 26</p>
+          <p className={styles.eventDay}>
+            Fri&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 5:30 pm - 8 pm
+          </p>
+          <p className={styles.eventDesc}>VBS at LUMC</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>August 2</p>
+          <p className={styles.eventDay}>
+            Fri&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 5:30 pm - 8 pm
+          </p>
+          <p className={styles.eventDesc}>VBS at LUMC</p>
+        </div>
         <div className={styles.event}>
           <p className={styles.eventDate}>August 3</p>
           <p className={styles.eventDay}>

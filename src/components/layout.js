@@ -15,6 +15,7 @@ import LitanyHolyLand from "./litanyHolyLand"
 import Events from "./events"
 import BloodDrive2024 from "./bloodDrive2024"
 import IceCreamSocial2024 from "./iceCreamSocial2024"
+import VBS2024 from "./vbs2024"
 
 const Layout = ({ location, title, children }) => {
   return (
@@ -22,6 +23,7 @@ const Layout = ({ location, title, children }) => {
       <Header />
       <LandingPage />
       <Events />
+      <VBS2024 />
       <IceCreamSocial2024 />
       <BellTowerTreasures />
       <BloodDrive2024 />
