@@ -8,7 +8,7 @@ const LaundryLove = () => {
       <div className={styles.headerContainer}>
         <h1 className={styles.title}>Laundry Love</h1>
         <h1 className={styles.title}>Coming Up:</h1>
-        <h1 className={styles.title}>Saturday June 1</h1>
+        <h1 className={styles.title}>Saturday August 3</h1>
         <h1 className={styles.title}>9 am to 11 am</h1>
       </div>
       <section className={styles.imageContainer}>
