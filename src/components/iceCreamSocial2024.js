@@ -21,7 +21,7 @@ const IceCreamSocial2024 = () => {
         </h1>
         <h1 className={styles.text}>
           A{" "}
-          <a href="hhttps://www.douglasselementary.org/_files/ugd/6b948f_703dd80bd7e64b3a8485eb210f50acc6.pdf">
+          <a href="https://www.douglasselementary.org/_files/ugd/6b948f_703dd80bd7e64b3a8485eb210f50acc6.pdf">
             school supply list{" "}
           </a>
           can be found on the&nbsp;
