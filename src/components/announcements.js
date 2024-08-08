@@ -130,7 +130,9 @@ const Announcements = () => {
       <div className={styles.announcement}>
         <h1>Sunday School - on Tuesdays!!</h1>
         <div className={styles.text}>
-          <p>Sunday School is on Tuesdays at 7 pm. We meet for about 1 hour.</p>
+          <p>No Sunday School in August.</p>
+          <p>Join us in September!</p>
+          {/* <p>Sunday School is on Tuesdays at 7 pm. We meet for about 1 hour.</p>
           <p>
             We watch and discuss one episode of The Chosen. If you are not
             familiar with The Chosen, check it out{" "}
@@ -144,7 +146,7 @@ const Announcements = () => {
           <p>
             We meet over Zoom. The link is{" "}
             <a href="https://us02web.zoom.us/j/86264215594">here.</a>
-          </p>
+          </p> */}
           <br></br>
           <br></br>
         </div>
