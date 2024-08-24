@@ -2,7 +2,7 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import * as styles from "./laundryLove.module.css"
 
-const LaundryLove = () => {
+const HotDogsBingo = () => {
   return (
     <div id="laundrylove" className={styles.main}>
       <div className={styles.headerContainer}>
@@ -13,7 +13,7 @@ const LaundryLove = () => {
       </div>
       <section className={styles.imageContainer}>
         <StaticImage
-          src="../../content/assets/LaundryLove1.jpg"
+          src="../../content/assets/BingoHotDogs.jpg"
           alt="Laundry Love Poster"
           loading="eager"
           className={styles.image}
@@ -45,4 +45,4 @@ const LaundryLove = () => {
     </div>
   )
 }
-export default LaundryLove
+export default HotDogsBingo

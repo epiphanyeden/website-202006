@@ -26,48 +26,25 @@ const Events = () => {
         </div> */}
 
         <div className={styles.event}>
-          <p className={styles.eventDate}>July 19</p>
-          <p className={styles.eventDay}>
-            Fri&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 5:30 pm - 8 pm
-          </p>
-          <p className={styles.eventDesc}>VBS at LUMC</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>July 26</p>
-          <p className={styles.eventDay}>
-            Fri&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 5:30 pm - 8 pm
-          </p>
-          <p className={styles.eventDesc}>VBS at LUMC</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>August 2</p>
-          <p className={styles.eventDay}>
-            Fri&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 5:30 pm - 8 pm
-          </p>
-          <p className={styles.eventDesc}>VBS at LUMC</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>August 3</p>
+          <p className={styles.eventDate}>Sept 7</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
           </p>
           <p className={styles.eventDesc}>Laundry Love</p>
         </div>
         <div className={styles.event}>
-          <p className={styles.eventDate}>August 10</p>
+          <p className={styles.eventDate}>Sept 14</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
           </p>
           <p className={styles.eventDesc}>Bell Tower Treasures</p>
         </div>
         <div className={styles.event}>
-          <p className={styles.eventDate}>August 18</p>
+          <p className={styles.eventDate}>Sept 27</p>
           <p className={styles.eventDay}>
-            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 2 pm - 4 pm
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 6 pm - 8 pm
           </p>
-          <p className={styles.eventDesc}>
-            Ice Cream Social & School Supply Drive
-          </p>
+          <p className={styles.eventDesc}>Hot Dogs and Bingo</p>
         </div>
         {/* <div className={styles.event}>
           <p className={styles.eventDate}>Mar 13</p>
