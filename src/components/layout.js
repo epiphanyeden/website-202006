@@ -24,7 +24,6 @@ const Layout = ({ location, title, children }) => {
       <Events />
       <BellTowerTreasures />
       <LaundryLove />
-      <HotDogsBingo />
       <BloodDrive2024 />
       <LitanyHolyLand />
       <Gift2023 />
