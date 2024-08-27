@@ -1,26 +1,27 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import * as styles from "./laundryLove.module.css"
+import * as styles from "./hotDogsBingo.module.css"
 
 const HotDogsBingo = () => {
   return (
-    <div id="laundrylove" className={styles.main}>
-      <div className={styles.headerContainer}>
-        <h1 className={styles.title}>Laundry Love</h1>
-        <h1 className={styles.title}>Coming Up:</h1>
-        <h1 className={styles.title}>Saturday September 7</h1>
-        <h1 className={styles.title}>9 am to 11 am</h1>
-      </div>
+    <div id="HotDogsBingo" className={styles.main}>
+      {/* <div className={styles.headerContainer}>
+        <h1 className={styles.title}>Bingo</h1>
+        <h1 className={styles.title}>And</h1>ß
+        <h1 className={styles.title}>Hot Dogs</h1>
+        <h1 className={styles.title}>Friday September 7</h1>
+        <h1 className={styles.title}>5 pm to 7 pm</h1>
+      </div> */}
       <section className={styles.imageContainer}>
         <StaticImage
-          src="../../content/assets/BingoHotDogs.jpg"
+          src="../../content/assets/HotDogBingo2024.jpg"
           alt="Laundry Love Poster"
           loading="eager"
           className={styles.image}
-          width={450}
+          width={1200}
         />
       </section>
-      <section className={styles.container}>
+      {/* <section className={styles.container}>
         <p className={styles.book}>"Giving the Gift of Clean Clothes"</p>
 
         <p className={styles.text}>
@@ -41,7 +42,7 @@ const HotDogsBingo = () => {
           If you have questions, please email outreach@epiphanyeden.org or
           contact the church.
         </p>
-      </section>
+      </section> */}
     </div>
   )
 }

@@ -29,7 +29,7 @@
   background-color: rgb(180, 148, 172);
   margin: 0;
   padding: 0;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
   height: auto;
   display: flex;
   flex-flow: column nowrap;
@@ -39,7 +39,7 @@
 }
 
 .image {
-  margin: 1rem 1rem;
+  /* margin: 1rem 1rem; */
   justify-content: center;
 }
 
@@ -50,6 +50,8 @@
 }
 
 .text {
+  margin: 0;
+  padding: 0;
   margin-left: 10vw;
   margin-right: 10vw;
   font-size: 1.0rem;

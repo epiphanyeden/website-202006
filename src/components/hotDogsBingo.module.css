@@ -1,9 +1,10 @@
 .main {
   margin: 0;
   padding: 0;
+  background-color: rgb(152, 201, 243);
 }
 
-.container {
+/* .container {
   margin: 0;
   padding: 0;
   background-color: rgb(180, 148, 172);
@@ -11,13 +12,12 @@
   display: flex column;
   justify-content: center;
   line-height: 1.6rem;
-}
+} */
 
 .imageContainer {
-  background-color: rgb(180, 148, 172);
   margin: 0;
   padding: 0;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -25,7 +25,7 @@
   align-content: center;
 }
 
-.headerContainer {
+/* .headerContainer {
   background-color: rgb(180, 148, 172);
   margin: 0;
   padding: 0;
@@ -36,32 +36,32 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-}
+} */
 
-.image {
-  margin: 1rem 1rem;
-  justify-content: center;
-}
+/* .image { */
+  /* margin: 1rem 1rem; */
+  /* justify-content: center; */
+/* } */
 
-.title {
+/* .title {
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 0.25rem;
-}
+} */
 
-.text {
+/* .text {
   margin-left: 10vw;
   margin-right: 10vw;
   font-size: 1.0rem;
   display: flex;
   justify-content: center;
-}
+} */
 
-.book {
+/* .book {
   font-style: italic;
   margin-left: 10vw;
   margin-right: 10vw;
   font-size: 1.2rem;
   display: flex;
   justify-content: center;
-}
+} */
