@@ -21,28 +21,19 @@ const HotDogsBingo = () => {
           width={1200}
         />
       </section>
-      {/* <section className={styles.container}>
-        <p className={styles.book}>"Giving the Gift of Clean Clothes"</p>
-
+      <section className={styles.container}>
         <p className={styles.text}>
-          The first Saturday of each month is Laundry Love day at Epiphany.
+          Please register so we can plan for the best event possible
         </p>
-
-        <p className={styles.text}>Wash Tub Laundry</p>
-        <p className={styles.text}>
-          <a href="https://goo.gl/maps/x77QSUtpZxMLVjRw6">
-            403 Kings Hwy in Eden
-          </a>
-        </p>
-        <p className={styles.text}>
-          We meet our neighbors, pay for their laundry and share some coffee and
-          snacks.
-        </p>
-        <p className={styles.text}>
-          If you have questions, please email outreach@epiphanyeden.org or
-          contact the church.
-        </p>
-      </section> */}
+        <form>
+          <button
+            className={styles.button}
+            formAction="https://www.eventbrite.com/e/bingo-hot-dogs-tickets-1002415741467"
+          >
+            Register Here
+          </button>
+        </form>
+      </section>
     </div>
   )
 }
