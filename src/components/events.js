@@ -46,6 +46,13 @@ const Events = () => {
           </p>
           <p className={styles.eventDesc}>Hot Dogs and Bingo</p>
         </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Oct 2</p>
+          <p className={styles.eventDay}>
+            Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 5:30 pm - 7:00 pm
+          </p>
+          <p className={styles.eventDesc}>Blessing of the Animals</p>
+        </div>
         {/* <div className={styles.event}>
           <p className={styles.eventDate}>Mar 13</p>
           <p className={styles.eventDay}>
