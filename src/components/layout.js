@@ -15,6 +15,7 @@ import LitanyHolyLand from "./litanyHolyLand"
 import Events from "./events"
 import BloodDrive2024 from "./bloodDrive2024"
 import HotDogsBingo from "./hotDogsBingo"
+import BlessingAnimals2024 from "./blessingAnimals2024"
 
 const Layout = ({ location, title, children }) => {
   return (
@@ -23,6 +24,7 @@ const Layout = ({ location, title, children }) => {
       <LandingPage />
       <Events />
       <HotDogsBingo />
+      <BlessingAnimals2024 />
       <LaundryLove />
       <BellTowerTreasures />
       <BloodDrive2024 />
