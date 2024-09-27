@@ -55,31 +55,31 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1OncD3zsa3Un5yoW5tVgb1hawyXz6VH9H/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1T4Wuth4KAmdKH0Ee830WsE95Ev8voQ0l/view?usp=sharing"
             >
-              Season Of Creation Sept 22
+              Order of Service Sept 29
             </button>
           </form>
+          {/* <form className={styles.form}>
+            <button
+              className={`${styles.button} ${styles.button_wide}`}
+              formAction=""
+            >
+              Bulletin Insert Sept 29
+            </button>
+          </form> */}
+          {/* <form className={styles.form}>
+            <button
+              className={`${styles.button} ${styles.button_wide}`}
+              formAction=""
+            >
+              Music Sept 29
+            </button>
+          </form> */}
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1gHyv3lzBPT0x0lK7HYWcODJUrQJgQ4cC/view?usp=sharing"
-            >
-              Bulletin Insert Sept 22
-            </button>
-          </form>
-          <form className={styles.form}>
-            <button
-              className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1oMH593TbyWzWr8yuV_FGdjL270p1xy_b/view?usp=sharing"
-            >
-              Music Sept 22
-            </button>
-          </form>
-          <form className={styles.form}>
-            <button
-              className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1mCdFwM2xTtmhXLt0_Owx-013shtUE8RJ/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1W3ekRFvvtWhjKsbtuKd6aQXAz5h0OI3e/view?usp=sharing"
             >
               Prayer List
             </button>
