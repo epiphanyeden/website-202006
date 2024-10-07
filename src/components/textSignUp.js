@@ -34,7 +34,7 @@
 // export default textSignUp
 
 import React, { useEffect } from "react"
-import { Helmet } from "react-helmet"
+// import { Helmet } from "react-helmet"
 
 const TextSignUp = () => {
   useEffect(() => {
