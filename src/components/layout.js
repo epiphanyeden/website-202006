@@ -14,8 +14,7 @@ import BellTowerTreasures from "./bellTowerTreasures"
 import LitanyHolyLand from "./litanyHolyLand"
 import Events from "./events"
 import BloodDrive2024 from "./bloodDrive2024"
-import HotDogsBingo from "./hotDogsBingo"
-import BlessingAnimals2024 from "./blessingAnimals2024"
+import BishopVisit2024 from "./bishopVisit2024"
 
 const Layout = ({ location, title, children }) => {
   return (
@@ -23,10 +22,9 @@ const Layout = ({ location, title, children }) => {
       <Header />
       <LandingPage />
       <Events />
-      <HotDogsBingo />
-      <BlessingAnimals2024 />
-      <LaundryLove />
       <BellTowerTreasures />
+      <BishopVisit2024 />
+      <LaundryLove />
       <BloodDrive2024 />
       <LitanyHolyLand />
       {/* <Gift2023 /> */}
