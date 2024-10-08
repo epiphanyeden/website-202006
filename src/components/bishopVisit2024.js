@@ -8,7 +8,7 @@ const BishopVisit2024 = () => {
       <div className={styles.imageWrapper} id="bishopvisit">
         <StaticImage
           src="../../content/assets/BishopJennifer.jpg"
-          alt="Bishop Jennifer"
+          alt="Bishop Jennifer Brooke-Davidson"
           loading="eager"
           className={styles.image}
           placeholder="blurred"
