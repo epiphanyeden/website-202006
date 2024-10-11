@@ -10,7 +10,7 @@ import IndoorService from "./indoorService"
 import LaundryLove from "./laundryLove"
 import TextSignUp from "./textSignUp"
 import BellTowerTreasures from "./bellTowerTreasures"
-// import Gift2023 from "./gift2023"
+import Gift2024 from "./gift2024"
 import LitanyHolyLand from "./litanyHolyLand"
 import Events from "./events"
 import BloodDrive2024 from "./bloodDrive2024"
@@ -27,7 +27,7 @@ const Layout = ({ location, title, children }) => {
       <LaundryLove />
       <BloodDrive2024 />
       <LitanyHolyLand />
-      {/* <Gift2023 /> */}
+      <Gift2024 />
       <ChurchLinks />
       <Announcements />
       <IndoorService />
