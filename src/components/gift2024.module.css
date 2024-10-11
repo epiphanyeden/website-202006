@@ -115,6 +115,7 @@ h2 {
 
 .amountInput {
   flex: 1;
+  width: 20vw
 }
 
 .perText {
