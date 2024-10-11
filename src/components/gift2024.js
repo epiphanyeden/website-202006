@@ -17,9 +17,11 @@ const Gift = ({ env }) => {
   const [donorName, setDonorName] = useState("")
   const [donorEmail, setDonorEmail] = useState("")
   const [donorAmount, setDonorAmount] = useState("")
+  const [donorPeriod, setDonorPeriod] = useState("") // Add this line
   const [donorComment, setDonorComment] = useState("")
   const [formSubmitted, setFormSubmitted] = useState(false)
   const [formSubmitSuccessful, setFormSubmitSuccessful] = useState(false)
+  const [donorAnnualAmount, setdonorAnnualAmount] = useState(0)
 
   const handleNameChange = event => {
     setDonorName(event.target.value)
@@ -28,11 +30,35 @@ const Gift = ({ env }) => {
     setDonorEmail(event.target.value)
   }
   const handleAmountChange = event => {
-    setDonorAmount(event.target.value)
+    const newAmount = event.target.value
+    setDonorAmount(newAmount)
+    setdonorAnnualAmount(calculatedonorAnnualAmount(newAmount, donorPeriod))
+  }
+
+  const handlePeriodChange = event => {
+    const newPeriod = event.target.value
+    setDonorPeriod(newPeriod)
+    setdonorAnnualAmount(calculatedonorAnnualAmount(donorAmount, newPeriod))
   }
 
   const handleCommentChange = event => {
     setDonorComment(event.target.value)
+  }
+
+  const calculatedonorAnnualAmount = (amount, period) => {
+    const numAmount = parseFloat(amount)
+    if (isNaN(numAmount)) return 0
+
+    switch (period) {
+      case "week":
+        return numAmount * 52
+      case "month":
+        return numAmount * 12
+      case "year":
+        return numAmount
+      default:
+        return 0
+    }
   }
 
   const handleSubmit = event => {
@@ -44,6 +70,8 @@ const Gift = ({ env }) => {
       donorName,
       donorEmail,
       donorAmount,
+      donorPeriod, // Add this line
+      donorAnnualAmount, // Add this line
       donorComment,
     }
 
@@ -161,19 +189,32 @@ const Gift = ({ env }) => {
               />
             </label>
 
-            <label>
+            <div className={styles.amountContainer}>
               <input
-                className={styles.textInput}
+                className={`${styles.textInput} ${styles.amountInput}`}
                 type="number"
                 min="1"
                 step="1"
                 name="donorAmount"
                 id="donorAmount"
-                placeholder="Annual Amount"
+                placeholder="Amount"
                 required
                 onChange={e => handleAmountChange(e)}
               />
-            </label>
+              <span className={styles.perText}>per</span>
+              <select
+                className={`${styles.textInput} ${styles.periodSelect}`}
+                name="donorPeriod"
+                id="donorPeriod"
+                required
+                onChange={e => handlePeriodChange(e)}
+              >
+                <option value="">Select period</option>
+                <option value="week">Week</option>
+                <option value="month">Month</option>
+                <option value="year">Year</option>
+              </select>
+            </div>
 
             <label>
               <input

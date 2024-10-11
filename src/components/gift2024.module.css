@@ -5,7 +5,6 @@
   justify-content: center;
   margin: 0px;
   height: auto;
-  /* align-items: left; */
   background-color: rgb(130, 185, 240);
 }
 
@@ -53,12 +52,8 @@ h2 {
 }
 
 .formText {
-  /* display: flex;
-    align-items: center;
-    justify-content: left; */
   font-size: 0.8rem;
   color: black;
-  /* padding: 0.5rem; */
   margin-left: 12%;
   margin-right: 12%;
 }
@@ -87,4 +82,23 @@ h2 {
 .button:hover {
   background-color: rgb(1, 20, 196);
   font-weight: bolder;
+}
+
+.amountContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 50vw;
+}
+
+.amountInput {
+  flex: 1;
+}
+
+.perText {
+  white-space: nowrap;
+}
+
+.periodSelect {
+  width: auto;
 }
