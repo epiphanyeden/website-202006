@@ -8,6 +8,28 @@
   background-color: rgb(130, 185, 240);
 }
 
+.imageWrapper {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  /* width: 100%; */
+  height: 90%;
+}
+
+.descWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
 h2 {
   font-size: 1.4rem;
 }

@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import * as styles from "./gift2024.module.css"
 import PledgeForm from "../../content/assets/PledgeFormOnline.pdf"
+import { StaticImage } from "gatsby-plugin-image"
 // import EstimateProgressBar from "./estimateProgressBar"
 
 import {
@@ -98,7 +99,23 @@ const Gift = ({ env }) => {
   return (
     <div id="pledge">
       <div className={styles.container}>
-        <h1 className={styles.title}>Pledge for 2025</h1>
+        <div className={styles.imageWrapper}>
+          <StaticImage
+            src="../../content/assets/WalkInLove.jpg"
+            alt="Walk In Love"
+            loading="eager"
+            className={styles.image}
+            placeholder="blurred"
+            width={500}
+          />
+        </div>
+        <div className={styles.descWrapper}>
+          <div className={styles.headingWrapper}>
+            <h1 className={styles.heading}>Pledge for 2025</h1>
+            {/* <h1 className={styles.heading}>Sunday October 20</h1> */}
+          </div>
+        </div>
+
         {/* <p className={styles.text}>
           It’s time for stewardship and pledging once again. This year’s
           campaign will be decidedly low-key. Last year’s program resulted in
@@ -106,25 +123,56 @@ const Gift = ({ env }) => {
           know why, but please read on.
         </p> */}
         <p className={styles.text}>
-          Thank you to those who pledged for 2023 and to those who faithfully
+          Thank you to those who pledged for 2024 and to those who faithfully
           give to Epiphany, pledge or no pledge. It is because of you that
           Epiphany exists and supports a worshipping community doing God’s work
           in the world.
         </p>
         <p className={styles.text}>
+          Generosity is a journey, it’s a practice that we learn and nurture
+          within our hearts. It just isn’t in our nature to give away what we
+          have worked hard to acquire or to donate our precious time without
+          compensation. It takes something as radical as Love to inspire us to
+          share our time, talent, and treasure with others. This is a journey we
+          make together, a Walk in Love.
+        </p>
+        <p className={styles.text}>
+          As we have lived with the Gospel of St. Mark this year we have been
+          brought into a world turned radically upside down. The laws and
+          customs that had been in place for centuries were challenged, power
+          and dominion have been questioned, and a culture hemmed in from all
+          sides by oppression and subjection desperately seeks a way forward.{" "}
+        </p>
+        <p className={styles.text}>
+          As it turns out, it is not clever politics or force that cause the
+          change in society, but the simplest concept of Love. Jesus causes a
+          revolution of thought and heart by daring to reach out to the outcast
+          and teach others to do the same. He walks in love with the
+          marginalized, with the poor, with the sick, and brings us along with
+          him on his journey.
+        </p>
+        <p className={styles.text}>
+          The most miraculous gift of Love is that it was there within us all
+          along, all we had to do was find it, tap into it, and begin growing
+          it. And look what has happened at Epiphany since you have been here!
+          We have learned to share, to give, to volunteer, to accompany others,
+          to feed, to pray, to visit, to strive for change.
+        </p>
+        <p className={styles.text}>This is our Walk in Love.</p>
+        {/* <p className={styles.text}>
           We are asking that you consider, or reconsider, your financial giving
           to Epiphany. This should be a prayerful decision between you and God.
           Please don’t consider this a chore; it is an opportunity to reflect on
           your God-given abundance and God’s intent for your use of this
           abundance.
-        </p>
-        <p className={styles.text}>
+        </p> */}
+        {/* <p className={styles.text}>
           All we ask is that you let us know what that answer is, even if it’s a
           commitment to pray each day for our ministries. It is important for
           the vestry to plan how to do God’s work at Epiphany and outside our
           doors in 2024. Without some indication of what to expect, it is very
           difficult for Epiphany to plan on living in the abundance received.
-        </p>
+        </p> */}
         {/* <p className={styles.text}>
           We know you want to know the numbers for this year. We had pledges of
           $66,000. We expect to receive about $120,000 in giving this year. Our
@@ -146,6 +194,7 @@ const Gift = ({ env }) => {
           true.
         </p> */}
         <p className={styles.text}>Please Pray. Please Pledge. Please Give.</p>
+        <p className={styles.text}>Please support our Walk in Love</p>
         <p className={styles.text}>Thank you.</p>
         <p className={styles.text}>In Christ,</p>
         <p className={styles.text}>Your Vestry</p>
@@ -165,7 +214,7 @@ const Gift = ({ env }) => {
           </div>
         ) : (
           <form className={styles.form} onSubmit={handleSubmit} id="pledgeform">
-            <h2>Your Pledge for 2024</h2>
+            <h2>Your Pledge for 2025</h2>
             <label>
               <input
                 className={styles.textInput}
@@ -242,12 +291,13 @@ const Gift = ({ env }) => {
               </li>
               <li>
                 Mail a pledge to the church. You just need to provide your name
-                and the pledge amount. No form is needed, but you can{" "}
+                and the pledge amount. No form is needed.
+                {/* , but you can{" "}
                 <a href={PledgeForm} target="blank">
                   {" "}
                   download a form here
                 </a>{" "}
-                if you prefer.
+                if you prefer. */}
               </li>
               <li>
                 Put a pledge in the collection plate. You just need to provide
