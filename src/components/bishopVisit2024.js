@@ -29,11 +29,8 @@ const BishopVisit2024 = () => {
             <a href="https://www.episdionc.org/bishops/">
               The Rt. Rev. Jennifer Brooke-Davidson
             </a>{" "}
-            , Assistant Bishop of NC, on October 20 at Church of the Epiphany.
-          </p>
-          <p className={styles.text}>
-            Please plan on being at Epiphany by 9 am for a teaching opportunity
-            with Bishop Jennifer.
+            , Assistant Bishop of the Diocese of NC, on October 20 at Church of
+            the Epiphany.
           </p>
           <p className={styles.text}>
             The service will be at the normal time of 10 am.
