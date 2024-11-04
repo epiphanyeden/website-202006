@@ -17,6 +17,20 @@ const Events = () => {
       </section>
       <section className={styles.container}>
         <div className={styles.event}>
+          <p className={styles.eventDate}>Nov 5</p>
+          <p className={styles.eventDay}>
+            Tue&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; Noon
+          </p>
+          <p className={styles.eventDesc}>Prayer Service @ LUMC</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Nov 6</p>
+          <p className={styles.eventDay}>
+            Wed &nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 7 pm
+          </p>
+          <p className={styles.eventDesc}>Reconciliation Service</p>
+        </div>
+        <div className={styles.event}>
           <p className={styles.eventDate}>Nov 2</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
