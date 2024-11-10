@@ -33,11 +33,14 @@
     padding: 0;
     width: 80%;
     height: auto;
+    display: flex ;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .image {
     margin: 1rem 1rem;
-    justify-content: center;
 }
 
 .title {
@@ -58,33 +61,13 @@
   .smallText {
     margin: 0;
     margin-bottom: 1rem;
-    /* margin-left: 5vw;
-    margin-right: 5vw; */
     font-weight: 400;
     font-size: 1.2rem;
-    /* line-height: 2rem; */
   }
-
-  .portraitImage {
-    display: none;
-   }
-
-   .landscapeImage {
-    display: flex;
-   }
-
 
   @media only screen and (max-width: 768px) {
 
    .imageContainer {
     width: 95%;
   }
-
-   .portraitImage {
-    display: flex;
-   }
-
-   .landscapeImage {
-    display: none;
-   }
 }

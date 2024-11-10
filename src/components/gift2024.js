@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import * as styles from "./gift2024.module.css"
-import PledgeForm from "../../content/assets/PledgeFormOnline.pdf"
+// import PledgeForm from "../../content/assets/PledgeFormOnline.pdf"
 import { StaticImage } from "gatsby-plugin-image"
 // import EstimateProgressBar from "./estimateProgressBar"
 
