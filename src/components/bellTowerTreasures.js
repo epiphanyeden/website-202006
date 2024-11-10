@@ -7,7 +7,7 @@ const BellTowerTreasures = () => {
       <div className={styles.textContainer}>
         <h1 className={styles.title}>Bell Tower Treasures</h1>
         <p className={styles.text}>Next Sale:</p>
-        <p className={styles.text}>Saturday November 9</p>
+        <p className={styles.text}>Saturday December 14</p>
         <p className={styles.text}>9 am to 1 pm</p>
       </div>
       <div className={styles.textContainer}>
@@ -22,21 +22,12 @@ const BellTowerTreasures = () => {
         </p>
       </div>
       <div className={styles.imageContainer}>
-        <div className={styles.portraitImage}>
+        <div>
           <StaticImage
             src="../../content/assets/BTT_20240614_1.jpg"
             alt="Bell Tower Treasures"
             loading="eager"
-            object-fit="cover"
-            className={styles.image}
-          />
-        </div>
-        <div className={styles.landscapeImage}>
-          <StaticImage
-            src="../../content/assets/BTT_20240614_2.jpg"
-            alt="Bell Tower Treasures"
-            loading="eager"
-            object-fit="cover"
+            width="600"
             className={styles.image}
           />
         </div>
