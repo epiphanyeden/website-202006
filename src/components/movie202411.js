@@ -64,6 +64,12 @@ const Movie202411 = () => {
           What’s the verdict on “A Case for Love“? Is unselfish love the
           antidote to what ails us? Decide for yourself!
         </p>
+        <p className={styles.smallText}>
+          Find out more at{" "}
+          <a href="https://acaseforlovemovie.com/">
+            https://acaseforlovemovie.com/
+          </a>
+        </p>{" "}
       </div>
     </div>
   )
