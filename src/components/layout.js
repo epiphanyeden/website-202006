@@ -13,7 +13,6 @@ import BellTowerTreasures from "./bellTowerTreasures"
 import Gift2024 from "./gift2024"
 import LitanyHolyLand from "./litanyHolyLand"
 import Events from "./events"
-import Movie202411 from "./movie202411"
 
 const Layout = ({ location, title, children }) => {
   return (
@@ -21,7 +20,6 @@ const Layout = ({ location, title, children }) => {
       <Header />
       <LandingPage />
       <Events />
-      <Movie202411 />
       <BellTowerTreasures />
       <LaundryLove />
       <LitanyHolyLand />
