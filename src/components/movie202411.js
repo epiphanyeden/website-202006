@@ -1,6 +1,5 @@
 import React from "react"
 import * as styles from "./movie202411.module.css"
-import { StaticImage } from "gatsby-plugin-image"
 const Movie202411 = () => {
   return (
     <div className={styles.outerContainer} id="movie">
