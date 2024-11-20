@@ -110,9 +110,8 @@ const Gift = ({ env }) => {
           />
         </div>
         <div className={styles.descWrapper}>
-          <div className={styles.headingWrapper}>
-            <h1 className={styles.heading}>Pledge for 2025</h1>
-            {/* <h1 className={styles.heading}>Sunday October 20</h1> */}
+          <div>
+            <h1>Pledge for 2025</h1>
           </div>
         </div>
 
