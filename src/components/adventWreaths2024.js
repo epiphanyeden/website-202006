@@ -2,7 +2,7 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import * as styles from "./adventWreaths2024.module.css"
 
-const LaundryLove = () => {
+const adventWreaths2024 = () => {
   return (
     <div id="advent" className={styles.main}>
       <section className={styles.imageContainer}>
@@ -34,4 +34,4 @@ const LaundryLove = () => {
     </div>
   )
 }
-export default LaundryLove
+export default adventWreaths2024
