@@ -63,7 +63,7 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction=""
+              formAction="https://drive.google.com/file/d/1Jm2SVqxR_FioYrFuFDiDeHdc-5zab0ql/view?usp=sharing"
             >
               Music Dec 1
             </button>
@@ -71,7 +71,7 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1Jm2SVqxR_FioYrFuFDiDeHdc-5zab0ql/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/11ZpgfjV-5f34uCPfUdS7Rrt-6jXUH1K-/view?usp=sharing"
             >
               Prayer List
             </button>
