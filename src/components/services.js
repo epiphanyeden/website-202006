@@ -65,7 +65,7 @@ const Services = () => {
               className={`${styles.button} ${styles.button_wide}`}
               formAction=""
             >
-              Music Nov 24
+              Music Dec 1
             </button>
           </form>
           <form className={styles.form}>
