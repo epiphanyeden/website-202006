@@ -21,6 +21,7 @@ const LongestNight2023 = () => {
       <h2 className={styles.heading2}>
         A quiet and contemplative worship service open to everyone.
       </h2>
+      <h2 className={styles.heading2}>LONGEST NIGHT SERVICE</h2>
       <p className={styles.text}>Dec 21 | Saturday | 6 pm</p>
     </div>
   )
