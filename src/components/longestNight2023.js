@@ -2,7 +2,7 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import * as styles from "./longestNight2023.module.css"
 
-const longestNight2023 = () => {
+const LongestNight2023 = () => {
   return (
     <div className={styles.container} id="longestNight">
       <section className={styles.imageContainer}>
@@ -21,9 +21,9 @@ const longestNight2023 = () => {
       <h2 className={styles.heading2}>
         A quiet and contemplative worship service open to everyone.
       </h2>
-      <p className={styles.text}>Dec 21 | Thursday | 5:30 pm</p>
+      <p className={styles.text}>Dec 21 | Saturday | 6 pm</p>
     </div>
   )
 }
 
-export default longestNight2023
+export default LongestNight2023
