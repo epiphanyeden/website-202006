@@ -13,7 +13,6 @@ import BellTowerTreasures from "./bellTowerTreasures"
 import Gift2024 from "./gift2024"
 import LitanyHolyLand from "./litanyHolyLand"
 import Events from "./events"
-import AdventWreath2024 from "./adventWreaths2024"
 import AdventStudy2024 from "./adventStudy2024"
 import LongestNight2023 from "./longestNight2023"
 
@@ -24,7 +23,6 @@ const Layout = ({ location, title, children }) => {
       <LandingPage />
       <Events />
       <LongestNight2023 />
-      <AdventWreath2024 />
       <AdventStudy2024 />
       <BellTowerTreasures />
       <LaundryLove />

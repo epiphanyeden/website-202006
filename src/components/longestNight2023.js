@@ -7,7 +7,7 @@ const LongestNight2023 = () => {
     <div className={styles.container} id="longestNight">
       <section className={styles.imageContainer}>
         <StaticImage
-          src="../../content/assets/longestNight2023.png"
+          src="../../content/assets/Longest Night 2023.png"
           alt="Longest Night"
           loading="eager"
           // className={styles.image}
