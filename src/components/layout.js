@@ -22,8 +22,6 @@ const Layout = ({ location, title, children }) => {
       <Header />
       <LandingPage />
       <Events />
-      <LongestNight2023 />
-      <AdventStudy2024 />
       <BellTowerTreasures />
       <LaundryLove />
       <LitanyHolyLand />
