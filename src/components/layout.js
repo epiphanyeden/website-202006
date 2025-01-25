@@ -13,7 +13,7 @@ import BellTowerTreasures from "./bellTowerTreasures"
 import Gift2024 from "./gift2024"
 import LitanyHolyLand from "./litanyHolyLand"
 import Events from "./events"
-import ChiliCookoff2025 from "./chiliCookoff2025"
+
 
 const Layout = ({ location, title, children }) => {
   return (
@@ -21,7 +21,6 @@ const Layout = ({ location, title, children }) => {
       <Header />
       <LandingPage />
       <Events />
-      <ChiliCookoff2025 />
       <BellTowerTreasures />
       <LaundryLove />
       <LitanyHolyLand />
