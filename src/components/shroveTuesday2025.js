@@ -2,7 +2,7 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import * as styles from "./shroveTuesday2025.module.css"
 
-const shroveTuesday2025 = () => {
+const ShroveTuesday2025 = () => {
   return (
     <div id="laundrylove" className={styles.main}>
       <section className={styles.imageContainer}>
@@ -17,4 +17,4 @@ const shroveTuesday2025 = () => {
     </div>
   )
 }
-export default shroveTuesday2025
+export default ShroveTuesday2025
