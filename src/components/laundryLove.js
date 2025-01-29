@@ -5,15 +5,9 @@ import * as styles from "./laundryLove.module.css"
 const LaundryLove = () => {
   return (
     <div id="laundrylove" className={styles.main}>
-      <div className={styles.headerContainer}>
-        <h1 className={styles.title}>Laundry Love</h1>
-        <h1 className={styles.title}>Coming Up:</h1>
-        <h1 className={styles.title}>Saturday February 1</h1>
-        <h1 className={styles.title}>9 am to 11 am</h1>
-      </div>
       <section className={styles.imageContainer}>
         <StaticImage
-          src="../../content/assets/LaundryLove1.jpg"
+          src="../../content/assets/laundryLove.jpg"
           alt="Laundry Love Poster"
           loading="eager"
           className={styles.image}
@@ -21,7 +15,12 @@ const LaundryLove = () => {
         />
       </section>
       <section className={styles.container}>
-        <p className={styles.book}>"Giving the Gift of Clean Clothes"</p>
+        <div className={styles.headerContainer}>
+          <h1 className={styles.title}>Next:</h1>
+          <h1 className={styles.title}>Saturday February 1</h1>
+          <h1 className={styles.title}>9 am to 11 am</h1>
+        </div>
+        {/* <p className={styles.book}>"Giving the Gift of Clean Clothes"</p> */}
 
         <p className={styles.text}>
           The first Saturday of each month is Laundry Love day at Epiphany.
