@@ -1,0 +1,30 @@
+.main {
+  margin: 0;
+  padding: 0;
+
+  background-color: rgb(244, 195, 195);
+}
+
+.videoContainer {
+  background-color: rgb(245, 100, 100);
+  /* width: 80%; */
+  /* padding: 1rem; */
+ 
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  /* align-items: center; */
+  /* align-content: center; */
+}
+
+.iframContainer {
+  background-color: rgb(237, 7, 7);
+  /* width: 80%; */
+  margin: 0;
+  /* padding: 0.5rem; */
+  /* display: flex; */
+  /* flex-flow: row nowrap; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* align-content: center; */
+}

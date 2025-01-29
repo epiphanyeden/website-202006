@@ -1,26 +1,24 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import * as styles from "./laundryLove.module.css"
+import * as styles from "./whatIsEpiscopal.module.css"
 
-const LaundryLove = () => {
+const WhatIsEpiscopal = () => {
   return (
-    <div id="laundrylove" className={styles.main}>
-      <div className={styles.headerContainer}>
-        <h1 className={styles.title}>Laundry Love</h1>
-        <h1 className={styles.title}>Coming Up:</h1>
-        <h1 className={styles.title}>Saturday February 1</h1>
-        <h1 className={styles.title}>9 am to 11 am</h1>
-      </div>
-      <section className={styles.imageContainer}>
-        <StaticImage
-          src="../../content/assets/LaundryLove1.jpg"
-          alt="Laundry Love Poster"
-          loading="eager"
-          className={styles.image}
-          width={450}
-        />
+    <div id="lwhatIsEpiscopal" className={styles.main}>
+      <section className={styles.videoContainer}>
+        <iframe
+          className={styles.iframContainer}
+          width="560"
+          height="320"
+          src="https://www.youtube.com/embed/hN_JhLCrfoQ?si=jVPQQO61YAMYjfs0"
+          title="What is the Episcopal Church?"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
       </section>
-      <section className={styles.container}>
+      {/* <section className={styles.container}>
         <p className={styles.book}>"Giving the Gift of Clean Clothes"</p>
 
         <p className={styles.text}>
@@ -41,8 +39,8 @@ const LaundryLove = () => {
           If you have questions, please email outreach@epiphanyeden.org or
           contact the church.
         </p>
-      </section>
+      </section> */}
     </div>
   )
 }
-export default LaundryLove
+export default WhatIsEpiscopal
