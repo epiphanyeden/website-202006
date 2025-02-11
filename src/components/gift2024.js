@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import * as styles from "./gift2024.module.css"
 // import PledgeForm from "../../content/assets/PledgeFormOnline.pdf"
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
 // import EstimateProgressBar from "./estimateProgressBar"
 
 import {
@@ -99,7 +99,7 @@ const Gift = ({ env }) => {
   return (
     <div id="pledge">
       <div className={styles.container}>
-        <div className={styles.imageWrapper}>
+        {/* <div className={styles.imageWrapper}>
           <StaticImage
             src="../../content/assets/WalkInLove.jpg"
             alt="Walk In Love"
@@ -108,7 +108,7 @@ const Gift = ({ env }) => {
             placeholder="blurred"
             width={500}
           />
-        </div>
+        </div> */}
         <div className={styles.descWrapper}>
           <div>
             <h1>Pledge for 2025</h1>
@@ -122,27 +122,31 @@ const Gift = ({ env }) => {
           know why, but please read on.
         </p> */}
         <p className={styles.text}>
-          Thank you to those who pledged for 2024 and to those who faithfully
-          give to Epiphany, pledge or no pledge. It is because of you that
-          Epiphany exists and supports a worshipping community doing God’s work
-          in the world.
+          This year, as always, we are reaching out to you, our cherished
+          members, to ask for your pledge of financial support. We understand
+          how difficult it can be to give when faced with such uncertainties.
+          But it is through our collective effort and generosity that we can
+          continue our work and keep the doors of Epiphany open, serving our
+          community and glorifying God.
         </p>
         <p className={styles.text}>
-          Generosity is a journey, it’s a practice that we learn and nurture
-          within our hearts. It just isn’t in our nature to give away what we
-          have worked hard to acquire or to donate our precious time without
-          compensation. It takes something as radical as Love to inspire us to
-          share our time, talent, and treasure with others. This is a journey we
-          make together, a Walk in Love.
+          Your pledge, no matter the amount, will make a meaningful difference.
+          Every contribution, every act of stewardship, helps us continue the
+          vital work of our church—providing spiritual support, maintaining our
+          beautiful building, and sharing the love of Christ with those in need.
+          We ask that you prayerfully consider how you might be able to help us
+          meet this challenge, so that we can continue our shared ministry and
+          preserve the heart of Epiphany for years to come.Together, we can
+          ensure that our church continues to thrive, even in the face of
+          adversity. We ask for your prayers, your support, and your commitment
+          to the future of our congregation.
         </p>
         <p className={styles.text}>
-          As we have lived with the Gospel of St. Mark this year we have been
-          brought into a world turned radically upside down. The laws and
-          customs that had been in place for centuries were challenged, power
-          and dominion have been questioned, and a culture hemmed in from all
-          sides by oppression and subjection desperately seeks a way forward.{" "}
+          Your faith, your prayers, and your generosity are what will carry us
+          through this challenging time and into the future. Thank you for being
+          part of our church family.
         </p>
-        <p className={styles.text}>
+        {/* <p className={styles.text}>
           As it turns out, it is not clever politics or force that cause the
           change in society, but the simplest concept of Love. Jesus causes a
           revolution of thought and heart by daring to reach out to the outcast
@@ -157,7 +161,7 @@ const Gift = ({ env }) => {
           We have learned to share, to give, to volunteer, to accompany others,
           to feed, to pray, to visit, to strive for change.
         </p>
-        <p className={styles.text}>This is our Walk in Love.</p>
+        <p className={styles.text}>This is our Walk in Love.</p> */}
         {/* <p className={styles.text}>
           We are asking that you consider, or reconsider, your financial giving
           to Epiphany. This should be a prayerful decision between you and God.
@@ -192,11 +196,11 @@ const Gift = ({ env }) => {
           Epiphany and is, rather, an anomaly. We certainly hope the latter is
           true.
         </p> */}
-        <p className={styles.text}>Please Pray. Please Pledge. Please Give.</p>
+        {/* <p className={styles.text}>Please Pray. Please Pledge. Please Give.</p>
         <p className={styles.text}>Please support our Walk in Love</p>
         <p className={styles.text}>Thank you.</p>
         <p className={styles.text}>In Christ,</p>
-        <p className={styles.text}>Your Vestry</p>
+        <p className={styles.text}>Your Vestry</p> */}
 
         {/* display thank you message if form just submitted successfully. */}
         {formSubmitted && formSubmitSuccessful ? (
