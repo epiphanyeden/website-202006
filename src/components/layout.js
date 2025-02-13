@@ -11,7 +11,6 @@ import LaundryLove from "./laundryLove"
 import TextSignUp from "./textSignUp"
 import BellTowerTreasures from "./bellTowerTreasures"
 import Gift2024 from "./gift2024"
-import LitanyHolyLand from "./litanyHolyLand"
 import Events from "./events"
 import WhatIsEpiscopal from "./whatIsEpiscopal"
 import ShroveTuesday2025 from "./shroveTuesday2025"
@@ -28,7 +27,6 @@ const Layout = ({ location, title, children }) => {
       <BellTowerTreasures />
       <ShroveTuesday2025 />
       <NourishingHope />
-      <LitanyHolyLand />
       <Gift2024 />
       <ChurchLinks />
       <Announcements />

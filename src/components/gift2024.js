@@ -97,9 +97,9 @@ const Gift = ({ env }) => {
   }
 
   return (
-    <div id="pledge">
-      <div className={styles.container}>
-        {/* <div className={styles.imageWrapper}>
+    // <div id="pledge">
+    <div id="pledge" className={styles.container}>
+      {/* <div className={styles.imageWrapper}>
           <StaticImage
             src="../../content/assets/WalkInLove.jpg"
             alt="Walk In Love"
@@ -109,44 +109,54 @@ const Gift = ({ env }) => {
             width={500}
           />
         </div> */}
-        <div className={styles.descWrapper}>
-          <div>
-            <h1>Pledge for 2025</h1>
-          </div>
+      <div className={styles.descWrapper}>
+        <div>
+          <h1>Pledge for 2025</h1>
         </div>
+      </div>
 
-        {/* <p className={styles.text}>
+      {/* <p className={styles.text}>
           It’s time for stewardship and pledging once again. This year’s
           campaign will be decidedly low-key. Last year’s program resulted in
           fewer than expected pledges and, ultimately, less giving. We don’t
           know why, but please read on.
         </p> */}
-        <p className={styles.text}>
-          This year, as always, we are reaching out to you, our cherished
-          members, to ask for your pledge of financial support. We understand
-          how difficult it can be to give when faced with such uncertainties.
-          But it is through our collective effort and generosity that we can
-          continue our work and keep the doors of Epiphany open, serving our
-          community and glorifying God.
-        </p>
-        <p className={styles.text}>
-          Your pledge, no matter the amount, will make a meaningful difference.
-          Every contribution, every act of stewardship, helps us continue the
-          vital work of our church—providing spiritual support, maintaining our
-          beautiful building, and sharing the love of Christ with those in need.
-          We ask that you prayerfully consider how you might be able to help us
-          meet this challenge, so that we can continue our shared ministry and
-          preserve the heart of Epiphany for years to come.Together, we can
-          ensure that our church continues to thrive, even in the face of
-          adversity. We ask for your prayers, your support, and your commitment
-          to the future of our congregation.
-        </p>
-        <p className={styles.text}>
-          Your faith, your prayers, and your generosity are what will carry us
-          through this challenging time and into the future. Thank you for being
-          part of our church family.
-        </p>
-        {/* <p className={styles.text}>
+      <p className={styles.text}>
+        This year, as always, we are reaching out to you, our cherished members,
+        to ask for your pledge of financial support. We understand how difficult
+        it can be to give when faced with such uncertainties. But it is through
+        our collective effort and generosity that we can continue our work and
+        keep the doors of Epiphany open, serving our community and glorifying
+        God.
+      </p>
+      <p className={styles.text}>
+        Your pledge, no matter the amount, will make a meaningful difference.
+        Every contribution, every act of stewardship, helps us continue the
+        vital work of our church—providing spiritual support, maintaining our
+        beautiful building, and sharing the love of Christ with those in need.
+        We ask that you prayerfully consider how you might be able to help us
+        meet this challenge, so that we can continue our shared ministry and
+        preserve the heart of Epiphany for years to come.Together, we can ensure
+        that our church continues to thrive, even in the face of adversity. We
+        ask for your prayers, your support, and your commitment to the future of
+        our congregation.
+      </p>
+      <p className={styles.text}>
+        Your faith, your prayers, and your generosity are what will carry us
+        through this challenging time and into the future. Thank you for being
+        part of our church family.
+      </p>
+      <section className={styles.buttonContainer}>
+        <a
+          className={styles.text}
+          href="https://mailchi.mp/97d8a9317153/stewardship-2025"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Read Full Stewardship Letter Here
+        </a>
+      </section>
+      {/* <p className={styles.text}>
           As it turns out, it is not clever politics or force that cause the
           change in society, but the simplest concept of Love. Jesus causes a
           revolution of thought and heart by daring to reach out to the outcast
@@ -162,162 +172,162 @@ const Gift = ({ env }) => {
           to feed, to pray, to visit, to strive for change.
         </p>
         <p className={styles.text}>This is our Walk in Love.</p> */}
-        {/* <p className={styles.text}>
+      {/* <p className={styles.text}>
           We are asking that you consider, or reconsider, your financial giving
           to Epiphany. This should be a prayerful decision between you and God.
           Please don’t consider this a chore; it is an opportunity to reflect on
           your God-given abundance and God’s intent for your use of this
           abundance.
         </p> */}
-        {/* <p className={styles.text}>
+      {/* <p className={styles.text}>
           All we ask is that you let us know what that answer is, even if it’s a
           commitment to pray each day for our ministries. It is important for
           the vestry to plan how to do God’s work at Epiphany and outside our
           doors in 2024. Without some indication of what to expect, it is very
           difficult for Epiphany to plan on living in the abundance received.
         </p> */}
-        {/* <p className={styles.text}>
+      {/* <p className={styles.text}>
           We know you want to know the numbers for this year. We had pledges of
           $66,000. We expect to receive about $120,000 in giving this year. Our
           expenses will be about $177,000, resulting in an expected deficit of
           $57,000.{" "}
         </p> */}
-        {/* <p className={styles.text}>
+      {/* <p className={styles.text}>
           Obviously, deficits of this amount are not sustainable.{" "}
         </p> */}
-        {/* <p className={styles.text}>
+      {/* <p className={styles.text}>
           Our budget for 2022 was $198,000 so spending is much lower than
           expected. Outreach is the big loser when expenses exceed giving. While
           it’s the most important of our ministries, we can’t share what we
           don’t have.
         </p> */}
-        {/* <p className={styles.text}>
+      {/* <p className={styles.text}>
           We hope that this year’s financial situation isn’t the new norm for
           Epiphany and is, rather, an anomaly. We certainly hope the latter is
           true.
         </p> */}
-        {/* <p className={styles.text}>Please Pray. Please Pledge. Please Give.</p>
+      {/* <p className={styles.text}>Please Pray. Please Pledge. Please Give.</p>
         <p className={styles.text}>Please support our Walk in Love</p>
         <p className={styles.text}>Thank you.</p>
         <p className={styles.text}>In Christ,</p>
         <p className={styles.text}>Your Vestry</p> */}
 
-        {/* display thank you message if form just submitted successfully. */}
-        {formSubmitted && formSubmitSuccessful ? (
-          <div>
-            <div className={styles.container}>
-              <br />
-              <br />
-              <h2 className={styles.title}>Thank You!</h2>
-              <br />
-              <h2 className={styles.title}>Your Pledge has been received.</h2>
-              <br />
-              <br />
-            </div>
+      {/* display thank you message if form just submitted successfully. */}
+      {formSubmitted && formSubmitSuccessful ? (
+        <div>
+          <div className={styles.container}>
+            <br />
+            <br />
+            <h2 className={styles.title}>Thank You!</h2>
+            <br />
+            <h2 className={styles.title}>Your Pledge has been received.</h2>
+            <br />
+            <br />
           </div>
-        ) : (
-          <form className={styles.form} onSubmit={handleSubmit} id="pledgeform">
-            <h2>Your Pledge for 2025</h2>
-            <label>
-              <input
-                className={styles.textInput}
-                type="text"
-                name="donorName"
-                id="donorName"
-                placeholder="Your Name(s)"
-                required
-                onChange={e => handleNameChange(e)}
-              />
-            </label>
+        </div>
+      ) : (
+        <form className={styles.form} onSubmit={handleSubmit} id="pledgeform">
+          <h2>Your Pledge for 2025</h2>
+          <label>
+            <input
+              className={styles.textInput}
+              type="text"
+              name="donorName"
+              id="donorName"
+              placeholder="Your Name(s)"
+              required
+              onChange={e => handleNameChange(e)}
+            />
+          </label>
 
-            <label>
-              <input
-                className={styles.textInput}
-                type="email"
-                name="donorEmail"
-                id="donorEmail"
-                placeholder="Email"
-                onChange={e => handleEmailChange(e)}
-              />
-            </label>
+          <label>
+            <input
+              className={styles.textInput}
+              type="email"
+              name="donorEmail"
+              id="donorEmail"
+              placeholder="Email"
+              onChange={e => handleEmailChange(e)}
+            />
+          </label>
 
-            <div className={styles.amountContainer}>
-              <input
-                className={`${styles.textInput} ${styles.amountInput}`}
-                type="number"
-                min="1"
-                step="1"
-                name="donorAmount"
-                id="donorAmount"
-                placeholder="Amount"
-                required
-                onChange={e => handleAmountChange(e)}
-              />
-              <span className={styles.perText}>per</span>
-              <select
-                className={`${styles.textInput} ${styles.periodSelect}`}
-                name="donorPeriod"
-                id="donorPeriod"
-                required
-                onChange={e => handlePeriodChange(e)}
-              >
-                <option value="">Select period</option>
-                <option value="week">Week</option>
-                <option value="month">Month</option>
-                <option value="year">Year</option>
-              </select>
-            </div>
+          <div className={styles.amountContainer}>
+            <input
+              className={`${styles.textInput} ${styles.amountInput}`}
+              type="number"
+              min="1"
+              step="1"
+              name="donorAmount"
+              id="donorAmount"
+              placeholder="Amount"
+              required
+              onChange={e => handleAmountChange(e)}
+            />
+            <span className={styles.perText}>per</span>
+            <select
+              className={`${styles.textInput} ${styles.periodSelect}`}
+              name="donorPeriod"
+              id="donorPeriod"
+              required
+              onChange={e => handlePeriodChange(e)}
+            >
+              <option value="">Select period</option>
+              <option value="week">Week</option>
+              <option value="month">Month</option>
+              <option value="year">Year</option>
+            </select>
+          </div>
 
-            <label>
-              <input
-                className={styles.textInput}
-                type="text"
-                name="donorComment"
-                id="donorComment"
-                placeholder="Comments"
-                onChange={e => handleCommentChange(e)}
-              />
-            </label>
+          <label>
+            <input
+              className={styles.textInput}
+              type="text"
+              name="donorComment"
+              id="donorComment"
+              placeholder="Comments"
+              onChange={e => handleCommentChange(e)}
+            />
+          </label>
 
-            <div>
-              <input
-                type="submit"
-                value="Submit Pledge"
-                className={styles.button}
-              />
-            </div>
+          <div>
+            <input
+              type="submit"
+              value="Submit Pledge"
+              className={styles.button}
+            />
+          </div>
 
-            <p className={styles.formText}>Other Ways to Pledge:</p>
-            <ol className={styles.formText}>
-              <li>
-                Email pledge@epiphanyeden.org with your name and pledge amount.
-              </li>
-              <li>
-                Mail a pledge to the church. You just need to provide your name
-                and the pledge amount. No form is needed.
-                {/* , but you can{" "}
+          <p className={styles.formText}>Other Ways to Pledge:</p>
+          <ol className={styles.formText}>
+            <li>
+              Email pledge@epiphanyeden.org with your name and pledge amount.
+            </li>
+            <li>
+              Mail a pledge to the church. You just need to provide your name
+              and the pledge amount. No form is needed.
+              {/* , but you can{" "}
                 <a href={PledgeForm} target="blank">
                   {" "}
                   download a form here
                 </a>{" "}
                 if you prefer. */}
-              </li>
-              <li>
-                Put a pledge in the collection plate. You just need to provide
-                your name and the pledge amount. A form will be available at the
-                church if needed or preferred.
-              </li>
-            </ol>
-          </form>
-        )}
+            </li>
+            <li>
+              Put a pledge in the collection plate. You just need to provide
+              your name and the pledge amount. A form will be available at the
+              church if needed or preferred.
+            </li>
+          </ol>
+        </form>
+      )}
 
-        <div className={styles.offering}>
-          <a href="https://tithe.ly/give?c=3897734">
-            <button className={` ${styles.button} `}>Make an Offering</button>
-          </a>
-        </div>
+      <div className={styles.offering}>
+        <a href="https://tithe.ly/give?c=3897734">
+          <button className={` ${styles.button} `}>Make an Offering</button>
+        </a>
       </div>
     </div>
+    // </div>
   )
 }
 
