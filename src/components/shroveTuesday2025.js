@@ -4,7 +4,7 @@ import * as styles from "./shroveTuesday2025.module.css"
 
 const ShroveTuesday2025 = () => {
   return (
-    <div id="laundrylove" className={styles.main}>
+    <div id="shroveTuesday" className={styles.main}>
       <section className={styles.imageContainer}>
         <StaticImage
           src="../../content/assets/shroveTuesday2025.jpg"
