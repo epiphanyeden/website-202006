@@ -75,6 +75,13 @@ const Events = () => {
           <p className={styles.eventDesc}>Bell Tower Treasures</p>
         </div>
         <div className={styles.event}>
+          <p className={styles.eventDate}>Mar 9</p>
+          <p className={styles.eventDay}>
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; Set Clocks Ahead
+          </p>
+          <p className={styles.eventDesc}>Daylight Saving Time Starts</p>
+        </div>
+        <div className={styles.event}>
           <p className={styles.eventDate}>Mar 30</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; Noon - 2 pm
