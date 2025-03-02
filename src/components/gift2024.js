@@ -122,7 +122,7 @@ const Gift = ({ env }) => {
       <p className={styles.text}>
         <span className={styles.highlight}>
           Spiritual Growth and Gratitude Faith in Action
-        </span>
+        </span>{" "}
         Stewardship allows people to live out their faith by recognizing
         everything we have is a gift from God. Gratitude: Giving back is an
         expression of thankfulness for God’s blessings in our lives. Trust in
@@ -132,7 +132,7 @@ const Gift = ({ env }) => {
       <p className={styles.text}>
         <span className={styles.highlight}>
           Supporting the Church’s Mission Sustains Ministry
-        </span>
+        </span>{" "}
         Financial pledges support worship services, outreach programs, pastoral
         care, and community events. Maintains Facilities: Contributions help
         with upkeep of the church building and grounds so the community has a
@@ -143,7 +143,7 @@ const Gift = ({ env }) => {
       <p className={styles.text}>
         <span className={styles.highlight}>
           Building Community Shared Responsibility
-        </span>
+        </span>{" "}
         Stewardship invites everyone to contribute, fostering a sense of
         belonging and shared purpose. Encourages Involvement: Beyond financial
         gifts, it motivates members to offer their time and talents,
@@ -152,7 +152,7 @@ const Gift = ({ env }) => {
       <p className={styles.text}>
         <span className={styles.highlight}>
           Securing the Future Sustainability
-        </span>
+        </span>{" "}
         Ongoing pledges help plan for future needs and ensure the church can
         continue its mission for future generations. Vision Casting: Stewardship
         allows the church to invest in new ministries, growth opportunities, and
