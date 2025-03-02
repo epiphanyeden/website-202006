@@ -110,18 +110,61 @@ const Gift = ({ env }) => {
           />
         </div> */}
       <div className={styles.descWrapper}>
-        <div>
-          <h1>Pledge for 2025</h1>
-        </div>
+        <h1>Pledge for 2025</h1>
+        <h2>Why is Stewardship So Important?</h2>
       </div>
 
-      {/* <p className={styles.text}>
-          It’s time for stewardship and pledging once again. This year’s
-          campaign will be decidedly low-key. Last year’s program resulted in
-          fewer than expected pledges and, ultimately, less giving. We don’t
-          know why, but please read on.
-        </p> */}
       <p className={styles.text}>
+        Stewardship is important for several reasons, both practical and
+        spiritual. Here are some key reasons to reflect on when considering a
+        stewardship gift to Church of the Epiphany:
+      </p>
+      <p className={styles.text}>
+        <span className={styles.highlight}>
+          Spiritual Growth and Gratitude Faith in Action
+        </span>
+        Stewardship allows people to live out their faith by recognizing
+        everything we have is a gift from God. Gratitude: Giving back is an
+        expression of thankfulness for God’s blessings in our lives. Trust in
+        God’s Provision: It encourages reliance on God rather than material
+        security.
+      </p>
+      <p className={styles.text}>
+        <span className={styles.highlight}>
+          Supporting the Church’s Mission Sustains Ministry
+        </span>
+        Financial pledges support worship services, outreach programs, pastoral
+        care, and community events. Maintains Facilities: Contributions help
+        with upkeep of the church building and grounds so the community has a
+        welcoming space to gather. Empowers Outreach: Funds enable the church to
+        extend help to those in our community who are in need, by supporting our
+        outreach partners .
+      </p>
+      <p className={styles.text}>
+        <span className={styles.highlight}>
+          Building Community Shared Responsibility
+        </span>
+        Stewardship invites everyone to contribute, fostering a sense of
+        belonging and shared purpose. Encourages Involvement: Beyond financial
+        gifts, it motivates members to offer their time and talents,
+        strengthening the church family.
+      </p>
+      <p className={styles.text}>
+        <span className={styles.highlight}>
+          Securing the Future Sustainability
+        </span>
+        Ongoing pledges help plan for future needs and ensure the church can
+        continue its mission for future generations. Vision Casting: Stewardship
+        allows the church to invest in new ministries, growth opportunities, and
+        outreach efforts.
+      </p>
+      <p className={styles.text}>
+        Thank you to all who have pledged thus far. If you haven’t yet had a
+        chance to make your pledge, we invite you to prayerfully consider doing
+        so. Every pledge, big or small, ensures we can continue the good work
+        God has called us to do. Thank you.
+      </p>
+      {/* <p className={styles.text}>
         This year, as always, we are reaching out to you, our cherished members,
         to ask for your pledge of financial support. We understand how difficult
         it can be to give when faced with such uncertainties. But it is through
@@ -136,7 +179,7 @@ const Gift = ({ env }) => {
         beautiful building, and sharing the love of Christ with those in need.
         We ask that you prayerfully consider how you might be able to help us
         meet this challenge, so that we can continue our shared ministry and
-        preserve the heart of Epiphany for years to come.Together, we can ensure
+        preserve the heart of Epiphany for years to come. Together, we can ensure
         that our church continues to thrive, even in the face of adversity. We
         ask for your prayers, your support, and your commitment to the future of
         our congregation.
@@ -145,7 +188,7 @@ const Gift = ({ env }) => {
         Your faith, your prayers, and your generosity are what will carry us
         through this challenging time and into the future. Thank you for being
         part of our church family.
-      </p>
+      </p> */}
       <section className={styles.buttonContainer}>
         <a
           className={styles.text}
