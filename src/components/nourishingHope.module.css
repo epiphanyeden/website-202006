@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
 .main {
   margin: 0;
   padding: 0;
+  background-color: rgb(242, 165, 161);
 }
 
 .imageContainer {
-  background-color: rgb(242, 165, 161);
+  /* background-color: rgb(242, 165, 161); */
   margin: 0;
   padding: 2rem;
   padding-bottom: 2rem;
@@ -13,4 +16,24 @@
   justify-content: center;
   align-items: center;
   align-content: center;
+}
+
+.textContainer {
+  margin: 0;
+  padding: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.text {
+  color: black;
+  font-family: Raleway, Courier, monospace;
+  font-weight: 300;
+  font-size: larger;
+  margin-bottom: 3px;
+  margin-left: 20px;
 }
