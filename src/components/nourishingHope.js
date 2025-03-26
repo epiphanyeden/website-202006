@@ -31,6 +31,12 @@ const NourishingHope = () => {
         <p className={styles.text}>
           The planned future dates are June 29th, August 31st, November 30th.
         </p>
+        <p className={styles.text}>
+          Want to help? Email{" "}
+          <a href="mailto:outreach@epiphanyeden.org">
+            outreach@epiphanyeden.org
+          </a>
+        </p>
       </section>
     </div>
   )
