@@ -21,11 +21,11 @@ const NourishingHope = () => {
         </p>
         <p className={styles.text}>
           Our first meal is Sunday, March 30th from 12pm-2pm and we will be
-          serving soup and sandwiches!{" "}
+          serving soup and sandwiches!
         </p>
         <p className={styles.text}>
           Volunteers are asked to arrive an hour before to help with
-          preparations.” We plan to do this quarterly on the fifth Sunday of the
+          preparations. We plan to do this quarterly on the fifth Sunday of the
           month.
         </p>
         <p className={styles.text}>
