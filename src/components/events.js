@@ -53,6 +53,13 @@ const Events = () => {
           <p className={styles.eventDesc}>Laundry Love</p>
         </div>
         <div className={styles.event}>
+          <p className={styles.eventDate}>April 6</p>
+          <p className={styles.eventDay}>
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 2 pm
+          </p>
+          <p className={styles.eventDesc}>Easter Egg Hunt @ LUMC</p>
+        </div>
+        <div className={styles.event}>
           <p className={styles.eventDate}>April 12</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
