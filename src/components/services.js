@@ -49,7 +49,7 @@ const Services = () => {
   })
 
   return (
-    <div className={styles.background} id="services">
+    <div className={styles.background}>
       <div className={styles.message}>
         <main>
           <form className={styles.form}>
