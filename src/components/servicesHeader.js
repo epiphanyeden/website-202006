@@ -1,9 +1,9 @@
 import React from "react"
-import * as styles from "./indoorService.module.css"
+import * as styles from "./servicesHeader.module.css"
 
-const IndoorService = () => {
+const ServicesHeader = () => {
   return (
-    <div className={styles.container} id="indoor">
+    <div className={styles.container} id="services">
       <div className={styles.messageTop}>
         <div className={styles.message}>
           <h1>Sunday Service</h1>
@@ -25,7 +25,6 @@ const IndoorService = () => {
                 </a>
               </span>
             </p>
-            <p>Or use the links below.</p>
           </div>
         </div>
       </div>
@@ -33,4 +32,4 @@ const IndoorService = () => {
   )
 }
 
-export default IndoorService
+export default ServicesHeader
