@@ -7,14 +7,20 @@ const BloodDrive2025 = () => {
   return (
     <div className={styles.container} id="blooddrive">
       <div className={styles.imageContainer}>
-        <img
-          className={styles.image}
-          src={blooddrive}
-          // src={blooddriveGIF}
-          alt="Blood Drive"
-          width="2000"
-          height="2000"
-        />
+        <a
+          href="https://www.redcrossblood.org/give.html/drive-results?zipSponsor=EpiphanyEden"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className={styles.image}
+            src={blooddrive}
+            // src={blooddriveGIF}
+            alt="Blood Drive"
+            width="2000"
+            height="2000"
+          />
+        </a>
       </div>
       <div className={styles.buttonContainer}>
         <a
