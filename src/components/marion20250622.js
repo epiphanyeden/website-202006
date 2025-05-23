@@ -5,14 +5,25 @@ import * as styles from "./marion20250622.module.css"
 const Marion20250622 = () => {
   return (
     <div id="transition" className={styles.main}>
-      <section className={styles.container}>
+      <section className={styles.upperContainer}>
         <div className={styles.headerContainer}>
           <h1 className={styles.title}>Pizza & Possibilities</h1>
           <h1 className={styles.title}>Sunday June 22</h1>
           <h1 className={styles.title}>11:30 am</h1>
         </div>
-        {/* <p className={styles.book}>"Giving the Gift of Clean Clothes"</p> */}
-        <p className={styles.text}>Q&A Session with Marion Sprott </p>
+      </section>
+      <section className={styles.imageContainer}>
+        <div>
+          <StaticImage
+            src="../../content/assets/marion-sprott.jpg"
+            alt="Marion Sprott"
+            loading="eager"
+            width="175"
+            className={styles.image}
+          />
+        </div>
+      </section>
+      <section className={styles.container}>
         <p className={styles.text}>
           Join us for a special Question and Answer session with Marion Sprott,
           Transition Ministry Officer for our diocese.
