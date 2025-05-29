@@ -13,7 +13,6 @@ import BellTowerTreasures from "./bellTowerTreasures"
 import Gift2024 from "./gift2024"
 import Events from "./events"
 import WhatIsEpiscopal from "./whatIsEpiscopal"
-import BloodDrive2025 from "./bloodDrive2025"
 import Marion20250622 from "./marion20250622"
 import NourishingHope202506 from "./nourishingHope202506"
 
@@ -25,7 +24,6 @@ const Layout = ({ location, title, children }) => {
       <Events />
       <WhatIsEpiscopal />
       <LaundryLove />
-      <BloodDrive2025 />
       <BellTowerTreasures />
       <Marion20250622 />
       <NourishingHope202506 />
