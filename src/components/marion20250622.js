@@ -41,16 +41,41 @@ const Marion20250622 = () => {
           lieu of coffee hour.
         </p>
         <p className={styles.text}>Pizza lunch will be provided.</p>
-        <p className={styles.text}>
-          {" "}
-          We are still at the beginning of this journey, and your voice matters.{" "}
+        <br />
+        <p className={styles.title}>Have a Question❓ Comment❓ Concern❓ </p>
+
+        <p className={styles.title}>
+          Marion and the Vestry would LOVE to hear from you!
         </p>
+
         <p className={styles.text}>
-          Please come, learn more, and be part of this important conversation
-          about the future of our parish life.
+          If you have a question that you would like Marion to have prior to her
+          visit you can email that to Beth at seniorwarden@ edenepiphany.org.{" "}
         </p>
-        <p className={styles.text}> All are welcome. </p>
-        <p className={styles.text}> We hope to see you there!</p>
+
+        <p className={styles.text}>
+          If you wish your question or comment to remain anonymous, mail it
+          unsigned to Church of the Epiphany 528 Henry St. Eden, NC, stop by the
+          church and submit your question to the question box in the parish hall
+          or fill out an anonymous form online.
+        </p>
+
+        <section className={styles.offering}>
+          <a href="https://forms.gle/C42WPe7eg8CwvpM9A">
+            <button className={` ${styles.button} `}>
+              Online Comment Form
+            </button>
+          </a>
+        </section>
+
+        <p className={styles.title}>
+          We are still at the beginning of this journey
+        </p>
+        <p className={styles.title}>Your voice matters.</p>
+        <p className={styles.title}>
+          Please come, learn more, and be part of this important conversation.
+        </p>
+        <p className={styles.title}> We hope to see you there!</p>
       </section>
     </div>
   )

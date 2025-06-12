@@ -23,10 +23,11 @@ const Layout = ({ location, title, children }) => {
       <LandingPage />
       <Events />
       <WhatIsEpiscopal />
-      <LaundryLove />
-      <BellTowerTreasures />
       <Marion20250622 />
       <NourishingHope202506 />
+      <LaundryLove />
+      <BellTowerTreasures />
+
       <Gift2024 />
       <ChurchLinks />
       <Announcements />
