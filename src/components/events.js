@@ -75,9 +75,9 @@ const Events = () => {
           <p className={styles.eventDesc}>Nourishing Hope</p>
         </div>
         <div className={styles.event}>
-          <p className={styles.eventDate}>July 5</p>
+          <p className={styles.eventDate}>No July Date</p>
           <p className={styles.eventDay}>
-            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
+            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; No Event in July
           </p>
           <p className={styles.eventDesc}>Laundry Love</p>
         </div>
