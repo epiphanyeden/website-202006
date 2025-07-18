@@ -54,26 +54,27 @@ const Events = () => {
           <p className={styles.eventDesc}>Sunday Morning Prayer</p>
           <p className={styles.eventDesc}>Elayne and Jerry Garrett</p>
         </div>
+
         <div className={styles.event}>
-          <p className={styles.eventDate}>August 17</p>
-          <p className={styles.eventDay}>
-            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 2 pm - 4 pm
-          </p>
-          <p className={styles.eventDesc}>Back To School Bash</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Sept 6</p>
+          <p className={styles.eventDate}>Aug 2</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
           </p>
           <p className={styles.eventDesc}>Laundry Love</p>
         </div>
         <div className={styles.event}>
-          <p className={styles.eventDate}>Sept 13</p>
+          <p className={styles.eventDate}>Aug 9</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
           </p>
           <p className={styles.eventDesc}>Bell Tower Treasures</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>August 17</p>
+          <p className={styles.eventDay}>
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 2 pm - 4 pm
+          </p>
+          <p className={styles.eventDesc}>Back To School Bash</p>
         </div>
       </section>
     </div>
