@@ -47,29 +47,29 @@ const Events = () => {
         </div> */}
 
         <div className={styles.event}>
-          <p className={styles.eventDate}>July 13</p>
+          <p className={styles.eventDate}>July 20</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
           </p>
-          <p className={styles.eventDesc}>Sunday Holy Eucharist</p>
-          <p className={styles.eventDesc}>Rev. Lito Santos</p>
+          <p className={styles.eventDesc}>Sunday Morning Prayer</p>
+          <p className={styles.eventDesc}>Elayne and Jerry Garrett</p>
         </div>
         <div className={styles.event}>
-          <p className={styles.eventDate}>June 29</p>
+          <p className={styles.eventDate}>August 17</p>
           <p className={styles.eventDay}>
-            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; Noon - 2 pm
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 2 pm - 4 pm
           </p>
-          <p className={styles.eventDesc}>Nourishing Hope</p>
+          <p className={styles.eventDesc}>Back To School Bash</p>
         </div>
         <div className={styles.event}>
-          <p className={styles.eventDate}>No July Date</p>
+          <p className={styles.eventDate}>Sept 6</p>
           <p className={styles.eventDay}>
-            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; No Event in July
+            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
           </p>
           <p className={styles.eventDesc}>Laundry Love</p>
         </div>
         <div className={styles.event}>
-          <p className={styles.eventDate}>July 12</p>
+          <p className={styles.eventDate}>Sept 13</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
           </p>

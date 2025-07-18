@@ -1,0 +1,46 @@
+.container {
+  background-color: rgb(10, 5, 102);
+  height: auto;
+  margin: 0 0;
+  padding: 3rem 0;
+  border: 0;
+}
+
+.imageContainer {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  max-width: 90%;
+  height: auto;
+  width: 80vw;
+}
+
+@media only screen and (max-width: 9999px) {
+  .image {
+    width: 50vw;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .image {
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .image {
+    width: 80vw;
+    /* padding: 1rem 1rem; */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .image {
+    width: 80vw;
+    /* padding: 1rem 1rem; */
+  }
+} 
