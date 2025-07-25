@@ -47,12 +47,12 @@ const Events = () => {
         </div> */}
 
         <div className={styles.event}>
-          <p className={styles.eventDate}>July 20</p>
+          <p className={styles.eventDate}>July 27</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
           </p>
-          <p className={styles.eventDesc}>Sunday Morning Prayer</p>
-          <p className={styles.eventDesc}>Elayne and Jerry Garrett</p>
+          <p className={styles.eventDesc}>Holy Eucharist</p>
+          <p className={styles.eventDesc}>Rev. Virginia Heistand</p>
         </div>
 
         <div className={styles.event}>
