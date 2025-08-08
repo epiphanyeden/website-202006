@@ -47,13 +47,6 @@ const Events = () => {
         </div> */}
 
         <div className={styles.event}>
-          <p className={styles.eventDate}>Aug 2</p>
-          <p className={styles.eventDay}>
-            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
-          </p>
-          <p className={styles.eventDesc}>Laundry Love</p>
-        </div>
-        <div className={styles.event}>
           <p className={styles.eventDate}>Aug 9</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
@@ -62,12 +55,12 @@ const Events = () => {
         </div>
 
         <div className={styles.event}>
-          <p className={styles.eventDate}>Aug 3</p>
+          <p className={styles.eventDate}>Aug 10</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
           </p>
           <p className={styles.eventDesc}>Holy Eucharist</p>
-          <p className={styles.eventDesc}>Rev. Lito Santos</p>
+          <p className={styles.eventDesc}>Rev. James Franklin</p>
         </div>
         <div className={styles.event}>
           <p className={styles.eventDate}>August 17</p>
@@ -75,6 +68,30 @@ const Events = () => {
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 2 pm - 4 pm
           </p>
           <p className={styles.eventDesc}>Back To School Bash</p>
+        </div>
+
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Sept 6</p>
+          <p className={styles.eventDay}>
+            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
+          </p>
+          <p className={styles.eventDesc}>Laundry Love</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Sept 7</p>
+          <p className={styles.eventDay}>
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9:45 am
+          </p>
+          <p className={styles.eventDesc}>Children's Church</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Oct 8</p>
+          <p className={styles.eventDay}>
+            Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 5:30 pm to 7:30 pm
+          </p>
+          <p className={styles.eventDesc}>
+            Genesis Jamboree: Blessing of the Animals
+          </p>
         </div>
       </section>
     </div>
