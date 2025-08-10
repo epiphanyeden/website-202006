@@ -130,23 +130,20 @@ const Announcements = () => {
       <div className={styles.announcement}>
         <h1>Sunday School - on Tuesdays!!</h1>
         <div className={styles.text}>
-          <p>No Sunday School in August.</p>
-          <p>Join us in September!</p>
-          {/* <p>Sunday School is on Tuesdays at 7 pm. We meet for about 1 hour.</p>
           <p>
-            We watch and discuss one episode of The Chosen. If you are not
-            familiar with The Chosen, check it out{" "}
-            <a href="https://www.angel.com/watch/the-chosen">here.</a>
+            Sunday School is on Tuesdays at 7 pm. We meet for 1 to 1.5 hours.
           </p>
           <p>
-            It is very informal. It is not uncommon for the discussions to
-            wander a bit, which is ok.
+            We are in a transition right now. We have finished watching all
+            released versions of The Chosen and are figuring out what to do
+            next. We may watch some of the episodes again, or we may watch
+            something else. Join us and offer your thoughts
           </p>
-          <p>We hope you will join us.</p>
+
           <p>
             We meet over Zoom. The link is{" "}
             <a href="https://us02web.zoom.us/j/86264215594">here.</a>
-          </p> */}
+          </p>
           <br></br>
           <br></br>
         </div>
