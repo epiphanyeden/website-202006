@@ -7,7 +7,7 @@ const BellTowerTreasures = () => {
       <div className={styles.textContainer}>
         <h1 className={styles.title}>Bell Tower Treasures</h1>
         <p className={styles.text}>Next Sale:</p>
-        <p className={styles.text}>Saturday, August 9</p>
+        <p className={styles.text}>Saturday, Sept 13</p>
         <p className={styles.text}>9 am to 1 pm</p>
       </div>
       <div className={styles.textContainer}>
