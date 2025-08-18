@@ -80,13 +80,6 @@ const Events = () => {
         <div className={styles.event}>
           <p className={styles.eventDate}>Sept 7</p>
           <p className={styles.eventDay}>
-            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 11 am
-          </p>
-          <p className={styles.eventDesc}>Meet with Marion Sprott</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Sept 7</p>
-          <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9:45 am
           </p>
           <p className={styles.eventDesc}>Children's Church</p>
