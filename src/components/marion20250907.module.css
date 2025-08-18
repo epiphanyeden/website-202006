@@ -1,0 +1,144 @@
+.main {
+  margin: 0;
+  padding: 0;
+  /* padding-top: 10px; */
+    background-color: rgb(130, 146, 245);
+}
+
+.upperContainer {
+  margin: 0;
+  padding: 10px;
+  background-color: rgb(148, 181, 242);
+  color: black;
+  display: flex column;
+  justify-content: center;
+  line-height: 1.6rem;
+}
+
+
+.container {
+  margin: 0;
+  padding: 10px;
+ background-color: rgb(107, 155, 244);
+  color: black;
+  display: flex column;
+  justify-content: center;
+  line-height: 1.6rem;
+}
+
+.imageContainer {
+    margin: 0;
+    padding: 0;
+    /* width: 80%; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    margin: 1rem 1rem;
+}
+
+
+.headerContainer {
+  /* background-color: rgb(180, 148, 172); */
+  margin: 0;
+  padding: 0rem;
+  /* padding-bottom: 2rem; */
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+
+.title {
+  margin: 0;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 1rem;
+  font-size: 1.75rem;
+  font-weight: 400;
+  /* line-height: 0.25rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.text {
+  margin: 0;
+  padding: 1rem;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  font-size: 1.0rem;
+  display: flex;
+  justify-content: center;
+}
+a {
+    margin: 0;
+  padding: 1rem;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  font-size: 1.0rem;
+  display: flex;
+  justify-content: center;
+}
+
+.book {
+  font-style: italic;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: white;
+}
+
+.button {
+  background: rgb(37, 3, 233);
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-family: Arial;
+  font-size: 1.75rem;
+  padding: 0.5rem 0.5rem;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  outline: none;
+  margin: 0.5rem 0.5rem;
+}
+
+.button:hover {
+  background-color: rgb(1, 20, 196);
+  font-weight: bolder;
+}
+
+.buttonText {
+  /* display: flex;
+  align-items: center;
+  justify-content: left; */
+  font-size: 1rem;
+  color: black;
+  margin: 0;
+  padding: 0.5rem;
+  margin-left: 12%;
+  margin-right: 12%;
+}
