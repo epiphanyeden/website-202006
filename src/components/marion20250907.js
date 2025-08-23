@@ -1,13 +1,13 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import * as styles from "./marion20250907.module.css"
+import * as styles from "./marion20250907.module.css"ß
 
 const Marion20250907 = () => {
   return (
     <div id="marion" className={styles.main}>
       <section className={styles.upperContainer}>
         <div className={styles.headerContainer}>
-          <h1 className={styles.title}>Brunch with Marian Sprott</h1>
+          <h1 className={styles.title}>Brunch with Marion Sprott</h1>
           <h1 className={styles.title}>Congregational Meeting</h1>
           <h1 className={styles.title}>Sunday September 7</h1>
           <h1 className={styles.title}>11:00 am</h1>
