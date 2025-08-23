@@ -1,6 +1,6 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import * as styles from "./marion20250907.module.css"ß
+import * as styles from "./marion20250907.module.css"
 
 const Marion20250907 = () => {
   return (
