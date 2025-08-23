@@ -47,19 +47,12 @@ const Events = () => {
         </div> */}
 
         <div className={styles.event}>
-          <p className={styles.eventDate}>Aug 17</p>
+          <p className={styles.eventDate}>Aug 24</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
           </p>
           <p className={styles.eventDesc}>Holy Eucharist</p>
-          <p className={styles.eventDesc}>Rev. Barbara Cooke</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>August 17</p>
-          <p className={styles.eventDay}>
-            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 2 pm - 4 pm
-          </p>
-          <p className={styles.eventDesc}>Back To School Bash</p>
+          <p className={styles.eventDesc}>Rev. Bill Bennett</p>
         </div>
 
         <div className={styles.event}>
@@ -82,6 +75,13 @@ const Events = () => {
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 11 am
           </p>
           <p className={styles.eventDesc}>Covered dish with Marion Sprott</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Sept 8</p>
+          <p className={styles.eventDay}>
+            Mon&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 6 pm
+          </p>
+          <p className={styles.eventDesc}>Vestry Meeting</p>
         </div>
         <div className={styles.event}>
           <p className={styles.eventDate}>Sept 13</p>

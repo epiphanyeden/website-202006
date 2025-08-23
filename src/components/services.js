@@ -55,17 +55,17 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1xDSY4cV6HWtD0NJvrVdiGJD6Hde56kjX/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/14IjmmePRCb3fZkNmz0pv3yntjAhp_smQ/view?usp=sharing"
             >
-              Order of Service Aug 17
+              Order of Service Aug 24
             </button>
           </form>
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1zsMY4npSkvqZ4LhZn3nA7ZQoJE9DSvZB/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1waj_oAbX0mJmn8H_aahx4hzIyXdPGrP6/view?usp=sharing"
             >
-              Music Aug 17
+              Music Aug 24
             </button>
           </form>
           <form className={styles.form}>
