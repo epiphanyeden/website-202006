@@ -4,7 +4,13 @@ import * as styles from "./childrenChurch.module.css"
 
 const ChildrenChurch = () => {
   return (
-    <div id="laundrylove" className={styles.main}>
+    <div id="childrenschurch" className={styles.main}>
+      <section className={styles.headerContainer}>
+        <h1 className={styles.title}>Children's Church</h1>
+        <h1 className={styles.title}>First Sunday of the Month</h1>
+        <h1 className={styles.title}>9:45 am</h1>
+      </section>
+
       <section className={styles.imageContainer}>
         <StaticImage
           src="../../content/assets/childrenChurch202509.jpg"
