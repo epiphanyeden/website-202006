@@ -1,10 +1,23 @@
 .main {
   margin: 0;
   padding: 0;
+  background-color: rgb(62, 153, 232);
+}
+
+.headerContainer {
+  /* background-color: rgb(180, 148, 172); */
+  margin: 0;
+  padding: 0rem;
+  /* padding-bottom: 2rem; */
+  height: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .imageContainer {
-  background-color: rgb(62, 153, 232);
   margin: 0;
   padding: 2rem;
   padding-bottom: 2rem;
@@ -18,4 +31,19 @@
 .image {
   /* margin: 1rem 1rem; */
   justify-content: center;
+}
+
+.title {
+  margin: 0;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 1rem;
+  font-size: 1.75rem;
+  font-weight: 400;
+  /* line-height: 0.25rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
 }
