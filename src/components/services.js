@@ -55,23 +55,23 @@ const Services = () => {
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1rVpDH0rletTKA8JCSvGZuEuRVH6L-m9V/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/10AEDUcaByTYDvhxyPmzPYlHcxuhRfzLQ/view?usp=sharing"
             >
-              Order of Service Aug 31
+              Order of Service Sept 7
             </button>
           </form>
-          {/* <form className={styles.form}>
-            <button
-              className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1waj_oAbX0mJmn8H_aahx4hzIyXdPGrP6/view?usp=sharing"
-            >
-              Music Aug 31
-            </button>
-          </form> */}
           <form className={styles.form}>
             <button
               className={`${styles.button} ${styles.button_wide}`}
-              formAction="https://drive.google.com/file/d/1bbOmiVcXF47N_gMMuiSJiZ7viOPnOe8L/view?usp=sharing"
+              formAction="https://drive.google.com/file/d/1GR2t-mUUXIl1u8HkFTZmPV_iMU4sJdLy/view?usp=sharing"
+            >
+              Music Sept 7
+            </button>
+          </form>
+          <form className={styles.form}>
+            <button
+              className={`${styles.button} ${styles.button_wide}`}
+              formAction="https://drive.google.com/file/d/1ZZ2PPy4Ej-0IIY4F70h8RlZt_esG4Sjm/view?usp=sharing"
             >
               Prayer List
             </button>
