@@ -1,0 +1,21 @@
+.main {
+  margin: 0;
+  padding: 0;
+}
+
+.imageContainer {
+  background-color: rgb(62, 153, 232);
+  margin: 0;
+  padding: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.image {
+  /* margin: 1rem 1rem; */
+  justify-content: center;
+}
