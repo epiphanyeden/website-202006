@@ -75,14 +75,6 @@ const Events = () => {
           <p className={styles.eventDesc}>Children's Church</p>
         </div>
         <div className={styles.event}>
-          <p className={styles.eventDate}>Oct 11</p>
-          <p className={styles.eventDay}>
-            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
-          </p>
-          <p className={styles.eventDesc}>Bell Tower Treasures</p>
-        </div>
-
-        <div className={styles.event}>
           <p className={styles.eventDate}>Oct 8</p>
           <p className={styles.eventDay}>
             Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 5:30 pm to 7:30 pm
@@ -91,6 +83,14 @@ const Events = () => {
             Genesis Jamboree: Blessing of the Animals
           </p>
         </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Oct 11</p>
+          <p className={styles.eventDay}>
+            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
+          </p>
+          <p className={styles.eventDesc}>Bell Tower Treasures</p>
+        </div>
+
         <div className={styles.event}>
           <p className={styles.eventDate}>Oct 13</p>
           <p className={styles.eventDay}>
