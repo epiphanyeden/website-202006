@@ -45,20 +45,14 @@ const Events = () => {
           </p>
           <p className={styles.eventDesc}>Nourishing Hope</p>
         </div> */}
+
         <div className={styles.event}>
-          <p className={styles.eventDate}>Sept 13</p>
-          <p className={styles.eventDay}>
-            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
-          </p>
-          <p className={styles.eventDesc}>Bell Tower Treasures</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Sept 14</p>
+          <p className={styles.eventDate}>Sept 21</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
           </p>
-          <p className={styles.eventDesc}>Eucharist</p>
-          <p className={styles.eventDesc}>The Rev. Randall Keeney</p>
+          <p className={styles.eventDesc}>Eucharist with</p>
+          <p className={styles.eventDesc}>The Rev. Kurt Alsiyao</p>
         </div>
         <div className={styles.event}>
           <p className={styles.eventDate}>Oct 4</p>
@@ -75,9 +69,9 @@ const Events = () => {
           <p className={styles.eventDesc}>Children's Church</p>
         </div>
         <div className={styles.event}>
-          <p className={styles.eventDate}>Oct 8</p>
+          <p className={styles.eventDate}>Oct 5</p>
           <p className={styles.eventDay}>
-            Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 5:30 pm to 7:30 pm
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 2:30 pm to 4:30 pm
           </p>
           <p className={styles.eventDesc}>
             Genesis Jamboree: Blessing of the Animals
