@@ -14,6 +14,7 @@ import Gift2024 from "./gift2024"
 import Events from "./events"
 import WhatIsEpiscopal from "./whatIsEpiscopal"
 import ChildrenChurch from "./childrenChurch"
+import BOA2025 from "./boa2025"
 
 const Layout = ({ location, title, children }) => {
   return (
@@ -23,6 +24,7 @@ const Layout = ({ location, title, children }) => {
       <Events />
       <WhatIsEpiscopal />
       <BellTowerTreasures />
+      <BOA2025 />
       <LaundryLove />
       <ChildrenChurch />
       <Gift2024 />
