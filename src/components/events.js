@@ -71,7 +71,7 @@ const Events = () => {
         <div className={styles.event}>
           <p className={styles.eventDate}>Oct 5</p>
           <p className={styles.eventDay}>
-            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 2:30 pm to 4:30 pm
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 2:30 pm to 5:00 pm
           </p>
           <p className={styles.eventDesc}>
             Genesis Jamboree: Blessing of the Animals
