@@ -46,7 +46,6 @@ const Events = () => {
           <p className={styles.eventDesc}>Nourishing Hope</p>
         </div> */}
 
-     
         {/* <div className={styles.event}>
           <p className={styles.eventDate}>Oct 5</p>
           <p className={styles.eventDay}>
@@ -62,7 +61,7 @@ const Events = () => {
           <p className={styles.eventDesc}>Eucharist with</p>
           <p className={styles.eventDesc}>The Rev. Barbara Cooke</p>
         </div>
-            <div className={styles.event}>
+        <div className={styles.event}>
           <p className={styles.eventDate}>Oct 24</p>
           <p className={styles.eventDay}>
             Fri&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 4:30 - 6:30 PM
@@ -86,8 +85,7 @@ const Events = () => {
           <p className={styles.eventDesc}>Make Remembrance Flags</p>
         </div>
 
-
-         <div className={styles.event}>
+        <div className={styles.event}>
           <p className={styles.eventDate}>Nov 1</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
@@ -109,8 +107,7 @@ const Events = () => {
           <p className={styles.eventDesc}>All Saints' Day Service</p>
         </div>
 
-
-         <div className={styles.event}>
+        <div className={styles.event}>
           <p className={styles.eventDate}>Nov 8</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
