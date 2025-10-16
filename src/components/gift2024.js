@@ -271,7 +271,7 @@ const Gift = ({ env }) => {
       ) : (
         <form className={styles.form} onSubmit={handleSubmit} id="pledgeform">
           <h2>Your Pledge for 2025</h2>
-          <label>
+          <label>Name{" "}
             <input
               className={styles.textInput}
               type="text"
@@ -283,7 +283,7 @@ const Gift = ({ env }) => {
             />
           </label>
 
-          <label>
+          <label>Email{" "}
             <input
               className={styles.textInput}
               type="email"
@@ -295,6 +295,7 @@ const Gift = ({ env }) => {
           </label>
 
           <div className={styles.amountContainer}>
+            <label>Amount{" "}
             <input
               className={`${styles.textInput} ${styles.amountInput}`}
               type="number"
@@ -306,6 +307,7 @@ const Gift = ({ env }) => {
               required
               onChange={e => handleAmountChange(e)}
             />
+            </label>
             <span className={styles.perText}>per</span>
             <select
               className={`${styles.textInput} ${styles.periodSelect}`}
@@ -321,7 +323,7 @@ const Gift = ({ env }) => {
             </select>
           </div>
 
-          <label>
+          <label>Comment{" "}
             <input
               className={styles.textInput}
               type="text"
