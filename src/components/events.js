@@ -54,12 +54,12 @@ const Events = () => {
           <p className={styles.eventDesc}>Children's Church</p>
         </div> */}
         <div className={styles.event}>
-          <p className={styles.eventDate}>Oct 12</p>
+          <p className={styles.eventDate}>Oct 19</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
           </p>
           <p className={styles.eventDesc}>Eucharist with</p>
-          <p className={styles.eventDesc}>The Rev. Barbara Cooke</p>
+          <p className={styles.eventDesc}>The Rev. Virginia Heistand</p>
         </div>
         <div className={styles.event}>
           <p className={styles.eventDate}>Oct 24</p>
@@ -69,18 +69,11 @@ const Events = () => {
           <p className={styles.eventDesc}>Trunk or Treat</p>
           <p className={styles.eventDesc}>at LUMC</p>
         </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Oct 13</p>
-          <p className={styles.eventDay}>
-            Mon&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 6 pm
-          </p>
-          <p className={styles.eventDesc}>Vestry Meeting</p>
-        </div>
 
         <div className={styles.event}>
           <p className={styles.eventDate}>Oct 26</p>
           <p className={styles.eventDay}>
-            Mon&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 11 am
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 11 am
           </p>
           <p className={styles.eventDesc}>Make Remembrance Flags</p>
         </div>
@@ -105,6 +98,13 @@ const Events = () => {
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
           </p>
           <p className={styles.eventDesc}>All Saints' Day Service</p>
+        </div>
+         <div className={styles.event}>
+          <p className={styles.eventDate}>Nov 2</p>
+          <p className={styles.eventDay}>
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 11 am
+          </p>
+          <p className={styles.eventDesc}>Covered Dish Brunch</p>
         </div>
 
         <div className={styles.event}>
