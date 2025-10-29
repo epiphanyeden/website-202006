@@ -15,11 +15,13 @@ import Events from "./events"
 import WhatIsEpiscopal from "./whatIsEpiscopal"
 import ChildrenChurch from "./childrenChurch"
 import TrunkTreat2025 from "./trunkTreat2025"
+import Pledge2026 from "./pledge2026"
 
 const Layout = ({ location, title, children }) => {
   return (
     <div>
       <Header />
+      <Pledge2026/>
       <LandingPage />
       <Events />
       <WhatIsEpiscopal />
