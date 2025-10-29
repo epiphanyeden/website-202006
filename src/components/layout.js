@@ -21,7 +21,7 @@ const Layout = ({ location, title, children }) => {
   return (
     <div>
       <Header />
-      <Pledge2026/>
+      {/* <Pledge2026/> */}
       <LandingPage />
       <Events />
       <WhatIsEpiscopal />
