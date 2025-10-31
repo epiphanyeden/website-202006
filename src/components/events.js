@@ -53,30 +53,6 @@ const Events = () => {
           </p>
           <p className={styles.eventDesc}>Children's Church</p>
         </div> */}
-     
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Oct 24</p>
-          <p className={styles.eventDay}>
-            Fri&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 4:30 - 6:30 PM
-          </p>
-          <p className={styles.eventDesc}>Trunk or Treat</p>
-          <p className={styles.eventDesc}>at LUMC</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Oct 26</p>
-          <p className={styles.eventDay}>
-            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
-          </p>
-          <p className={styles.eventDesc}>Eucharist with</p>
-          <p className={styles.eventDesc}>The Rev. Kurt Alsiyao</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Oct 26</p>
-          <p className={styles.eventDay}>
-            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 11 am
-          </p>
-          <p className={styles.eventDesc}>Make Remembrance Flags</p>
-        </div>
 
         <div className={styles.event}>
           <p className={styles.eventDate}>Nov 1</p>
@@ -84,6 +60,14 @@ const Events = () => {
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
           </p>
           <p className={styles.eventDesc}>Laundry Love</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Nov 2</p>
+          <p className={styles.eventDay}>
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
+          </p>
+          <p className={styles.eventDesc}>Eucharist with</p>
+          <p className={styles.eventDesc}>The Rev. Virginia Heistand</p>
         </div>
         <div className={styles.event}>
           <p className={styles.eventDate}>Nov 2</p>
@@ -99,7 +83,7 @@ const Events = () => {
           </p>
           <p className={styles.eventDesc}>All Saints' Day Service</p>
         </div>
-         <div className={styles.event}>
+        <div className={styles.event}>
           <p className={styles.eventDate}>Nov 2</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 11 am
