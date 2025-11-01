@@ -151,7 +151,7 @@ exports.handler = async event => {
       host,
       port,
       secure,
-      auth: { user, pass },
+      auth: { user: user, pass: pass },
       // enable nodemailer internal logs for this debug run:
       logger: true,
       debug: true,
