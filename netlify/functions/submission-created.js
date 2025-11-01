@@ -154,6 +154,8 @@ exports.handler = async event => {
       port,
       secure,
       auth: { user: user, pass: pass },
+      authMethod: "LOGIN", // <-- force LOGIN instead of PLAIN
+      requireTLS: true,
       // enable nodemailer internal logs for this debug run:
       logger: true,
       debug: true,
