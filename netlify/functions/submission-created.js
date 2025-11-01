@@ -1,6 +1,6 @@
 // netlify/functions/submission-created.js
 const nodemailer = require("nodemailer")
-
+console.log("in function")
 function escapeHtml(str = "") {
   return String(str)
     .replaceAll("&", "&amp;")
@@ -26,7 +26,7 @@ function annualize(amount, period) {
 
 exports.handler = async event => {
   const ok = msg => ({ statusCode: 200, body: msg })
-
+  console.log("handler called")
   try {
     const { payload } = JSON.parse(event.body || "{}")
     if (payload?.form_name !== "pledge") return ok("Ignoring non-pledge form")
@@ -57,7 +57,7 @@ exports.handler = async event => {
     ]
       .filter(Boolean)
       .join("\n")
-
+    console.log("adminLines:", adminLines)
     // --- USER (plain text + HTML; no annualized figure) ---
     const userTextLines = [
       d.name ? `Hi ${d.name},` : "Hi,",
