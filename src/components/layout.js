@@ -10,11 +10,10 @@ import ServicesHeader from "./servicesHeader"
 import LaundryLove from "./laundryLove"
 import TextSignUp from "./textSignUp"
 import BellTowerTreasures from "./bellTowerTreasures"
-import Gift2024 from "./gift2024"
+// import Gift2024 from "./gift2024"
 import Events from "./events"
 import WhatIsEpiscopal from "./whatIsEpiscopal"
 import ChildrenChurch from "./childrenChurch"
-import TrunkTreat2025 from "./trunkTreat2025"
 import Pledge2026 from "./pledge2026"
 
 const Layout = ({ location, title, children }) => {
@@ -26,10 +25,10 @@ const Layout = ({ location, title, children }) => {
       <Events />
       <WhatIsEpiscopal />
       <ChildrenChurch />
-      <TrunkTreat2025 />
       <LaundryLove />
       <BellTowerTreasures />
-      <Gift2024 />
+      <Pledge2026 />
+      {/* <Gift2024 /> */}
       <ChurchLinks />
       <Announcements />
       <ServicesHeader />
@@ -37,7 +36,6 @@ const Layout = ({ location, title, children }) => {
       <Donations />
       <TextSignUp />
       <Footer />
-      <Pledge2026 />
     </div>
   )
 }

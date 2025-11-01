@@ -6,43 +6,51 @@ function encode(data) {
 }
 
 export default function PledgeForm() {
-  const [status, setStatus] = React.useState("idle") // idle | sending | success | error
-  const [error, setError] = React.useState("")
+  const [status, setStatus] = React.useState("idle")
+  const [values, setValues] = React.useState(null) // will hold submitted fields
+  const [error, setError] = React.useState(null)
 
-  const onSubmit = async e => {
+  async function handleSubmit(e) {
     e.preventDefault()
-    if (status === "sending") return
-    setStatus("sending")
-    setError("")
+    setError(null)
 
     const form = e.currentTarget
-    const fd = new FormData(form)
-    fd.append("form-name", "tithe-pledge") // REQUIRED for Netlify
+    const data = Object.fromEntries(new FormData(form).entries())
+
+    // 1) Save values for thank-you view
+    setValues(data)
 
     try {
+      // 2) Post to Netlify so submission is stored
       await fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode(Object.fromEntries(fd)),
+        body: encode({ "form-name": form.getAttribute("name"), ...data }),
       })
-      form.reset()
+
+      // 3) Only now flip to success view
       setStatus("success")
     } catch (err) {
+      setError("Sorry—something went wrong.")
       console.error(err)
-      setError("Sorry—something went wrong. Please try again.")
-      setStatus("error")
     }
   }
 
-  if (status === "success") {
+  if (status === "success" && values) {
+    const name = values.name?.trim()
+    const amount = values.amount ? Number(values.amount).toFixed(2) : null
+    const period = values.period
     return (
-      <div role="status" aria-live="polite">
-        <h2>Thank you!</h2>
-        <p>Your pledge was received. We appreciate your support.</p>
+      <div role="status" aria-live="polite" className={styles.text}>
+        <h2>Thank you{name ? `, ${name}` : ""}!</h2>
+        <p>
+          We received your pledge
+          {amount ? ` of $${amount}` : ""}
+          {period ? ` per ${period}` : ""}. We appreciate your support.
+        </p>
       </div>
     )
   }
-
   return (
     <section id="pledge" className={styles.container}>
       <form
@@ -50,7 +58,7 @@ export default function PledgeForm() {
         method="POST"
         data-netlify="true"
         netlify-honeypot="bot-field"
-        onSubmit={onSubmit}
+        onSubmit={handleSubmit}
         noValidate
         className={styles.form}
       >
@@ -151,12 +159,6 @@ export default function PledgeForm() {
           <li>
             Mail a pledge to the church. You just need to provide your name and
             the pledge amount. No form is needed.
-            {/* , but you can{" "}
-                <a href={PledgeForm} target="blank">
-                  {" "}
-                  download a form here
-                </a>{" "}
-                if you prefer. */}
           </li>
           <li>
             Put a pledge in the collection plate. You just need to provide your
