@@ -137,6 +137,8 @@ exports.handler = async event => {
       port,
       secure,
       from,
+      user,
+      pass,
       adminToSet: !!adminTo,
     })
 
