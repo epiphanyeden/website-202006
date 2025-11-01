@@ -1,6 +1,5 @@
 // netlify/functions/submission-created.js
 const nodemailer = require("nodemailer")
-
 function escapeHtml(str = "") {
   return String(str)
     .replaceAll("&", "&amp;")
@@ -9,36 +8,28 @@ function escapeHtml(str = "") {
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;")
 }
-const fmtMoney = v => (Number.isFinite(Number(v)) ? Number(v).toFixed(2) : v)
-const annualize = (amount, period) => {
+
+function fmtMoney(v) {
+  const n = Number(v)
+  return Number.isFinite(n) ? n.toFixed(2) : v
+}
+
+function annualize(amount, period) {
   const n = Number(amount)
   if (!Number.isFinite(n)) return null
   const map = { week: 52, month: 12, year: 1 }
   const m = map[String(period || "").toLowerCase()]
-  return m ? n * m : null
+  if (!m) return null
+  return n * m
 }
 
 exports.handler = async event => {
   const ok = msg => ({ statusCode: 200, body: msg })
-
   try {
     const { payload } = JSON.parse(event.body || "{}")
-    console.log(
-      "[submission-created] Received payload keys:",
-      Object.keys(payload || {})
-    )
-    console.log("[submission-created] form_name:", payload?.form_name)
-    console.log("[submission-created] created_at:", payload?.created_at)
-
-    if (payload?.data?.["bot-field"]) {
-      console.warn("[submission-created] Honeypot filled; skipping.")
-      return ok("Spam skipped")
-    }
-
-    if (payload?.form_name !== "tithe-pledge") {
-      console.warn("[submission-created] Ignoring form:", payload?.form_name)
-      return ok(`Ignoring form: ${payload?.form_name}`)
-    }
+    if (payload?.form_name !== "tithe-pledge")
+      return ok("Ignoring non tithe-pledge form")
+    if (payload?.data?.["bot-field"]) return ok("Spam skipped")
 
     const d = payload?.data || {}
     const submittedAt = payload?.created_at || new Date().toISOString()
@@ -51,21 +42,23 @@ exports.handler = async event => {
     const amt = d.amount ? Number(d.amount) : null
     const ann = annualize(amt, d.period)
 
-    // Build bodies
-    const adminText = [
+    // --- ADMIN (plain text) ---
+    const adminLines = [
       "New pledge received",
       d.name ? `Name: ${d.name}` : null,
       submitterEmail ? `Email: ${submitterEmail}` : null,
       d.amount ? `Amount: $${fmtMoney(d.amount)}` : null,
       d.period ? `Period: ${d.period}` : null,
+      // Annualized shown ONLY to admin:
       ann != null ? `Annualized: $${fmtMoney(ann)} per year` : null,
       d.comment ? `Comment: ${d.comment}` : null,
       `Submitted at: ${submittedAt}`,
     ]
       .filter(Boolean)
       .join("\n")
-
-    const userText = [
+    console.log("adminLines:", adminLines)
+    // --- USER (plain text + HTML; no annualized figure) ---
+    const userTextLines = [
       d.name ? `Hi ${d.name},` : "Hi,",
       "",
       "Thank you! We received your pledge. Here are the details we recorded:",
@@ -77,9 +70,9 @@ exports.handler = async event => {
       "If anything looks off, reply to this email and we’ll fix it.",
       "",
       "— Church of the Epiphany",
-    ]
-      .filter(Boolean)
-      .join("\n")
+    ].filter(Boolean)
+
+    const userText = userTextLines.join("\n")
 
     const userHtml = `
       <div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.4">
@@ -123,98 +116,46 @@ exports.handler = async event => {
       </div>
     `
 
-    // SMTP config
-    const host = process.env.SMTP_HOST || "smtp.titan.email"
-    const port = Number(process.env.SMTP_PORT || 587)
-    const secure = (process.env.SMTP_SECURE || "false") === "true" // true => 465
-    const user = process.env.SMTP_USER
-    const pass = process.env.SMTP_PASS
-    const from = process.env.MAIL_FROM || user
-    const adminTo = process.env.MAIL_TO
-
-    console.log("[submission-created] SMTP settings:", {
-      host,
-      port,
-      secure,
-      from,
-      adminToSet: !!adminTo,
-    })
-
-    if (!user || !pass) {
-      console.error(
-        "[submission-created] Missing SMTP_USER or SMTP_PASS env vars."
-      )
-      return ok("Recorded; missing SMTP credentials")
-    }
-
+    // SMTP transporter (Titan)
+    const nodemailer = require("nodemailer")
     const transporter = nodemailer.createTransport({
-      host,
-      port,
-      secure,
-      auth: { user, pass },
-      // enable nodemailer internal logs for this debug run:
-      logger: true,
-      debug: true,
+      host: process.env.SMTP_HOST || "smtp.titan.email",
+      port: Number(process.env.SMTP_PORT || 587),
+      secure: (process.env.SMTP_SECURE || "false") === "true", // true for 465
+      auth: {
+        user: process.env.SMTP_USER, // e.g. pledge@epiphanyeden.org
+        pass: process.env.SMTP_PASS,
+      },
     })
 
-    // Verify SMTP (will log details if something’s off)
-    try {
-      await transporter.verify()
-      console.log("[submission-created] SMTP verify: OK")
-    } catch (e) {
-      console.error("[submission-created] SMTP verify FAILED:", e)
-      return ok("Recorded; SMTP verify failed")
+    // Send admin notification (includes annualized figure)
+    if (process.env.MAIL_TO) {
+      await transporter.sendMail({
+        from: process.env.MAIL_FROM || process.env.SMTP_USER,
+        to: process.env.MAIL_TO, // e.g. pledge@epiphanyeden.org
+        subject:
+          process.env.MAIL_SUBJECT_ADMIN || "New pledge submission received",
+        text: adminLines,
+        replyTo: submitterEmail || undefined,
+      })
     }
 
-    // Send admin email
-    if (adminTo) {
-      try {
-        const infoAdmin = await transporter.sendMail({
-          from,
-          to: adminTo, // e.g., pledge@epiphanyeden.org
-          subject:
-            process.env.MAIL_SUBJECT_ADMIN || "New pledge submission received",
-          text: adminText,
-          replyTo: submitterEmail || undefined,
-        })
-        console.log(
-          "[submission-created] Admin mail sent:",
-          infoAdmin.messageId
-        )
-      } catch (e) {
-        console.error("[submission-created] Admin mail FAILED:", e)
-      }
-    } else {
-      console.warn(
-        "[submission-created] MAIL_TO not set; skipping admin email."
-      )
-    }
-
-    // Send confirmation to submitter
+    // Send confirmation to the submitter (no annualized figure)
     if (submitterEmail) {
-      try {
-        const infoUser = await transporter.sendMail({
-          from,
-          to: submitterEmail,
-          subject:
-            process.env.MAIL_SUBJECT_USER ||
-            "Thank you — we received your pledge",
-          text: userText,
-          html: userHtml,
-        })
-        console.log("[submission-created] User mail sent:", infoUser.messageId)
-      } catch (e) {
-        console.error("[submission-created] User mail FAILED:", e)
-      }
-    } else {
-      console.warn(
-        "[submission-created] No valid submitter email; skipping user email."
-      )
+      await transporter.sendMail({
+        from: process.env.MAIL_FROM || process.env.SMTP_USER,
+        to: submitterEmail,
+        subject:
+          process.env.MAIL_SUBJECT_USER ||
+          "Thank you — we received your pledge",
+        text: userText,
+        html: userHtml,
+      })
     }
 
-    return ok("Recorded; attempted emails (see logs).")
+    return ok("Recorded; emails sent (where applicable).")
   } catch (e) {
-    console.error("[submission-created] Top-level error:", e)
+    console.error("submission-created error:", e)
     return ok("Recorded; email send failed (see logs).")
   }
 }
