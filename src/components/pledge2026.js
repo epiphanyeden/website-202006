@@ -21,14 +21,14 @@ export default function PledgeForm() {
     setValues(data)
 
     try {
-      // 2) Post to Netlify so submission is stored
+      //Post to Netlify so submission is stored
       await fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({ "form-name": form.getAttribute("name"), ...data }),
       })
 
-      // 3) Only now flip to success view
+      // Only now flip to success view
       setStatus("success")
     } catch (err) {
       setError("Sorry—something went wrong.")

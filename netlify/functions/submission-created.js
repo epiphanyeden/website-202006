@@ -23,20 +23,20 @@ exports.handler = async event => {
 
   try {
     const { payload } = JSON.parse(event.body || "{}")
-    console.log(
-      "[submission-created] Received payload keys:",
-      Object.keys(payload || {})
-    )
-    console.log("[submission-created] form_name:", payload?.form_name)
-    console.log("[submission-created] created_at:", payload?.created_at)
+    // console.log(
+    //   "[submission-created] Received payload keys:",
+    //   Object.keys(payload || {})
+    // )
+    // console.log("[submission-created] form_name:", payload?.form_name)
+    // console.log("[submission-created] created_at:", payload?.created_at)
 
     if (payload?.data?.["bot-field"]) {
-      console.warn("[submission-created] Honeypot filled; skipping.")
+      // console.warn("[submission-created] Honeypot filled; skipping.")
       return ok("Spam skipped")
     }
 
     if (payload?.form_name !== "tithe-pledge") {
-      console.warn("[submission-created] Ignoring form:", payload?.form_name)
+      // console.warn("[submission-created] Ignoring form:", payload?.form_name)
       return ok(`Ignoring form: ${payload?.form_name}`)
     }
 
@@ -70,13 +70,13 @@ exports.handler = async event => {
       "",
       "Thank you! We received your pledge. Here are the details we recorded:",
       d.amount ? `• Amount: $${fmtMoney(d.amount)}` : null,
-      d.period ? `• Period: ${d.period}` : null,
+      d.period ? `• Per: ${d.period}` : null,
       submitterEmail ? `• Email: ${submitterEmail}` : null,
       d.comment ? `• Comment: ${d.comment}` : null,
       "",
       "If anything looks off, reply to this email and we’ll fix it.",
       "",
-      "— Church of the Epiphany",
+      "Church of the Epiphany",
     ]
       .filter(Boolean)
       .join("\n")
@@ -95,7 +95,7 @@ exports.handler = async event => {
           }
           ${
             d.period
-              ? `<tr><td style="padding:2px 8px 2px 0"><strong>Period:</strong></td><td>${escapeHtml(
+              ? `<tr><td style="padding:2px 8px 2px 0"><strong>Per:</strong></td><td>${escapeHtml(
                   d.period
                 )}</td></tr>`
               : ""
@@ -132,20 +132,20 @@ exports.handler = async event => {
     const from = process.env.MAIL_FROM || user
     const adminTo = process.env.MAIL_TO
 
-    console.log("[submission-created] SMTP settings:", {
-      host,
-      port,
-      secure,
-      from,
-      user,
-      pass,
-      adminToSet: !!adminTo,
-    })
+    // console.log("[submission-created] SMTP settings:", {
+    //   host,
+    //   port,
+    //   secure,
+    //   from,
+    //   user,
+    //   pass,
+    //   adminToSet: !!adminTo,
+    // })
 
     if (!user || !pass) {
-      console.error(
-        "[submission-created] Missing SMTP_USER or SMTP_PASS env vars."
-      )
+      // console.error(
+      //   "[submission-created] Missing SMTP_USER or SMTP_PASS env vars."
+      // )
       return ok("Recorded; missing SMTP credentials")
     }
 
@@ -164,9 +164,9 @@ exports.handler = async event => {
     // Verify SMTP (will log details if something’s off)
     try {
       await transporter.verify()
-      console.log("[submission-created] SMTP verify: OK")
+      // console.log("[submission-created] SMTP verify: OK")
     } catch (e) {
-      console.error("[submission-created] SMTP verify FAILED:", e)
+      // console.error("[submission-created] SMTP verify FAILED:", e)
       return ok("Recorded; SMTP verify failed")
     }
 
@@ -181,17 +181,17 @@ exports.handler = async event => {
           text: adminText,
           replyTo: submitterEmail || undefined,
         })
-        console.log(
-          "[submission-created] Admin mail sent:",
-          infoAdmin.messageId
-        )
+        // console.log(
+        //   "[submission-created] Admin mail sent:",
+        //   infoAdmin.messageId
+        // )
       } catch (e) {
-        console.error("[submission-created] Admin mail FAILED:", e)
+        // console.error("[submission-created] Admin mail FAILED:", e)
       }
     } else {
-      console.warn(
-        "[submission-created] MAIL_TO not set; skipping admin email."
-      )
+      // console.warn(
+      //   "[submission-created] MAIL_TO not set; skipping admin email."
+      // )
     }
 
     // Send confirmation to submitter
@@ -206,14 +206,14 @@ exports.handler = async event => {
           text: userText,
           html: userHtml,
         })
-        console.log("[submission-created] User mail sent:", infoUser.messageId)
+        // console.log("[submission-created] User mail sent:", infoUser.messageId)
       } catch (e) {
-        console.error("[submission-created] User mail FAILED:", e)
+        // console.error("[submission-created] User mail FAILED:", e)
       }
     } else {
-      console.warn(
-        "[submission-created] No valid submitter email; skipping user email."
-      )
+      // console.warn(
+      //   "[submission-created] No valid submitter email; skipping user email."
+      // )
     }
 
     return ok("Recorded; attempted emails (see logs).")
