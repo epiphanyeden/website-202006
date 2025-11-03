@@ -53,130 +53,144 @@ export default function PledgeForm() {
   }
   return (
     <section id="pledge" className={styles.container}>
-      <form
-        name="tithe-pledge"
-        method="POST"
-        data-netlify="true"
-        netlify-honeypot="bot-field"
-        onSubmit={handleSubmit}
-        noValidate
-        className={styles.form}
-      >
-        <h2>Your Pledge for 2026</h2>
-        {/* Netlify needs this hidden field even with fetch */}
-        <input type="hidden" name="form-name" value="tithe-pledge" />
-
-        {/* Honeypot to cut spam */}
-        <p style={{ display: "none" }}>
-          <label>
-            Don’t fill this out: <input name="bot-field" />
-          </label>
-        </p>
-
-        <p>
-          <label>
-            Name{" "}
-            <input
-              type="text"
-              name="name"
-              required
-              className={styles.textInput}
-              id="name"
-              placeholder="Your Name(s)"
-            />
-          </label>
-        </p>
-        <p>
-          <label>
-            Email{" "}
-            <input
-              type="email"
-              name="email"
-              required
-              className={styles.textInput}
-              id="email"
-              placeholder="Your Email"
-            />
-          </label>
-        </p>
-        <p>
-          <label>
-            Amount{" "}
-            <input
-              type="number"
-              name="amount"
-              className={`${styles.textInput} ${styles.amountInput}`}
-              required
-              min="1"
-              step="1"
-              id="Amount"
-              placeholder="Amount"
-            />
-          </label>
-          <span className={styles.perText}> per </span>
-          {/* </p>
-      <p> */}
-          <label>
-            {" "}
-            <select
-              name="period"
-              className={`${styles.textInput} ${styles.periodSelect}`}
-              id="Period"
-              required
-            >
-              <option>week</option>
-              <option>month</option>
-              <option>year</option>
-            </select>
-          </label>
-        </p>
-        <p>
-          <label>
-            Comment{" "}
-            <textarea
-              name="comment"
-              type="text"
-              id="donorComment"
-              placeholder="Comments"
-              className={styles.textInput}
-            />
-          </label>
-        </p>
-
-        <button
-          type="submit"
-          disabled={status === "sending"}
-          value="Submit Pledge"
-          className={styles.button}
+      <section className={styles.headingContainer}>
+        <h1>Tell Out, My Soul</h1>
+        <h2>
+          Share the Good News that fills our spirits with joy about the radical
+          abundance, abiding love and healing power that Jesus shares with us
+          when we respond to his call.{" "}
+        </h2>
+        <h2>
+          All of the gifts we have been given are ready to burst forth to serve
+          our neighbors and share our love with a world in need.
+        </h2>
+      </section>
+      <section>
+        <form
+          name="tithe-pledge"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+          onSubmit={handleSubmit}
+          noValidate
+          className={styles.form}
         >
-          {status === "sending" ? "Submitting…" : "Submit Pledge"}
-        </button>
-        <p className={styles.formText}>Other Ways to Pledge:</p>
-        <ol className={styles.formText}>
-          <li>
-            Email pledge@epiphanyeden.org with your name and pledge amount.
-          </li>
-          <li>
-            Mail a pledge to the church. You just need to provide your name and
-            the pledge amount. No form is needed.
-          </li>
-          <li>
-            Put a pledge in the collection plate. You just need to provide your
-            name and the pledge amount. A form will be available at the church
-            if needed or preferred.
-          </li>
-        </ol>
+          <h2>Your Pledge for 2026</h2>
+          {/* Netlify needs this hidden field even with fetch */}
+          <input type="hidden" name="form-name" value="tithe-pledge" />
 
-        <div aria-live="polite">{error && <p role="alert">{error}</p>}</div>
-
-        {/* Progressive enhancement fallback if JS is disabled */}
-        <noscript>
-          <p>
-            JavaScript is off—submitting will navigate to our thank-you page.
-            <input type="hidden" name="action" value="/thank-you/" />
+          {/* Honeypot to cut spam */}
+          <p style={{ display: "none" }}>
+            <label>
+              Don’t fill this out: <input name="bot-field" />
+            </label>
           </p>
-        </noscript>
-      </form>
+
+          <p>
+            <label>
+              Name{" "}
+              <input
+                type="text"
+                name="name"
+                required
+                className={styles.textInput}
+                id="name"
+                placeholder="Your Name(s)"
+              />
+            </label>
+          </p>
+          <p>
+            <label>
+              Email{" "}
+              <input
+                type="email"
+                name="email"
+                required
+                className={styles.textInput}
+                id="email"
+                placeholder="Your Email"
+              />
+            </label>
+          </p>
+          <p>
+            <label>
+              Amount{" "}
+              <input
+                type="number"
+                name="amount"
+                className={`${styles.textInput} ${styles.amountInput}`}
+                required
+                min="1"
+                step="1"
+                id="Amount"
+                placeholder="Amount"
+              />
+            </label>
+            <span className={styles.perText}> per </span>
+            {/* </p>
+      <p> */}
+            <label>
+              {" "}
+              <select
+                name="period"
+                className={`${styles.textInput} ${styles.periodSelect}`}
+                id="Period"
+                required
+              >
+                <option>week</option>
+                <option>month</option>
+                <option>year</option>
+              </select>
+            </label>
+          </p>
+          <p>
+            <label>
+              Comment{" "}
+              <textarea
+                name="comment"
+                type="text"
+                id="donorComment"
+                placeholder="Comments"
+                className={styles.textInput}
+              />
+            </label>
+          </p>
+
+          <button
+            type="submit"
+            disabled={status === "sending"}
+            value="Submit Pledge"
+            className={styles.button}
+          >
+            {status === "sending" ? "Submitting…" : "Submit Pledge"}
+          </button>
+          <p className={styles.formText}>Other Ways to Pledge:</p>
+          <ol className={styles.formText}>
+            <li>
+              Email pledge@epiphanyeden.org with your name and pledge amount.
+            </li>
+            <li>
+              Mail a pledge to the church. You just need to provide your name
+              and the pledge amount. No form is needed.
+            </li>
+            <li>
+              Put a pledge in the collection plate. You just need to provide
+              your name and the pledge amount. A form will be available at the
+              church if needed or preferred.
+            </li>
+          </ol>
+
+          <div aria-live="polite">{error && <p role="alert">{error}</p>}</div>
+
+          {/* Progressive enhancement fallback if JS is disabled */}
+          <noscript>
+            <p>
+              JavaScript is off—submitting will navigate to our thank-you page.
+              <input type="hidden" name="action" value="/thank-you/" />
+            </p>
+          </noscript>
+        </form>
+      </section>
     </section>
   )
 }
