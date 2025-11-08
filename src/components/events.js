@@ -8,13 +8,13 @@ const Events = () => {
       <section>
         <h1 className={styles.title}>Upcoming Events</h1>
       </section>
-      <section className={styles.container}>
+      {/* <section className={styles.container}>
         <p>
           <Link to={`/calendar/`}>
             <button className={styles.button}>Calendar View</button>
           </Link>
         </p>
-      </section>
+      </section> */}
       <section className={styles.container}>
         {/* <div className={styles.event}>
           <p className={styles.eventDate}>Jan 4</p>
@@ -54,50 +54,50 @@ const Events = () => {
           <p className={styles.eventDesc}>Children's Church</p>
         </div> */}
 
-        <div className={styles.event}>
+        {/* <div className={styles.event}>
           <p className={styles.eventDate}>Nov 1</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
           </p>
           <p className={styles.eventDesc}>Laundry Love</p>
-        </div>
+        </div> */}
         <div className={styles.event}>
-          <p className={styles.eventDate}>Nov 2</p>
+          <p className={styles.eventDate}>Nov 9</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
           </p>
           <p className={styles.eventDesc}>Eucharist with</p>
-          <p className={styles.eventDesc}>The Rev. Virginia Heistand</p>
+          <p className={styles.eventDesc}>The Rev. Barbara Cooke</p>
         </div>
-        <div className={styles.event}>
+        {/* <div className={styles.event}>
           <p className={styles.eventDate}>Nov 2</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9:45 am
           </p>
           <p className={styles.eventDesc}>Children's Church</p>
-        </div>
-        <div className={styles.event}>
+        </div> */}
+        {/* <div className={styles.event}>
           <p className={styles.eventDate}>Nov 2</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
           </p>
           <p className={styles.eventDesc}>All Saints' Day Service</p>
-        </div>
-        <div className={styles.event}>
+        </div> */}
+        {/* <div className={styles.event}>
           <p className={styles.eventDate}>Nov 2</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 11 am
           </p>
           <p className={styles.eventDesc}>Covered Dish Brunch</p>
-        </div>
+        </div> */}
 
-        <div className={styles.event}>
+        {/* <div className={styles.event}>
           <p className={styles.eventDate}>Nov 8</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
           </p>
           <p className={styles.eventDesc}>Bell Tower Treasures</p>
-        </div>
+        </div> */}
       </section>
     </div>
   )
