@@ -17,7 +17,7 @@ const LaundryLove = () => {
       <section className={styles.container}>
         <div className={styles.headerContainer}>
           <h1 className={styles.title}>Next:</h1>
-          <h1 className={styles.title}>Saturday Oct 4</h1>
+          <h1 className={styles.title}>Saturday Dec 6</h1>
           <h1 className={styles.title}>9 am to 11 am</h1>
         </div>
         {/* <p className={styles.book}>"Giving the Gift of Clean Clothes"</p> */}
