@@ -1,5 +1,6 @@
 import * as React from "react"
 import * as styles from "./pledge2026.module.css"
+import { StaticImage } from "gatsby-plugin-image"
 
 function encode(data) {
   return new URLSearchParams(data).toString()
@@ -53,17 +54,14 @@ export default function PledgeForm() {
   }
   return (
     <section id="pledge" className={styles.container}>
-      <section className={styles.headingContainer}>
-        <h1>Tell Out, My Soul</h1>
-        <h2>
-          Share the Good News that fills our spirits with joy about the radical
-          abundance, abiding love and healing power that Jesus shares with us
-          when we respond to his call.{" "}
-        </h2>
-        <h2>
-          All of the gifts we have been given are ready to burst forth to serve
-          our neighbors and share our love with a world in need.
-        </h2>
+      <section className={styles.imageContainer}>
+        <StaticImage
+          src="../../content/assets/TellOutMySoul20251116.jpg"
+          alt="Tell Out My Soul Stweardship Theme"
+          loading="eager"
+          className={styles.image}
+          width={700}
+        />
       </section>
       <section>
         <form

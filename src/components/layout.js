@@ -10,25 +10,28 @@ import ServicesHeader from "./servicesHeader"
 import LaundryLove from "./laundryLove"
 import TextSignUp from "./textSignUp"
 import BellTowerTreasures from "./bellTowerTreasures"
-// import Gift2024 from "./gift2024"
 import Events from "./events"
 import WhatIsEpiscopal from "./whatIsEpiscopal"
 import ChildrenChurch from "./childrenChurch"
 import Pledge2026 from "./pledge2026"
+import AdventWreaths2025 from "./adventWreaths2025"
+import FoodDrive2025 from "./foodDrive2025"
+import NourishingHope202511 from "./nourishingHope202511"
 
 const Layout = ({ location, title, children }) => {
   return (
     <div>
       <Header />
-
       <LandingPage />
       <Events />
       <WhatIsEpiscopal />
+      <FoodDrive2025 />
+      <AdventWreaths2025 />
       <ChildrenChurch />
+      <NourishingHope202511 />
       <LaundryLove />
       <BellTowerTreasures />
       <Pledge2026 />
-      {/* <Gift2024 /> */}
       <ChurchLinks />
       <Announcements />
       <ServicesHeader />
