@@ -1,6 +1,6 @@
 import React from "react"
 import * as styles from "./events.module.css"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
 const Events = () => {
   return (
@@ -62,12 +62,47 @@ const Events = () => {
           <p className={styles.eventDesc}>Laundry Love</p>
         </div> */}
         <div className={styles.event}>
-          <p className={styles.eventDate}>Nov 16</p>
+          <p className={styles.eventDate}>Nov 23</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
           </p>
           <p className={styles.eventDesc}>Eucharist with</p>
-          <p className={styles.eventDesc}>The Rev. Randall Keeney</p>
+          <p className={styles.eventDesc}></p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Nov 23</p>
+          <p className={styles.eventDay}>
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 12 pm
+          </p>
+          <p className={styles.eventDesc}>Food Drive</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Nov 30</p>
+          <p className={styles.eventDay}>
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 12 pm
+          </p>
+          <p className={styles.eventDesc}>Food Drive</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Nov 30</p>
+          <p className={styles.eventDay}>
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 11 am
+          </p>
+          <p className={styles.eventDesc}>Make Advent Wreaths</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Nov 30</p>
+          <p className={styles.eventDay}>
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; Noon - 2 pm
+          </p>
+          <p className={styles.eventDesc}>Nourishing Hope</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Dec 7</p>
+          <p className={styles.eventDay}>
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9:45 am
+          </p>
+          <p className={styles.eventDesc}>Children's Church</p>
         </div>
         {/* <div className={styles.event}>
           <p className={styles.eventDate}>Nov 2</p>

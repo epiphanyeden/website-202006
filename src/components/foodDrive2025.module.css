@@ -1,0 +1,20 @@
+.main {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(102, 140, 109);
+}
+
+.imageContainer {
+  margin: 0;
+  padding: 0;
+  padding: 2vh 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.image {
+  justify-content: center;
+}
