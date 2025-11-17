@@ -1,6 +1,6 @@
 import React from "react"
 import * as styles from "./nourishingHope202511.module.css"
-import image from "../../content/assets/nourishingHope202511.jpg"
+import image from "../../content/assets/NourishingHope202511.jpg"
 
 const NourishingHope202511 = () => {
   return (
