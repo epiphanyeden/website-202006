@@ -10,7 +10,8 @@ export default function PledgeForm() {
   const [status, setStatus] = React.useState("idle")
   const [values, setValues] = React.useState(null) // will hold submitted fields
   const [error, setError] = React.useState(null)
-
+  const linkUrl =
+    "https://www.youtube.com/watch?v=F4An8hTTenQ&list=RDF4An8hTTenQ&start_radio=1"
   async function handleSubmit(e) {
     e.preventDefault()
     setError(null)
@@ -55,13 +56,20 @@ export default function PledgeForm() {
   return (
     <section id="pledge" className={styles.container}>
       <section className={styles.imageContainer}>
-        <StaticImage
-          src="../../content/assets/TellOutMySoul20251116.jpg"
-          alt="Tell Out My Soul Stweardship Theme"
-          loading="eager"
-          className={styles.image}
-          width={700}
-        />
+        <a href={linkUrl} target="_blank" rel="noopener noreferrer">
+          <StaticImage
+            src="../../content/assets/TellOutMySoul20251116.jpg"
+            alt="Tell Out My Soul Stweardship Theme"
+            loading="eager"
+            className={styles.image}
+            width={700}
+          />
+        </a>
+      </section>
+      <section className={styles.textContainer}>
+        <a href={linkUrl} target="_blank" rel="noopener noreferrer">
+          <p className={styles.text}>Click to listen</p>
+        </a>
       </section>
       <section>
         <form
