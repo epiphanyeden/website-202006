@@ -43,13 +43,28 @@ export default function PledgeForm() {
     const amount = values.amount ? Number(values.amount).toFixed(2) : null
     const period = values.period
     return (
-      <div role="status" aria-live="polite" className={styles.text}>
-        <h2>Thank you{name ? `, ${name}` : ""}!</h2>
-        <p>
-          We received your pledge
-          {amount ? ` of $${amount}` : ""}
-          {period ? ` per ${period}` : ""}. We appreciate your support.
-        </p>
+      <div role="status" aria-live="polite">
+        <section id="pledge" className={styles.container}>
+          <section className={styles.imageContainer}>
+            <a href={linkUrl} target="_blank" rel="noopener noreferrer">
+              <StaticImage
+                src="../../content/assets/TellOutMySoul20251116.jpg"
+                alt="Tell Out My Soul Stweardship Theme"
+                loading="eager"
+                className={styles.image}
+                width={700}
+              />
+            </a>
+          </section>
+        </section>
+        <section className={styles.replyText}>
+          <h2>Thank you{name ? `, ${name}` : ""}!</h2>
+          <p>
+            We received your pledge
+            {amount ? ` of $${amount}` : ""}
+            {period ? ` per ${period}` : ""}. We appreciate your support.
+          </p>
+        </section>
       </div>
     )
   }
