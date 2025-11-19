@@ -3,16 +3,35 @@ import { StaticImage } from "gatsby-plugin-image"
 import * as styles from "./adventWreaths2025.module.css"
 
 const AdventWreaths2025 = () => {
+  const linkUrl = "https://mailchi.mp/3219f4fafc8e/advent-wreaths"
   return (
     <div id="advent" className={styles.main}>
       <section className={styles.imageContainer}>
-        <StaticImage
-          src="../../content/assets/AdventWreath20251116.jpg"
-          alt="Making Advent Wreaths"
-          loading="eager"
-          className={styles.image}
-          width={700}
-        />
+        <a
+          href={linkUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.moreInfoButton}
+        >
+          More Info
+        </a>
+        <a href={linkUrl} target="_blank" rel="noopener noreferrer">
+          <StaticImage
+            src="../../content/assets/AdventWreath20251116.jpg"
+            alt="Making Advent Wreaths"
+            loading="eager"
+            className={styles.image}
+            width={700}
+          />
+        </a>
+        <a
+          href={linkUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.moreInfoButton}
+        >
+          More Info
+        </a>
       </section>
 
       {/* <div className={styles.headerContainer}>
