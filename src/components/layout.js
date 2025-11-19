@@ -16,7 +16,7 @@ import ChildrenChurch from "./childrenChurch"
 import Pledge2026 from "./pledge2026"
 import AdventWreaths2025 from "./adventWreaths2025"
 import FoodDrive2025 from "./foodDrive2025"
-import NourishingHope202511 from "./nourishingHope202511"
+// import NourishingHope202511 from "./nourishingHope202511"
 
 const Layout = ({ location, title, children }) => {
   return (
@@ -28,7 +28,7 @@ const Layout = ({ location, title, children }) => {
       <FoodDrive2025 />
       <AdventWreaths2025 />
       <ChildrenChurch />
-      <NourishingHope202511 />
+      {/* <NourishingHope202511 /> */}
       <LaundryLove />
       <BellTowerTreasures />
       <Pledge2026 />
