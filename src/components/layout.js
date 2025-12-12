@@ -14,9 +14,10 @@ import Events from "./events"
 import WhatIsEpiscopal from "./whatIsEpiscopal"
 import ChildrenChurch from "./childrenChurch"
 import Pledge2026 from "./pledge2026"
-import AdventWreaths2025 from "./adventWreaths2025"
+
 import FoodDrive2025 from "./foodDrive2025"
-import LUMCAdvent2025 from "./lumcAdvent2025"
+import ChiliCookoff2026 from "./chilicookoff2026"
+
 // import NourishingHope202511 from "./nourishingHope202511"
 
 const Layout = ({ location, title, children }) => {
@@ -27,8 +28,8 @@ const Layout = ({ location, title, children }) => {
       <Events />
       <WhatIsEpiscopal />
       <FoodDrive2025 />
-      <AdventWreaths2025 />
-      <LUMCAdvent2025 />
+      <ChiliCookoff2026 />
+
       <ChildrenChurch />
       {/* <NourishingHope202511 /> */}
       <LaundryLove />
