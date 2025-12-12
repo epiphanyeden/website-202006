@@ -17,7 +17,7 @@ const ChiliCookoff2026 = () => {
         </a> */}
         <a href={linkUrl} target="_blank" rel="noopener noreferrer">
           <StaticImage
-            src="../../content/assets/Chilicookoff2026.jpg"
+            src="../../content/assets/chilicookoff2026.jpg"
             alt="Chili Cookoff Jan 5 5pm"
             loading="eager"
             className={styles.image}
