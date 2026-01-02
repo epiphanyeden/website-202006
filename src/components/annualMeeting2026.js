@@ -1,24 +1,24 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import * as styles from "./chilicookoff2026.module.css"
+import * as styles from "./annualMeeting2026.module.css"
 
-const ChiliCookoff2026 = () => {
-  const linkUrl = "https://mailchi.mp/b89031631e80/chili-cookoff-2025"
+const AnnualMeeting2026 = () => {
+  const linkUrl = "https://mailchi.mp/5cb7bca58080/annual-meeting-2026"
   return (
-    <div id="chilicookoff" className={styles.main}>
+    <div id="annualmeeting" className={styles.main}>
       <section className={styles.imageContainer}>
-        {/* <a
+        <a
           href={linkUrl}
           target="_blank"
           rel="noopener noreferrer"
           className={styles.moreInfoButton}
         >
           More Info
-        </a> */}
+        </a>
         <a href={linkUrl} target="_blank" rel="noopener noreferrer">
           <StaticImage
-            src="../../content/assets/chilicookoff2026.jpg"
-            alt="Chili Cookoff Jan 5 5pm"
+            src="../../content/assets/AnnualMeeting2026.jpg"
+            alt="Annual Meeting Jan 25 11 am"
             loading="eager"
             className={styles.image}
             width={700}
@@ -50,4 +50,4 @@ const ChiliCookoff2026 = () => {
     </div>
   )
 }
-export default ChiliCookoff2026
+export default AnnualMeeting2026
