@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import * as styles from "./foodDrive2025.module.css"
 
 const FoodDrive2025 = () => {
-  const linkUrl = "https://mailchi.mp/c07ad48ed3dc/fooddrive"
+  const linkUrl = "https://mailchi.mp/b89031631e80/chili-cookoff-2025"
 
   return (
     <div id="fooddrive" className={styles.main}>
