@@ -97,31 +97,11 @@ const Events = () => {
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
           </p>
           <p className={styles.eventDesc}>
-            Eucharist with The Rev. Daniel Wall
+            Eucharist with The Rev. Lito Santos
           </p>
           <p className={styles.eventDesc}></p>
         </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Jan 3</p>
-          <p className={styles.eventDay}>
-            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
-          </p>
-          <p className={styles.eventDesc}>Laundry Love</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Jan 4</p>
-          <p className={styles.eventDay}>
-            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9:45 am
-          </p>
-          <p className={styles.eventDesc}>Children's Church</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Jan 4</p>
-          <p className={styles.eventDay}>
-            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 5 pm
-          </p>
-          <p className={styles.eventDesc}>Annual Chili Cookoff</p>
-        </div>
+
         <div className={styles.event}>
           <p className={styles.eventDate}>Jan 10</p>
           <p className={styles.eventDay}>
