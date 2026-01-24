@@ -80,7 +80,12 @@ const Header = () => {
             </a>
           </div>
           <p className={styles.sundayService}>
-            The Sunday Service is at 10 am.
+            {/* The Sunday Service is at 10 am. */}
+            The Sunday Service on January 25 has been canceled.
+          </p>
+          <p className={styles.sundayService}>
+            The Annual Meeting has been postponed and will be scheduled for a
+            later date.
           </p>
         </div>
       </div>
