@@ -155,3 +155,7 @@
   background-color: purple;
   font-weight: bolder;
 }
+
+.strike {
+  text-decoration: line-through;
+}

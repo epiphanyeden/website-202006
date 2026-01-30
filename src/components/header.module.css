@@ -67,8 +67,9 @@
 .sundayService {
   color: red;
   font-size: 1.5rem;
-  margin: 0;
+  margin: 0px 80px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 80%;
 }

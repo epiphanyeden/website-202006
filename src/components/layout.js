@@ -16,7 +16,7 @@ import ChildrenChurch from "./childrenChurch"
 import Pledge2026 from "./pledge2026"
 import FoodDrive2025 from "./foodDrive2025"
 import AnnualMeeting2026 from "./annualMeeting2026"
-import Bingo from "./bingo20260130"
+import BishopVisit2026 from "./bishopVisit2026"
 
 // import NourishingHope202511 from "./nourishingHope202511"
 
@@ -27,8 +27,8 @@ const Layout = ({ location, title, children }) => {
       <LandingPage />
       <Events />
       <WhatIsEpiscopal />
+      <BishopVisit2026 />
       <AnnualMeeting2026 />
-      <Bingo />
       <FoodDrive2025 />
       <ChildrenChurch />
       <LaundryLove />
