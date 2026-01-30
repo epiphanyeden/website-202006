@@ -1,10 +1,9 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import * as styles from "./annualMeeting2026.module.css"
+import * as styles from "./bishopVisit2026.module.css"
 
-const AnnualMeeting2026 = () => {
-  const linkUrl =
-    "https://mailchi.mp/63c9e5010675/annual-meeting-2026-reschedule"
+const BishopVisit2026 = () => {
+  const linkUrl = "https://mailchi.mp/da6d2aa97c8a/bishop-visit-2026"
   return (
     <div id="annualmeeting" className={styles.main}>
       <section className={styles.imageContainer}>
@@ -18,8 +17,8 @@ const AnnualMeeting2026 = () => {
         </a>
         <a href={linkUrl} target="_blank" rel="noopener noreferrer">
           <StaticImage
-            src="../../content/assets/AnnualMeeting2026Reschedule.jpg"
-            alt="Annual Meeting Jan 25 11 am"
+            src="../../content/assets/SundayFebruary8.jpg"
+            alt="Bishop Visit Sunday Feb 8 Service at St. Luke's"
             loading="eager"
             className={styles.image}
             width={700}
@@ -51,4 +50,4 @@ const AnnualMeeting2026 = () => {
     </div>
   )
 }
-export default AnnualMeeting2026
+export default BishopVisit2026

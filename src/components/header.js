@@ -81,11 +81,18 @@ const Header = () => {
           </div>
           <p className={styles.sundayService}>
             {/* The Sunday Service is at 10 am. */}
-            The Sunday Service on January 25 has been canceled.
+            The Sunday Service on February 1 has been canceled.
           </p>
           <p className={styles.sundayService}>
-            The Annual Meeting has been postponed and will be scheduled for a
-            later date.
+            The Annual Bishop visit and service will be held on Feb 8, 11 am, at
+            St. Luke's.
+          </p>
+          <p className={styles.sundayService}>
+            The service will be followed by a reception celebrating the 100th
+            anniversary of St. Luke's and the Bishop's visit.
+          </p>
+          <p className={styles.sundayService}>
+            The Annual Meeting has been rescheduled for Sunday Feb 15 at 11 am
           </p>
         </div>
       </div>
