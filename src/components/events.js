@@ -90,41 +90,6 @@ const Events = () => {
           </p>
           <p className={styles.eventDesc}>Nourishing Hope</p>
         </div> */}
-
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Feb 1</p>
-          <p className={styles.eventDay}>
-            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
-          </p>
-          <p className={styles.eventDesc}>
-            Sunday Service canceled due to weather
-          </p>
-          <p className={styles.eventDesc}></p>
-        </div>
-
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Jan 30</p>
-          <p className={styles.eventDay}>
-            Fri&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 6 pm
-          </p>
-          <p className={styles.eventDesc}>
-            Canceled <span className={styles.strike}>Bingo Night</span>
-          </p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Feb 7</p>
-          <p className={styles.eventDay}>
-            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
-          </p>
-          <p className={styles.eventDesc}>Laundry Love</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Feb 8</p>
-          <p className={styles.eventDay}>
-            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 11 am
-          </p>
-          <p className={styles.eventDesc}>Bishop Visit & Service @ St. Lukes</p>
-        </div>
         <div className={styles.event}>
           <p className={styles.eventDate}>Feb 14</p>
           <p className={styles.eventDay}>
@@ -135,9 +100,66 @@ const Events = () => {
         <div className={styles.event}>
           <p className={styles.eventDate}>Feb 15</p>
           <p className={styles.eventDay}>
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
+          </p>
+          <p className={styles.eventDesc}>
+            Sunday Service with The Rev. Franklyn Colebrooke
+          </p>
+          <p className={styles.eventDesc}></p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Feb 15</p>
+          <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 11 am
           </p>
           <p className={styles.eventDesc}>Annual Meeting & Potluck</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Feb 17</p>
+          <p className={styles.eventDay}>
+            Tue&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 5:30 pm
+          </p>
+          <p className={styles.eventDesc}>
+            Shrove Tuesday Pancake Supper @ LUMC
+          </p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Feb 18</p>
+          <p className={styles.eventDay}>
+            Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; Noon
+          </p>
+          <p className={styles.eventDesc}>Ash Wednesday Service</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Feb 18</p>
+          <p className={styles.eventDay}>
+            Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 6:30 pm
+          </p>
+          <p className={styles.eventDesc}>Ash Wednesday Service @ LUMC</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Feb 22</p>
+          <p className={styles.eventDay}>
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
+          </p>
+          <p className={styles.eventDesc}>
+            Sunday Service with The Rev. Virginia Heistand
+          </p>
+          <p className={styles.eventDesc}></p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>March 7</p>
+          <p className={styles.eventDay}>
+            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
+          </p>
+          <p className={styles.eventDesc}>Laundry Love</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>March 14</p>
+          <p className={styles.eventDay}>
+            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
+          </p>
+          <p className={styles.eventDesc}>Bell Tower Treasures</p>
         </div>
 
         {/* <div className={styles.event}>
