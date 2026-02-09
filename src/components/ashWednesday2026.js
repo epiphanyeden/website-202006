@@ -5,7 +5,7 @@ import * as styles from "./ashWednesday2026.module.css"
 const AshWednesday2026 = () => {
   const linkUrl = "https://mailchi.mp/4ea30377d968/ashwednesday2026-1"
   return (
-    <div id="annualmeeting" className={styles.main}>
+    <div id="ashwednesday" className={styles.main}>
       <section className={styles.imageContainer}>
         <a
           href={linkUrl}
