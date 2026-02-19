@@ -14,9 +14,7 @@ import Events from "./events"
 import WhatIsEpiscopal from "./whatIsEpiscopal"
 import ChildrenChurch from "./childrenChurch"
 import Pledge2026 from "./pledge2026"
-import AnnualMeeting2026 from "./annualMeeting2026"
-import AshWednesday2026 from "./ashWednesday2026"
-import ShroveTuesday2026 from "./shroveTuesday2026"
+ß
 
 // import NourishingHope202511 from "./nourishingHope202511"
 
@@ -26,10 +24,7 @@ const Layout = ({ location, title, children }) => {
       <Header />
       <LandingPage />
       <Events />
-      <WhatIsEpiscopal />
-      <AnnualMeeting2026 />
-      <ShroveTuesday2026 />
-      <AshWednesday2026 />
+      <WhatIsEpiscopal />ß
       <ChildrenChurch />
       <LaundryLove />
       <BellTowerTreasures />
