@@ -92,12 +92,12 @@ const Events = () => {
         </div> */}
 
         <div className={styles.event}>
-          <p className={styles.eventDate}>Feb 22</p>
+          <p className={styles.eventDate}>March 1</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
           </p>
           <p className={styles.eventDesc}>
-            Sunday Service with The Rev. Virginia Heistand
+            Sunday Service with The Rev. Geoffrey Taylor
           </p>
           <p className={styles.eventDesc}></p>
         </div>
