@@ -92,12 +92,14 @@ const Events = () => {
         </div> */}
 
         <div className={styles.event}>
-          <p className={styles.eventDate}>March 22</p>
+          <p className={styles.eventDate}>March 29</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
           </p>
-          <p className={styles.eventDesc}>Sunday Service</p>
-          <p className={styles.eventDesc}>The Rev. Virginia Heistand</p>
+          <p className={styles.eventDesc}>
+            Palm Sunday - Sunday of the Passion
+          </p>
+          <p className={styles.eventDesc}>The Rev. Barbara Cooke</p>
           <p className={styles.eventDesc}></p>
         </div>
 
@@ -108,15 +110,7 @@ const Events = () => {
           </p>
           <p className={styles.eventDesc}>Bell Tower Treasures</p>
         </div> */}
-        <div className={styles.event}>
-          <p className={styles.eventDate}>March 29</p>
-          <p className={styles.eventDay}>
-            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
-          </p>
-          <p className={styles.eventDesc}>
-            Palm Sunday - Sunday of the Passion
-          </p>
-        </div>
+
         <div className={styles.event}>
           <p className={styles.eventDate}>March 29</p>
           <p className={styles.eventDay}>
