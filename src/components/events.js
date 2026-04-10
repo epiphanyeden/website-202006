@@ -110,36 +110,6 @@ const Events = () => {
         </div> */}
 
         <div className={styles.event}>
-          <p className={styles.eventDate}>April 4</p>
-          <p className={styles.eventDay}>
-            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
-          </p>
-          <p className={styles.eventDesc}>Laundry Love</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>April 5</p>
-          <p className={styles.eventDay}>
-            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9:15 am
-          </p>
-          <p className={styles.eventDesc}>Flowering of the Cross</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>April 5</p>
-          <p className={styles.eventDay}>
-            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
-          </p>
-          <p className={styles.eventDesc}>
-            Easter Sunday Service w/ The Rev. Virginia Heistand
-          </p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>April 5</p>
-          <p className={styles.eventDay}>
-            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 11 am
-          </p>
-          <p className={styles.eventDesc}>Easter Sunday Brunch</p>
-        </div>
-        <div className={styles.event}>
           <p className={styles.eventDate}>April 11</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
@@ -153,7 +123,15 @@ const Events = () => {
           </p>
           <p className={styles.eventDesc}>Children's Church</p>
         </div>
-
+        <div className={styles.event}>
+          <p className={styles.eventDate}>April 5</p>
+          <p className={styles.eventDay}>
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
+          </p>
+          <p className={styles.eventDesc}>
+            Sunday Service w/ The Rev. Geoffrey Taylor
+          </p>
+        </div>
         {/* <div className={styles.event}>
           <p className={styles.eventDate}>Nov 2</p>
           <p className={styles.eventDay}>
