@@ -109,7 +109,7 @@ const Events = () => {
           <p className={styles.eventDesc}>Bell Tower Treasures</p>
         </div> */}
 
-        <div className={styles.event}>
+        {/* <div className={styles.event}>
           <p className={styles.eventDate}>April 11</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
@@ -122,14 +122,30 @@ const Events = () => {
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9:45 am
           </p>
           <p className={styles.eventDesc}>Children's Church</p>
-        </div>
+        </div> */}
         <div className={styles.event}>
-          <p className={styles.eventDate}>April 5</p>
+          <p className={styles.eventDate}>April 19</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
           </p>
           <p className={styles.eventDesc}>
-            Sunday Service w/ The Rev. Geoffrey Taylor
+            Sunday Service w/ The Rev. Lito Santos
+          </p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>April 21</p>
+          <p className={styles.eventDay}>
+            Tue&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 7 pm
+          </p>
+          <p className={styles.eventDesc}>
+            Sunday School - The Gospel of John
+            <a
+              href="https://epiphanyeden.us17.list-manage.com/track/click?u=a3f429c9b2ab91d27de19f6cd&id=17499a8496&e=19e2f816a5"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              &nbsp; Join Zoom
+            </a>
           </p>
         </div>
         {/* <div className={styles.event}>
