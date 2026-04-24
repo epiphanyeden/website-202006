@@ -108,7 +108,7 @@
   .eventDate {
     margin: 0;
     padding: 0;
-    width: 60vw;
+    /* width: 70vw; */
     font-size: 1.75rem;
   }
 
@@ -158,4 +158,16 @@
 
 .strike {
   text-decoration: line-through;
+}
+
+.eventLink {
+  margin: 0;
+  padding: 0px;
+  width: 50vw;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  color: red;
 }

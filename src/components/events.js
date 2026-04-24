@@ -124,29 +124,66 @@ const Events = () => {
           <p className={styles.eventDesc}>Children's Church</p>
         </div> */}
         <div className={styles.event}>
-          <p className={styles.eventDate}>April 19</p>
+          <p className={styles.eventDate}>April 26</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
           </p>
           <p className={styles.eventDesc}>
-            Sunday Service w/ The Rev. Lito Santos
+            Sunday Service w/ The Rev. Geoffrey Taylor
           </p>
         </div>
         <div className={styles.event}>
-          <p className={styles.eventDate}>April 21</p>
+          <p className={styles.eventDate}>Weekly</p>
           <p className={styles.eventDay}>
-            Tue&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 7 pm
+            Tue&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 7 pm - 8 pm
           </p>
           <p className={styles.eventDesc}>
-            Sunday School - The Gospel of John
+            {/* Sunday School - The Gospel of John */}
             <a
+              className={styles.eventLink}
               href="https://epiphanyeden.us17.list-manage.com/track/click?u=a3f429c9b2ab91d27de19f6cd&id=17499a8496&e=19e2f816a5"
               target="_blank"
               rel="noopener noreferrer"
             >
-              &nbsp; Join Zoom
+              Sunday School - The Gospel of John
             </a>
           </p>
+        </div>
+
+        <div className={styles.event}>
+          <p className={styles.eventDate}>May 2</p>
+          <p className={styles.eventDay}>
+            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
+          </p>
+          <p className={styles.eventDesc}>Laundry Love</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>May</p>
+          <p className={styles.eventDay}>
+            {/* Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am */}
+          </p>
+          <p className={styles.eventDesc}>No Bell Tower Treasure Sale in May</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>May 20</p>
+          <p className={styles.eventDay}>
+            Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 12:30 pm - 5 pm
+          </p>
+          <p className={styles.eventDesc}>Blood Drive</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>June 6</p>
+          <p className={styles.eventDay}>
+            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
+          </p>
+          <p className={styles.eventDesc}>Laundry Love</p>
+        </div>
+        <div className={styles.event}>
+          <p className={styles.eventDate}>June 13</p>
+          <p className={styles.eventDay}>
+            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
+          </p>
+          <p className={styles.eventDesc}>Bell Tower Treasures</p>
         </div>
         {/* <div className={styles.event}>
           <p className={styles.eventDate}>Nov 2</p>

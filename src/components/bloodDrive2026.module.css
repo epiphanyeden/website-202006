@@ -1,0 +1,138 @@
+.container {
+  background-color: #9ed4cd;
+  height: auto;
+  margin: 0 0;
+  padding: 3rem 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  border: none;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+a:hover {
+  text-decoration: none;
+  border: none;
+}
+
+a:active {
+  text-decoration: none;
+  border: none;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  /* text-decoration: underline; */
+  color: none;
+  border: 0;
+}
+
+.buttonContainer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  text-decoration: none !important;
+}
+
+.imageContainer {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  text-decoration: none !important;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  width: 10vw;
+  border: red;
+}
+
+.button {
+  background-color: #18407c;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 2rem;
+  padding: 1rem 4rem;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  height: auto;
+  max-width: 70vw;
+  border: none !important;
+  outline: none;
+}
+
+.button:hover {
+  font-weight: bolder;
+  /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7); */
+  border: none !important;
+  outline: none;
+}
+
+.button:visited {
+  color: aliceblue;
+  font-weight: bolder;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
+  border: none !important;
+  outline: none;
+}
+
+.buttonText {
+  color: white;
+}
+
+.text {
+  margin: 2rem;
+  color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  /* align-items: center; */
+  /* align-content: center; */
+}
+@media only screen and (max-width: 9999px) {
+  .image {
+    width: 40vw;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .image {
+    width: 80vw;
+  }
+  .button {
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .image {
+    width: 80vw;
+    /* padding: 1rem 1rem; */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .image {
+    width: 80vw;
+    /* padding: 1rem 1rem; */
+  }
+}
