@@ -115,14 +115,14 @@
   .eventDay {
     margin: 0;
     padding: 0px;
-    width: 30vw;
+    width: 60vw;
     font-size: 1.25rem;
   }
 
   .eventTime {
     margin: 0;
     padding: 0px;
-    width: 60vw;
+    width: 90vw;
     font-size: 1.25rem;
   }
 
