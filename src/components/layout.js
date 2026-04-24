@@ -3,6 +3,7 @@ import Footer from "../components/footer"
 import Header from "../components/header"
 import LandingPage from "./landingPage"
 import Services from "./services"
+import BloodDrive2026 from "./bloodDrive2026"
 import ChurchLinks from "./churchLinks"
 import Donations from "./donations"
 import Announcements from "./announcements"
@@ -21,7 +22,8 @@ const Layout = ({ location, title, children }) => {
       <Header />
       <LandingPage />
       <Events />
-      <WhatIsEpiscopal />ß
+      <WhatIsEpiscopal />
+      <BloodDrive2026 />
       <ChildrenChurch />
       <LaundryLove />
       <BellTowerTreasures />
