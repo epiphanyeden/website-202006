@@ -179,6 +179,13 @@ const Events = () => {
           <p className={styles.eventDesc}>Blood Drive</p>
         </div>
         <div className={styles.event}>
+          <p className={styles.eventDate}>May 24</p>
+          <p className={styles.eventDay}>
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 11 am
+          </p>
+          <p className={styles.eventDesc}>Pentecost Celebration</p>
+        </div>
+        <div className={styles.event}>
           <p className={styles.eventDate}>June 6</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
