@@ -24,8 +24,8 @@ const Layout = ({ location, title, children }) => {
       <LandingPage />
       <Events />
       <WhatIsEpiscopal />
-      <BloodDrive2026 />
       <Pentecost2026 />
+      <BloodDrive2026 />
       <ChildrenChurch />
       <LaundryLove />
       <BellTowerTreasures />

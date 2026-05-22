@@ -1,7 +1,7 @@
 import React from "react"
 import * as styles from "./bloodDrive2026.module.css"
 // import blooddriveGIF from "../../content/assets/BloodDrive202405.gif"
-import blooddrive from "../../content/assets/bloodDrive2026.jpg"
+import blooddrive from "../../content/assets/bloodDriveResults2026.jpg"
 
 const BloodDrive2026 = () => {
   return (
@@ -23,13 +23,13 @@ const BloodDrive2026 = () => {
         {/* </a> */}
       </div>
       {/* <div className={styles.buttonContainer}> */}
-      <a
+      {/* <a
         href="https://www.redcrossblood.org/give.html/drive-results?zipSponsor=EpiphanyEden"
         target="_blank"
         rel="noreferrer"
       >
         <button className={styles.button}>Reserve Your Spot</button>
-      </a>
+      </a> */}
       {/* </div> */}
       {/* <p className={styles.text}>
         There will be a drawing for free gas cards for all who come to donate!
