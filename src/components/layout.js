@@ -4,7 +4,6 @@ import Header from "../components/header"
 import LandingPage from "./landingPage"
 import Services from "./services"
 import BloodDrive2026 from "./bloodDrive2026"
-import Pentecost2026 from "./pentecost2026"
 import ChurchLinks from "./churchLinks"
 import Donations from "./donations"
 import Announcements from "./announcements"
@@ -16,6 +15,7 @@ import Events from "./events"
 import WhatIsEpiscopal from "./whatIsEpiscopal"
 import ChildrenChurch from "./childrenChurch"
 import Pledge2026 from "./pledge2026"
+import Picnic2026 from "./picnic2026"
 
 const Layout = ({ location, title, children }) => {
   return (
@@ -24,7 +24,7 @@ const Layout = ({ location, title, children }) => {
       <LandingPage />
       <Events />
       <WhatIsEpiscopal />
-      <Pentecost2026 />
+      <Picnic2026 />
       <BloodDrive2026 />
       <ChildrenChurch />
       <LaundryLove />
