@@ -123,14 +123,31 @@ const Events = () => {
           </p>
           <p className={styles.eventDesc}>Children's Church</p>
         </div> */}
+
         <div className={styles.event}>
-          <p className={styles.eventDate}>May 31</p>
+          <p className={styles.eventDate}>June 13</p>
+          <p className={styles.eventDay}>
+            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
+          </p>
+          <p className={styles.eventDesc}>Bell Tower Treasures</p>
+        </div>
+
+        <div className={styles.event}>
+          <p className={styles.eventDate}>June 14</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
           </p>
           <p className={styles.eventDesc}>
-            Sunday Service w/ The Rev. Franklyn Colebrooke
+            Sunday Service w/ The Rev. Geoffrey Taylor
           </p>
+        </div>
+
+        <div className={styles.event}>
+          <p className={styles.eventDate}>June 14</p>
+          <p className={styles.eventDay}>
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 12 - 2 pm
+          </p>
+          <p className={styles.eventDesc}>Community Picnic</p>
         </div>
 
         <div className={styles.event}>
@@ -149,6 +166,46 @@ const Events = () => {
               Sunday School - The Gospel of John
             </a>
           </p>
+        </div>
+
+        <div className={styles.event}>
+          <p className={styles.eventDate}>July 4</p>
+          <p className={styles.eventDay}>
+            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
+          </p>
+          <p className={styles.eventDesc}>Laundry Love</p>
+        </div>
+
+        <div className={styles.event}>
+          <p className={styles.eventDate}>July 17</p>
+          <p className={styles.eventDay}>
+            Fri&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 5 pm - 8 pm
+          </p>
+          <p className={styles.eventDesc}>Hot Dogs & Bingo</p>
+        </div>
+
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Aug 2</p>
+          <p className={styles.eventDay}>
+            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; Noon - 4 pm
+          </p>
+          <p className={styles.eventDesc}>Back to School Bash</p>
+        </div>
+
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Sep 11</p>
+          <p className={styles.eventDay}>
+            Fri&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 5 pm - 7:30 pm
+          </p>
+          <p className={styles.eventDesc}>Spaghetti & Bingo</p>
+        </div>
+
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Oct 7</p>
+          <p className={styles.eventDay}>
+            Wed&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 5 pm - 7 pm
+          </p>
+          <p className={styles.eventDesc}>Blessing of the Animals</p>
         </div>
 
         {/* <div className={styles.event}>
@@ -174,27 +231,6 @@ const Events = () => {
           <p className={styles.eventDesc}>Blood Drive</p>
         </div> */}
 
-        <div className={styles.event}>
-          <p className={styles.eventDate}>June 6</p>
-          <p className={styles.eventDay}>
-            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
-          </p>
-          <p className={styles.eventDesc}>Laundry Love</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>June 13</p>
-          <p className={styles.eventDay}>
-            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
-          </p>
-          <p className={styles.eventDesc}>Bell Tower Treasures</p>
-        </div>
-        <div className={styles.event}>
-          <p className={styles.eventDate}>June 14</p>
-          <p className={styles.eventDay}>
-            Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 12 - 2 pm
-          </p>
-          <p className={styles.eventDesc}>Community Picnic</p>
-        </div>
         {/* <div className={styles.event}>
           <p className={styles.eventDate}>Nov 2</p>
           <p className={styles.eventDay}>
