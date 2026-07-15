@@ -125,12 +125,20 @@ const Events = () => {
         </div> */}
 
         <div className={styles.event}>
-          <p className={styles.eventDate}>July 12</p>
+          <p className={styles.eventDate}>July 17</p>
+          <p className={styles.eventDay}>
+            Fri&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 5 pm - 8 pm
+          </p>
+          <p className={styles.eventDesc}>Hot Dogs & Bingo</p>
+        </div>
+
+        <div className={styles.event}>
+          <p className={styles.eventDate}>July 19</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
           </p>
           <p className={styles.eventDesc}>
-            Sunday Service w/ The Rev. Geoffrey Taylor
+            Sunday Service w/ The Rev. Ryan Parker
           </p>
         </div>
 
@@ -161,27 +169,11 @@ const Events = () => {
         </div>
 
         <div className={styles.event}>
-          <p className={styles.eventDate}>July 4</p>
+          <p className={styles.eventDate}>Aug 1</p>
           <p className={styles.eventDay}>
             Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 11 am
           </p>
           <p className={styles.eventDesc}>Laundry Love</p>
-        </div>
-
-        <div className={styles.event}>
-          <p className={styles.eventDate}>July 11</p>
-          <p className={styles.eventDay}>
-            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
-          </p>
-          <p className={styles.eventDesc}>Bell Tower Treasures</p>
-        </div>
-
-        <div className={styles.event}>
-          <p className={styles.eventDate}>July 17</p>
-          <p className={styles.eventDay}>
-            Fri&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 5 pm - 8 pm
-          </p>
-          <p className={styles.eventDesc}>Hot Dogs & Bingo</p>
         </div>
 
         <div className={styles.event}>
@@ -192,6 +184,13 @@ const Events = () => {
           <p className={styles.eventDesc}>Back to School Bash</p>
         </div>
 
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Aug 8</p>
+          <p className={styles.eventDay}>
+            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
+          </p>
+          <p className={styles.eventDesc}>Bell Tower Treasures</p>
+        </div>
         <div className={styles.event}>
           <p className={styles.eventDate}>Sep 11</p>
           <p className={styles.eventDay}>
