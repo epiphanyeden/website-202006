@@ -1,8 +1,8 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import * as styles from "./hotDogsBingo.module.css"
+import * as styles from "./hotDogsBingo202607.module.css"
 
-const HotDogsBingo = () => {
+const HotDogsBingo202607 = () => {
   return (
     <div id="bingo" className={styles.main}>
       {/* <div className={styles.headerContainer}>
@@ -14,21 +14,31 @@ const HotDogsBingo = () => {
       </div> */}
       <section className={styles.imageContainer}>
         <StaticImage
-          src="../../content/assets/HotDogBingo2026.jpg"
+          src="../../content/assets/BingoHotDogs202607.jpg"
           alt="Hot Dogs and Bingo"
           loading="eager"
           className={styles.image}
-          width={1200}
+          width={800}
+        />
+      </section>
+      <section className={styles.imageContainer}>
+        <StaticImage
+          src="../../content/assets/bingoDesc.jpg"
+          alt="Hot Dogs and Bingo"
+          loading="eager"
+          className={styles.image}
+          width={800}
         />
       </section>
       <section className={styles.container}>
         <p className={styles.text}>
-          Please register so we can plan for the best event possible
+          Please register (for free) so we can plan for the best event possible
         </p>
         <form>
           <button
             className={styles.button}
-            formAction="https://www.eventbrite.com/e/bingo-hot-dogs-tickets-1002415741467"
+            formAction="https://www.eventbrite.com/e/hotdogs-and-bingo-night-tickets-1993845410295?fbclid=IwY2xjawTEwlxleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeS6yVfXTVwtqCiKNIiivIUoM7Vn9o4huSn24zdZi0ty6ZjYEiT5Ur4OJqsoo_aem_qvb0xYr8LdWOj4MPfe7jfw
+            "
           >
             Register Here
           </button>
@@ -37,4 +47,4 @@ const HotDogsBingo = () => {
     </div>
   )
 }
-export default HotDogsBingo
+export default HotDogsBingo202607
