@@ -23,7 +23,7 @@ const HotDogsBingo202607 = () => {
       </section>
       <section className={styles.imageContainer}>
         <StaticImage
-          src="../../content/assets/bingoDesc.jpg"
+          src="../../content/assets/Bingo.jpg"
           alt="Hot Dogs and Bingo"
           loading="eager"
           className={styles.image}
