@@ -124,21 +124,21 @@ const Events = () => {
           <p className={styles.eventDesc}>Children's Church</p>
         </div> */}
 
-        <div className={styles.event}>
+        {/* <div className={styles.event}>
           <p className={styles.eventDate}>July 17</p>
           <p className={styles.eventDay}>
             Fri&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 5 pm - 8 pm
           </p>
           <p className={styles.eventDesc}>Hot Dogs & Bingo</p>
-        </div>
+        </div> */}
 
         <div className={styles.event}>
-          <p className={styles.eventDate}>July 19</p>
+          <p className={styles.eventDate}>July 26</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
           </p>
           <p className={styles.eventDesc}>
-            Sunday Service w/ The Rev. Ryan Parker
+            Sunday Service w/ The Rev. Barbara Cooke
           </p>
         </div>
 
