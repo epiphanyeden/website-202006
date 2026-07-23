@@ -15,7 +15,7 @@ import Events from "./events"
 import WhatIsEpiscopal from "./whatIsEpiscopal"
 import ChildrenChurch from "./childrenChurch"
 import Pledge2026 from "./pledge2026"
-import HotDogsBingo202607 from "./hotDogsBingo202607"
+import BTS2026 from "./bts2026"
 
 const Layout = ({ location, title, children }) => {
   return (
@@ -24,7 +24,7 @@ const Layout = ({ location, title, children }) => {
       <LandingPage />
       <Events />
       <WhatIsEpiscopal />
-      <HotDogsBingo202607 />
+      <BTS2026 />
       <BloodDrive2026 />
       <ChildrenChurch />
       <LaundryLove />
