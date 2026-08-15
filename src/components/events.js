@@ -133,12 +133,12 @@ const Events = () => {
         </div> */}
 
         <div className={styles.event}>
-          <p className={styles.eventDate}>August 9</p>
+          <p className={styles.eventDate}>August 16</p>
           <p className={styles.eventDay}>
             Sun&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 10 am
           </p>
           <p className={styles.eventDesc}>
-            Sunday Service w/ The Rev. Lito Santos
+            Sunday Service w/ The Rev. Stuart Hoke
           </p>
         </div>
 
@@ -150,13 +150,12 @@ const Events = () => {
           <p className={styles.eventDesc}>Community Picnic</p>
         </div> */}
 
-        <div className={styles.event}>
+        {/* <div className={styles.event}>
           <p className={styles.eventDate}>Weekly</p>
           <p className={styles.eventDay}>
             Tue&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 7 pm - 8 pm
           </p>
           <p className={styles.eventDesc}>
-            {/* Sunday School - The Gospel of John */}
             <a
               className={styles.eventLink}
               href="https://epiphanyeden.us17.list-manage.com/track/click?u=a3f429c9b2ab91d27de19f6cd&id=17499a8496&e=19e2f816a5"
@@ -166,15 +165,7 @@ const Events = () => {
               Sunday School - The Gospel of John
             </a>
           </p>
-        </div>
-
-        <div className={styles.event}>
-          <p className={styles.eventDate}>Aug 8</p>
-          <p className={styles.eventDay}>
-            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
-          </p>
-          <p className={styles.eventDesc}>Bell Tower Treasures</p>
-        </div>
+        </div> */}
 
         <div className={styles.event}>
           <p className={styles.eventDate}>Sept 5</p>
@@ -192,6 +183,13 @@ const Events = () => {
           <p className={styles.eventDesc}>Spaghetti & Bingo</p>
         </div>
 
+        <div className={styles.event}>
+          <p className={styles.eventDate}>Sept 12</p>
+          <p className={styles.eventDay}>
+            Sat&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; 9 am - 1 pm
+          </p>
+          <p className={styles.eventDesc}>Bell Tower Treasures</p>
+        </div>
         <div className={styles.event}>
           <p className={styles.eventDate}>Oct 7</p>
           <p className={styles.eventDay}>
