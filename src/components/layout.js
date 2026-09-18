@@ -21,10 +21,10 @@ const Layout = ({ location, title, children }) => {
     <div>
       <Header />
       <LandingPage />
-      <Events />
+      {/* <Events /> */}
       <WhatIsEpiscopal />
       <BloodDrive2026 />
-      <ChildrenChurch />
+      {/* <ChildrenChurch /> */}
       <LaundryLove />
       <BellTowerTreasures />
       <Pledge2026 />
